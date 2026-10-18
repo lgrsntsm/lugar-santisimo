@@ -1,0 +1,32 @@
+/* Catálogo en filas: una canción debajo de la otra en todos los tamaños. */
+.song-grid{display:flex;flex-direction:column;gap:0;border-top:1px solid #d9d8cf}
+.song-card{display:grid;grid-template-columns:60px minmax(0,1fr) 44px;align-items:center;gap:22px;background:transparent;border:0;border-bottom:1px solid #d9d8cf;border-radius:0;padding:22px 6px;overflow:visible;transition:background .2s}
+.song-card:hover{transform:none;box-shadow:none;background:#ffffff65}
+.song-cover{height:60px;width:60px;border-radius:7px;grid-column:1}
+.song-cover:before,.song-cover:after{width:100px;height:100px;top:-30px;right:-55px}
+.cover-monogram{font-size:27px;letter-spacing:-2px}
+.cover-caption,.cover-index{display:none}
+.song-body{display:grid;grid-template-columns:minmax(0,1fr) 180px;align-items:center;column-gap:22px;row-gap:5px;padding:0;min-width:0}
+.song-tag{grid-column:1;grid-row:1;font-size:9px;margin:0;letter-spacing:1.2px}
+.song-body h3{grid-column:1;grid-row:2;font-size:23px;min-height:0;margin:0;overflow-wrap:anywhere}
+.artists{grid-column:1;grid-row:3;font-size:12px;min-height:0;line-height:1.6}
+.song-bottom{grid-column:2;grid-row:1 / 4;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;border:0;margin:0;padding:0;gap:8px}
+.listen{font-size:12px;padding:8px 0;gap:9px}
+.listen span{width:29px;height:29px;font-size:9px}
+.official{font-size:10px}
+.favorite-button{position:static;grid-column:3;width:40px;height:40px;border:1px solid #d9d8cf;background:transparent;color:var(--wine);font-size:23px}
+.favorite-button:hover,.favorite-button[aria-pressed=true]{color:var(--wine);background:#e8dce0;border-color:#c7afb7}
+@media(max-width:720px){
+  .song-card{grid-template-columns:44px minmax(0,1fr) 34px;gap:12px;padding:20px 0;align-items:start}
+  .song-cover{width:44px;height:44px;margin-top:4px;border-radius:5px}
+  .cover-monogram{font-size:22px}
+  .song-body{grid-template-columns:minmax(0,1fr);gap:6px}
+  .song-tag{font-size:8px;grid-row:1}
+  .song-body h3{font-size:21px;grid-row:2;line-height:1.25}
+  .artists{font-size:11px;grid-row:3}
+  .song-bottom{grid-column:1;grid-row:4;flex-direction:row;align-items:center;justify-content:flex-start;gap:12px;flex-wrap:wrap}
+  .listen{font-size:11px;padding:4px 0}
+  .listen span{width:23px;height:23px;font-size:8px}
+  .official{font-size:9px}
+  .favorite-button{width:34px;height:34px;margin-top:4px;font-size:21px}
+}

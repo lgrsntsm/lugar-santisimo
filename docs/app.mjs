@@ -42,11 +42,11 @@ function render() {
       catch { $('#toast').hidden = false; $('#toast').textContent = 'No se pudieron guardar las favoritas. Se conservarán durante esta visita.'; }
       render(); window.scrollTo({ top: scroll, behavior: 'instant' });
       const replacement = [...document.querySelectorAll('.favorite-button')].find(button => button.dataset.song === song.id); replacement?.focus({ preventScroll: true });
-    }); favorite.dataset.song = song.id; cover.append(favorite);
+    }); favorite.dataset.song = song.id;
     const body = element('div', 'song-body'); body.append(element('span', 'song-tag', song.categorias.map(c => c.nombre).join(' / ')), element('h3', '', song.titulo), element('p', 'artists', song.interpretes.map(a => a.nombre).join(' · ')));
     const bottom = element('div', 'song-bottom'); const listen = element('button', 'listen'); listen.type = 'button'; listen.append(element('span', '', '▶'), document.createTextNode(`Escuchar${song.enlaces.length > 1 ? ` · ${song.enlaces.length} enlaces` : ''}`)); listen.setAttribute('aria-label', `Ver enlaces para escuchar ${song.titulo}`); listen.addEventListener('click', () => showLinks(song));
     bottom.append(listen); if (song.enlaces.some(link => link.oficial)) bottom.append(element('span', 'official', 'Enlace oficial'));
-    body.append(bottom); card.append(cover, body); $('#songs').append(card);
+    body.append(bottom); card.append(cover, body, favorite); $('#songs').append(card);
   }
   updateCount();
 }
