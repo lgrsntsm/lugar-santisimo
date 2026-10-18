@@ -30,6 +30,7 @@ function render() {
   for (const song of list) {
     const index = songs.indexOf(song);
     const card = element('article', 'song-card');
+    card.addEventListener('click', event => { if (!event.target.closest('button, a')) showLinks(song); });
     const cover = element('div', 'song-cover'); cover.style.setProperty('--cover', colors[index % colors.length]);
     const decor = element('span', 'cover-monogram', initials(song.interpretes[0].nombre)); decor.setAttribute('aria-hidden', 'true');
     cover.append(element('span', 'cover-index', String(index + 1).padStart(2, '0')), decor, element('span', 'cover-caption', 'LUGAR SANTÍSIMO · SELECCIÓN INICIAL'));
@@ -43,8 +44,8 @@ function render() {
       render(); window.scrollTo({ top: scroll, behavior: 'instant' });
       const replacement = [...document.querySelectorAll('.favorite-button')].find(button => button.dataset.song === song.id); replacement?.focus({ preventScroll: true });
     }); favorite.dataset.song = song.id;
-    const body = element('div', 'song-body'); body.append(element('span', 'song-tag', song.categorias.map(c => c.nombre).join(' / ')), element('h3', '', song.titulo), element('p', 'artists', song.interpretes.map(a => a.nombre).join(' · ')));
-    const bottom = element('div', 'song-bottom'); const listen = element('button', 'listen'); listen.type = 'button'; listen.append(element('span', '', '▶'), document.createTextNode(`Escuchar${song.enlaces.length > 1 ? ` · ${song.enlaces.length} enlaces` : ''}`)); listen.setAttribute('aria-label', `Ver enlaces para escuchar ${song.titulo}`); listen.addEventListener('click', () => showLinks(song));
+    const body = element('div', 'song-body'); const title = element('h3'); const openTitle = element('button', 'song-title', song.titulo); openTitle.type = 'button'; openTitle.addEventListener('click', () => showLinks(song)); title.append(openTitle); body.append(element('span', 'song-tag', song.categorias.map(c => c.nombre).join(' / ')), title, element('p', 'artists', song.interpretes.map(a => a.nombre).join(' · ')));
+    const bottom = element('div', 'song-bottom'); const listen = element('button', 'listen'); listen.type = 'button'; listen.append(element('span', 'play-symbol', '▶'), element('span', 'listen-label', `Escuchar${song.enlaces.length > 1 ? ` · ${song.enlaces.length} enlaces` : ''}`)); listen.setAttribute('aria-label', `Ver enlaces para escuchar ${song.titulo}`); listen.addEventListener('click', () => showLinks(song));
     bottom.append(listen); if (song.enlaces.some(link => link.oficial)) bottom.append(element('span', 'official', 'Enlace oficial'));
     body.append(bottom); card.append(cover, body, favorite); $('#songs').append(card);
   }
