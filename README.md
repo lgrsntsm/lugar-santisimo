@@ -1,10 +1,12 @@
 # Lugar Santísimo · base de datos para la web
 
-Base local del backend de exportación. No hay despliegue, web pública, credenciales,
-cuentas nuevas ni conexión automática activada.
+Backend de exportación y primera web estática. El directorio `docs/` contiene la
+versión de prueba con cinco canciones, búsqueda, categorías y favoritas locales.
+Está preparado para GitHub Pages desde la rama `main`, carpeta `/docs`.
+No hay credenciales en el repositorio ni conexión automática con Google activada.
 
 Flujo previsto: Google Sheets privada → validación y revisión → catálogo JSON → web.
-La web futura podrá usar el JSON en GitHub Pages. Las credenciales de Google nunca
+La web usa el JSON en GitHub Pages. Las credenciales de Google nunca
 se envían al navegador. La planilla se sigue editando manualmente.
 
 ## Qué funciona
@@ -64,21 +66,36 @@ No incluir el token en archivos, código, argumentos o mensajes de chat.
 node cli.mjs preview --sheets
 ```
 
-Esta opción no se ejecutó. Antes de activarla falta elegir y configurar la
+Esta opción no se ejecutó. Los cinco registros iniciales se leyeron mediante el
+conector de Sheets y se exportaron a partir de esa captura verificada. Antes de
+activar sincronización sin intervención falta elegir y configurar la
 autenticación en la cuenta del usuario. Un token de acceso temporal no renueva
 sesiones: la automatización requerirá una configuración adicional de identidad.
 
-## Pendiente para la web
+## Actualización manual y publicación
 
-- Repositorio de GitHub y autenticación para sincronizar.
+La selección inicial se autorizó mediante el pedido explícito del usuario en el
+chat del 18 de octubre de 2026 de publicar una prueba con cinco canciones.
+Las evidencias y aprobaciones de versión quedan fuera del repositorio público.
+
+Para futuras actualizaciones, obtener una captura vigente y repetir el flujo de
+aprobación. Después de un `build` correcto, copiar únicamente `build/catalogo.json`
+a `docs/catalogo.json`, revisar los cambios y subirlos al repositorio. La publicación
+de Pages sirve solo la carpeta `docs/`; nunca configurar la raíz como fuente.
+Los cambios manuales en Sheets no aparecen en la web hasta una nueva exportación.
+
+Para previsualizar localmente, servir `docs/` con un servidor HTTP. No abrir el HTML
+directamente mediante `file://`, porque el navegador bloquea la lectura del JSON.
+
+## Pendiente
+
 - Renovación de credenciales, ejecución automática y aprobación de despliegue.
-- Interfaz de búsqueda y filtros que lea `catalogo.json`.
 - Si se desea enviar reportes o registrar búsquedas desde la web: un servicio de
   escritura autenticado con límites de uso. Este backend no expone endpoints de escritura.
 - No hay rutas para subir audio, video ni letras.
 
 Los resultados locales se guardan en `private/` y `build/`, excluidos de Git.
-Para publicar en el futuro se copiará únicamente el JSON aprobado junto con la web.
+En `docs/` se copia únicamente el JSON aprobado junto con la web.
 Retirar o revocar una canción la elimina en la próxima generación y despliegue;
 no puede borrar copias ya descargadas.
 
