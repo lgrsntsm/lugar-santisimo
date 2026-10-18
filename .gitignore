@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+private/
+build/
+node_modules/
+*.pem
+*credentials*.json

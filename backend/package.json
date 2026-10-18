@@ -1,0 +1,7 @@
+{
+  "name": "lugar-santisimo-backend",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test", "preview": "node cli.mjs preview" },
+  "engines": { "node": ">=22" }
+}

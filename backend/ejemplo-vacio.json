@@ -1,0 +1,65 @@
+{
+  "Canciones": [
+    [
+      "cancion_id",
+      "titulo",
+      "idioma",
+      "estado_revision",
+      "estado_publicacion",
+      "aprobacion_usuario",
+      "aprobado_por",
+      "aprobado_en",
+      "referencia_aprobacion",
+      "creado_en",
+      "actualizado_en",
+      "notas_internas",
+      "apta_exportacion"
+    ]
+  ],
+  "Intérpretes": [
+    [
+      "interprete_id",
+      "nombre",
+      "tipo",
+      "url_oficial",
+      "notas_internas"
+    ]
+  ],
+  "Categorías": [
+    [
+      "categoria_id",
+      "nombre",
+      "descripcion"
+    ]
+  ],
+  "Canción-Categoría": [
+    [
+      "relacion_id",
+      "cancion_id",
+      "categoria_id"
+    ]
+  ],
+  "Canción-Intérprete": [
+    [
+      "relacion_id",
+      "cancion_id",
+      "interprete_id",
+      "rol",
+      "orden"
+    ]
+  ],
+  "Enlaces": [
+    [
+      "enlace_id",
+      "cancion_id",
+      "url",
+      "plataforma",
+      "tipo_contenido",
+      "es_oficial",
+      "prioridad",
+      "estado_enlace",
+      "verificado_en",
+      "notas_internas"
+    ]
+  ]
+}
