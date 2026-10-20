@@ -34,33 +34,6 @@
       ]
     },
     {
-      "id": "CAN-000002",
-      "titulo": "Simplemente Gracias",
-      "idioma": "es",
-      "interpretes": [
-        {
-          "id": "INT-000003",
-          "nombre": "Marcos Witt",
-          "rol": "principal"
-        }
-      ],
-      "categorias": [
-        {
-          "id": "CAT-000002",
-          "nombre": "Gratitud"
-        }
-      ],
-      "enlaces": [
-        {
-          "id": "ENL-000002",
-          "url": "https://www.youtube.com/watch?v=qBq0Xjf0UYQ",
-          "plataforma": "YouTube",
-          "tipo": "video",
-          "oficial": true
-        }
-      ]
-    },
-    {
       "id": "CAN-000003",
       "titulo": "Dios de imposibles",
       "idioma": "es",
@@ -155,6 +128,75 @@
           "plataforma": "YouTube",
           "tipo": "video",
           "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000006",
+      "titulo": "Renuévame",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000007",
+          "url": "https://www.youtube.com/watch?v=zMAI3R37yNQ",
+          "plataforma": "YouTube · audio oficial (Proyecto AA)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000010",
+          "url": "https://www.youtube.com/watch?v=SNHtwDiRI50",
+          "plataforma": "YouTube · Marcos Witt en vivo",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000012",
+          "url": "https://www.youtube.com/watch?v=CSd-I2LUGv0",
+          "plataforma": "Letra · video oficial de Marcos Witt",
+          "tipo": "letra",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000008",
+          "url": "https://music.apple.com/us/song/417148138",
+          "plataforma": "Apple Music · En Adoración",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000011",
+          "url": "https://www.youtube.com/watch?v=CSd-I2LUGv0",
+          "plataforma": "YouTube · Marcos Witt, video con letra",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000009",
+          "url": "https://www.youtube.com/watch?v=YDy6QU0hess",
+          "plataforma": "YouTube · audio remasterizado (El Encuentro)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000013",
+          "url": "https://www.cifraclub.com/marcos-witt/renuevame/letra/",
+          "plataforma": "Letra · Cifra Club (texto)",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     }

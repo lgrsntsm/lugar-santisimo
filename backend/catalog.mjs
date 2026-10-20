@@ -44,6 +44,7 @@ export function parseSnapshot(snapshot) {
       requireValue(songs.has(r.cancion_id), `${name}: canción inexistente ${r.cancion_id}`);
       if (name === 'Enlaces') {
         requireValue(https(r.url), `URL inválida: ${r.enlace_id}`);
+        requireValue(['audio', 'video', 'letra', 'pagina'].includes(r.tipo_contenido), `Tipo de contenido inválido: ${r.enlace_id}`);
         requireValue(typeof r.es_oficial === 'boolean', `Casilla oficial inválida: ${r.enlace_id}`);
         requireValue(Number.isInteger(r.prioridad) && r.prioridad > 0, `Prioridad inválida: ${r.enlace_id}`);
         requireValue(['sin_verificar', 'activo', 'roto', 'restringido', 'retirado'].includes(r.estado_enlace), `Estado inválido: ${r.enlace_id}`);
