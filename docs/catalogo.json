@@ -2516,6 +2516,344 @@
           "oficial": false
         }
       ]
+    },
+    {
+      "id": "CAN-000064",
+      "titulo": "Este es el día",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000203",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/este-es-el-dia/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000065",
+      "titulo": "Cantad alegres",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000204",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/cantad-alegres/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000066",
+      "titulo": "Mi vida te daré",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000205",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/mi-vida-te-dare/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000067",
+      "titulo": "El monte del Señor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000206",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/el-monte-del-seor/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000068",
+      "titulo": "Manda Señor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000207",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/manda-seor/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000208",
+          "url": "https://www.musica.com/letras.asp?letra=952176",
+          "plataforma": "Música.com · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000069",
+      "titulo": "Pan de vida",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000209",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/pan-de-vida/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000070",
+      "titulo": "A sus pies",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000210",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/a-sus-pies/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000071",
+      "titulo": "Prefiero a Cristo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000211",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/prefiero-cristo/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000072",
+      "titulo": "Este día especial",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000212",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/este-dia-especial/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000073",
+      "titulo": "El jardín",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000213",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/el-jardin/pwswgs.html",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000074",
+      "titulo": "No merecía tanto amor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000214",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/no-merecia-tanto-amor/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000215",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/no-merecia-tanto-amor/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000075",
+      "titulo": "Buscando refugio",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000216",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/buscando-refugio/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
     }
   ]
 }
