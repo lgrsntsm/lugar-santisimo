@@ -2,6 +2,24 @@ import { filterSongs } from './filter.mjs';
 import { groupLinks } from './links.mjs?v=acordes1';
 const $ = selector => document.querySelector(selector);
 let songs = [], category = '';
+const themeButton = $('#theme-toggle');
+function updateThemeButton() {
+  const dark = document.documentElement.dataset.theme === 'dark';
+  themeButton.setAttribute('aria-pressed', String(dark));
+  themeButton.setAttribute('aria-label', dark ? 'Activar modo claro' : 'Activar modo oscuro');
+  themeButton.querySelector('.theme-toggle-icon').textContent = dark ? '☀' : '☾';
+  themeButton.querySelector('.theme-toggle-label').textContent = dark ? 'Claro' : 'Oscuro';
+  const themeMeta = document.querySelector('meta[name="theme-color"]');
+  if (themeMeta) themeMeta.content = dark ? '#121212' : '#f8f5ef';
+}
+themeButton.addEventListener('click', () => {
+  const dark = document.documentElement.dataset.theme !== 'dark';
+  if (dark) document.documentElement.dataset.theme = 'dark';
+  else delete document.documentElement.dataset.theme;
+  try { localStorage.setItem('lugar-santisimo-theme', dark ? 'dark' : 'light'); } catch (_) {}
+  updateThemeButton();
+});
+updateThemeButton();
 function shuffle(input) {
   const list = [...input];
   for (let i = list.length - 1; i > 0; i--) {
