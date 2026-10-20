@@ -1725,6 +1725,27 @@
           "plataforma": "Spotify · Siento tu amor (1995)",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000140",
+          "url": "https://www.musica.com/letras.asp?letra=2092773",
+          "plataforma": "Música.com · Letra de Siento tu amor",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000141",
+          "url": "https://www.cifraclub.com/perfume-de-alabanza/siento-tu-amor/",
+          "plataforma": "Cifra Club · Acordes de Siento tu amor",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000142",
+          "url": "https://acordes.lacuerda.net/perfume_de_alabanza/siento_tu_amor",
+          "plataforma": "LaCuerda · Acordes y letra de Siento tu amor",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
