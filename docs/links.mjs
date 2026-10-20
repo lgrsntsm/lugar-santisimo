@@ -17,7 +17,7 @@ function platform(url) {
 }
 
 export function groupLinks(links = []) {
-  const groups = { audio: [], video: [], letra: [] };
+  const groups = { audio: [], video: [], letra: [], acordes: [] };
   const seen = new Set();
   for (const link of links) {
     let url;
@@ -32,7 +32,7 @@ export function groupLinks(links = []) {
     if (service === 'spotify' && (type === 'audio' || type === 'video')) type = 'audio';
     // Conservar también las plataformas de audio alternativas.
     if (type === 'video' && service !== 'youtube') continue;
-    if (type === 'letra' && !isTextLyricsUrl(url.href)) continue;
+    if ((type === 'letra' || type === 'acordes') && !isTextLyricsUrl(url.href)) continue;
     if (!Object.hasOwn(groups, type)) continue;
     const key = `${type}:${url.href}`;
     if (seen.has(key)) continue;
