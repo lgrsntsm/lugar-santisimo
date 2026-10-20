@@ -1521,6 +1521,13 @@
           "plataforma": "Spotify · Tengo un perfume (Perfume de Alabanza)",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000138",
+          "url": "https://www.youtube.com/watch?v=5BsflnmuEG4",
+          "plataforma": "YouTube · Factor de Cambio (cover, videoclip oficial 2024)",
+          "tipo": "video",
+          "oficial": true
         }
       ]
     },
