@@ -2882,6 +2882,177 @@
           "oficial": true
         }
       ]
+    },
+    {
+      "id": "CAN-000076",
+      "titulo": "Supe que me amabas",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000011",
+          "nombre": "Marcela Gándara",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000221",
+          "url": "https://open.spotify.com/track/36e4Sr0dXiyzjVeBWv8cON",
+          "plataforma": "Spotify · Marcela Gándara",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000222",
+          "url": "https://www.cifraclub.com/marcela-gandara/supe-que-me-amabas/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000223",
+          "url": "https://www.cifraclub.com/marcela-gandara/supe-que-me-amabas/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000077",
+      "titulo": "Como dijiste",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000002",
+          "nombre": "Christine D’Clario",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000224",
+          "url": "https://www.cifraclub.com/christine-dclario/como-dijiste/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000225",
+          "url": "https://www.cifraclub.com/christine-dclario/como-dijiste/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000226",
+          "url": "https://www.cifraclub.com/christine-dclario/como-dijiste/simplificada.html",
+          "plataforma": "Cifra Club · Acordes simplificados",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000078",
+      "titulo": "Océanos (Donde mis pies pueden fallar)",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000012",
+          "nombre": "Hillsong en Español",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000227",
+          "url": "https://open.spotify.com/track/78FO5RmeiJanUkI0dqM8TW",
+          "plataforma": "Spotify · Hillsong en Español",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000228",
+          "url": "https://hillsong.com/es/music/hillsong-en-espanol/en-esto-creo/oceanos-donde-mis-pies-pueden-fallar/letras-es",
+          "plataforma": "Hillsong · Letra oficial",
+          "tipo": "letra",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000229",
+          "url": "https://www.cifraclub.com/hillsong-en-espaol/oceanos-donde-mis-pies-pueden-fallar/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000079",
+      "titulo": "Tumbas a jardines",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000013",
+          "nombre": "Elevation Worship",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000230",
+          "url": "https://open.spotify.com/track/0LetLotK5ziqrdD7WWpGN1",
+          "plataforma": "Spotify · Elevation Worship y Elevation Español (con Brandon Lake)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000231",
+          "url": "https://www.cifraclub.com/elevation-worship/tumbas-a-jardines/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000232",
+          "url": "https://www.cifraclub.com/elevation-worship/tumbas-a-jardines/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000233",
+          "url": "https://www.cifraclub.com/elevation-worship/tumbas-a-jardines/simplificada.html",
+          "plataforma": "Cifra Club · Acordes simplificados",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
     }
   ]
 }
