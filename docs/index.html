@@ -6,20 +6,19 @@
   <meta name="description" content="Encontrá canciones de adoración, descubrí intérpretes y accedé a sus enlaces oficiales. Lugar Santísimo.">
   <title>Lugar Santísimo · Canciones para encontrarnos con Dios</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./library.css"><script type="module" src="./app.mjs"></script>
+  <link rel="stylesheet" href="./library.css?v=compact2"><script type="module" src="./app.mjs?v=compact2"></script>
 </head>
 <body>
   <a class="skip" href="#catalogo">Ir al catálogo</a>
   <header class="header wrap">
     <a class="brand" href="./" aria-label="Lugar Santísimo, inicio"><span class="brand-icon" aria-hidden="true">LS</span><h1>Lugar Santísimo</h1></a>
-    <nav aria-label="Navegación principal"><a class="nav-current" href="#catalogo">Canciones</a><button id="favorites-tab" type="button" aria-pressed="false"><span aria-hidden="true">♡</span> Favoritas <span id="favorite-count">0</span></button></nav>
+    <nav aria-label="Navegación principal"><a class="nav-current" href="#catalogo">Canciones</a></nav>
   </header>
   <main>
     <section id="catalogo" class="catalog-section" aria-labelledby="catalog-title"><div class="wrap">
       <h2 id="catalog-title" class="sr-only">Biblioteca de canciones</h2>
       <div class="search-row"><label class="search"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Buscar por canción, intérprete o categoría</span><input id="search" type="search" placeholder="Buscar canciones o intérpretes" autocomplete="off"></label><label class="sort-label"><span class="sr-only">Ordenar por</span><select id="sort"><option value="original">Selección inicial</option><option value="title">Título: A–Z</option><option value="artist">Intérprete: A–Z</option></select></label></div>
       <div class="filters-row"><div id="categories" class="chips" role="group" aria-label="Filtrar por categoría"><button type="button" data-category="" aria-pressed="true">Todas</button></div><span id="results-count" class="results-count" role="status" aria-live="polite">Cargando catálogo…</span></div>
-      <p id="favorites-note" class="favorites-note" hidden>Tus favoritas se guardan solo en este navegador.</p>
       <div id="songs" class="song-grid" aria-busy="true"></div>
       <div id="empty" class="empty" hidden><span aria-hidden="true">✧</span><h3>No encontramos canciones</h3><p>Probá con otra palabra o quitá los filtros.</p><button id="reset" type="button">Ver todas las canciones</button></div>
       <div id="load-error" class="empty" hidden><h3>No pudimos cargar el catálogo</h3><p>Revisá tu conexión y volvé a intentarlo.</p><button type="button" id="retry">Volver a intentar</button></div>
