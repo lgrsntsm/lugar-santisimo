@@ -69,7 +69,7 @@
     },
     {
       "id": "CAN-000004",
-      "titulo": "Jesucristo basta (versión acústica)",
+      "titulo": "Jesucristo basta",
       "idioma": "es",
       "interpretes": [
         {
@@ -91,9 +91,16 @@
       ],
       "enlaces": [
         {
+          "id": "ENL-000014",
+          "url": "https://www.youtube.com/watch?v=Xbqa9ai0lkE",
+          "plataforma": "YouTube · original, Somos Iglesia (2017, en vivo)",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
           "id": "ENL-000004",
           "url": "https://www.youtube.com/watch?v=IEczeppTzmA",
-          "plataforma": "YouTube",
+          "plataforma": "YouTube · acústica con Living (2018)",
           "tipo": "video",
           "oficial": true
         }
@@ -164,17 +171,17 @@
           "oficial": true
         },
         {
-          "id": "ENL-000009",
-          "url": "https://www.youtube.com/watch?v=YDy6QU0hess",
-          "plataforma": "YouTube · audio remasterizado (El Encuentro)",
-          "tipo": "audio",
-          "oficial": true
-        },
-        {
           "id": "ENL-000011",
           "url": "https://www.youtube.com/watch?v=CSd-I2LUGv0",
           "plataforma": "YouTube · Marcos Witt, video con letra",
           "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000015",
+          "url": "https://open.spotify.com/intl-es/track/4s9u7U9Ac1QvFuss2IgpPO",
+          "plataforma": "Spotify · Proyecto AA",
+          "tipo": "audio",
           "oficial": true
         },
         {
