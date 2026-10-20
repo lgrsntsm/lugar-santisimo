@@ -2690,6 +2690,13 @@
           "plataforma": "Cifra Club · Acordes",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000218",
+          "url": "https://open.spotify.com/intl-pt/track/5Y5LY9fy1kFwl71QHw4UEe",
+          "plataforma": "Spotify · Pan de vida (en vivo, A sus pies 2002)",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
@@ -2744,6 +2751,13 @@
           "plataforma": "Cifra Club · Acordes",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000219",
+          "url": "https://open.spotify.com/intl-pt/track/4AEL3yobb1pJntE40M18Ui",
+          "plataforma": "Spotify · Prefiero a Cristo (en vivo, A sus pies 2002)",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
@@ -2859,6 +2873,13 @@
           "plataforma": "Cifra Club · Acordes",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000220",
+          "url": "https://open.spotify.com/intl-it/track/1c4sJ7gcRyNF0fKu4173ab",
+          "plataforma": "Spotify · Buscando refugio (en vivo, A sus pies 2002)",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     }
