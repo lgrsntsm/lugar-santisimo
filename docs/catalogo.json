@@ -1997,6 +1997,13 @@
           "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
           "tipo": "audio",
           "oficial": false
+        },
+        {
+          "id": "ENL-000217",
+          "url": "https://www.musica.com/letras.asp?letra=2092307",
+          "plataforma": "Música.com · Letra de Tengo para ti",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
