@@ -1528,6 +1528,13 @@
           "plataforma": "YouTube · Factor de Cambio (cover, videoclip oficial 2024)",
           "tipo": "video",
           "oficial": true
+        },
+        {
+          "id": "ENL-000139",
+          "url": "https://open.spotify.com/intl-es/track/7aRFLHlD6UgjLZ0lIHgjw9",
+          "plataforma": "Spotify · Factor de Cambio (versión en vivo, 2024)",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
