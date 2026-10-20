@@ -60,6 +60,13 @@
           "plataforma": "Letra · Cifra Club (texto)",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000145",
+          "url": "https://www.cifraclub.com/marcos-witt/renuevame/",
+          "plataforma": "Cifra Club · Acordes de Renuévame",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
