@@ -13,16 +13,19 @@ function showLinks(song) {
   for (const [type, heading] of [['audio', '🎹 Audio:'], ['video', '⏯️ Video:'], ['letra', '🔡 Letra:']]) {
     const section = element('section', 'detail-section');
     const h = element('h3', 'detail-heading', heading); h.id = `detail-${type}`; section.setAttribute('aria-labelledby', h.id); section.append(h);
-    for (const [index, link] of groups[type].entries()) {
+    for (const link of groups[type]) {
       const a = element('a', 'platform-link'); a.href = link.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
       const label = element('span'); label.append(element('strong', '', link.plataforma || 'Abrir enlace'));
-      a.append(label, element('span', '', '↗'));
-      const report = element('a', 'report-link', '¿Enlace roto?');
-      report.href = `mailto:lgrsntsm@gmail.com?subject=${encodeURIComponent('Lugar Santísimo · Reportar enlace roto')}&body=${encodeURIComponent(`Canción: ${song.titulo}\nSección: ${heading}\nPlataforma: ${link.plataforma}\nEnlace: ${link.url}\n\nEl enlace no funciona correctamente.`)}`;
-      report.setAttribute('aria-label', `Reportar enlace roto de ${link.plataforma} para ${song.titulo}`);
-      const item = element('div', 'link-item'); item.append(a, report); section.append(item);
+      a.append(label, element('span', '', '↗')); section.append(a);
     }
     if (!groups[type].length) section.append(element('p', 'detail-empty', 'Sin información encontrada.'));
+    if (groups[type].length) {
+      const report = element('a', 'report-link', '¿Enlace roto?');
+      const options = groups[type].map((link, i) => `${i + 1}. ${link.plataforma}: ${link.url}`).join('\n');
+      report.href = `mailto:lgrsntsm@gmail.com?subject=${encodeURIComponent('Lugar Santísimo · Reportar enlace roto')}&body=${encodeURIComponent(`Canción: ${song.titulo}\nSección: ${heading}\n\nIndicá cuál de estos enlaces no funciona:\n${options}\n\nEnlace roto (número o plataforma): `)}`;
+      report.setAttribute('aria-label', `Reportar enlace roto en ${heading} de ${song.titulo}`);
+      section.append(report);
+    }
     $('#dialog-links').append(section);
   }
   $('#song-dialog').showModal();
