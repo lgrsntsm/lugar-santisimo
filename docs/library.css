@@ -107,3 +107,8 @@ dialog::backdrop{background:#17291b75;backdrop-filter:blur(4px)}
 .toast{background:#526b56;color:#fff}
 .skip{background:#54765c;color:#fff}
 button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline-color:#50785d}
+
+/* Nombre del intérprete: más pequeño y gris legible */
+.song-inline-artist{font-size:14px;font-weight:500;color:#737b75}
+.song-separator{color:#899189}
+@media(max-width:600px){.song-inline-artist{font-size:12px;font-weight:500;color:#737b75}}
