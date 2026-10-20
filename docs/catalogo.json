@@ -1507,6 +1507,13 @@
           "plataforma": "YouTube · Perfume de Alabanza (Montserrat Pradas)",
           "tipo": "video",
           "oficial": true
+        },
+        {
+          "id": "ENL-000136",
+          "url": "https://www.letras.com/perfume-de-alabanza/tengo-un-perfume/",
+          "plataforma": "Letras.com · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
