@@ -20,8 +20,20 @@ export function groupLinks(links = []) {
     const key = `${link.tipo}:${url.href}`;
     if (seen.has(key)) continue;
     seen.add(key);
-    if ((link.tipo === 'audio' || link.tipo === 'video') && groups[link.tipo].length >= 3) continue;
     groups[link.tipo].push({ ...link, url: url.href });
   }
+  groups.audio.sort((a, b) => Number(b.oficial === true) - Number(a.oficial === true) || audioPlatformOrder(a) - audioPlatformOrder(b));
+  groups.audio = groups.audio.slice(0, 3);
+  groups.video = groups.video.slice(0, 3);
   return groups;
+}
+
+function audioPlatformOrder(link) {
+  let host = '';
+  try { host = new URL(link.url).hostname.toLowerCase(); } catch { return 3; }
+  if (host === 'music.youtube.com') return 2;
+  if (host === 'youtu.be' || host === 'youtube.com' || host.endsWith('.youtube.com')) return 0;
+  if (host === 'spotify.com' || host.endsWith('.spotify.com')) return 1;
+  if (host === 'music.apple.com') return 4;
+  return 3;
 }

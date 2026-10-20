@@ -1,6 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { groupLinks } from '../docs/links.mjs';
+test('audios oficiales de YouTube Spotify y YouTube Music van antes que Apple', () => {
+  const urls = ['https://music.apple.com/song/1', 'https://music.youtube.com/watch?v=1', 'https://open.spotify.com/track/1', 'https://www.youtube.com/watch?v=1'];
+  const groups = groupLinks(urls.map(url => ({ tipo: 'audio', oficial: true, url })));
+  assert.deepEqual(groups.audio.map(l => new URL(l.url).hostname), ['www.youtube.com', 'open.spotify.com', 'music.youtube.com']);
+});
+test('la prioridad de plataforma conserva primero las fuentes oficiales', () => {
+  const groups = groupLinks([{ tipo: 'audio', oficial: false, url: 'https://www.youtube.com/watch?v=1' }, { tipo: 'audio', oficial: true, url: 'https://music.apple.com/song/1' }]);
+  assert.equal(groups.audio[0].oficial, true);
+});
 test('Letra excluye videos mal clasificados y conserva páginas de texto', () => {
   const groups = groupLinks([
     { tipo: 'letra', oficial: true, url: 'https://www.youtube.com/watch?v=CSd-I2LUGv0' },

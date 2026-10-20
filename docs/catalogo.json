@@ -164,9 +164,9 @@
           "oficial": true
         },
         {
-          "id": "ENL-000008",
-          "url": "https://music.apple.com/us/song/417148138",
-          "plataforma": "Apple Music · En Adoración",
+          "id": "ENL-000009",
+          "url": "https://www.youtube.com/watch?v=YDy6QU0hess",
+          "plataforma": "YouTube · audio remasterizado (El Encuentro)",
           "tipo": "audio",
           "oficial": true
         },
@@ -178,9 +178,9 @@
           "oficial": true
         },
         {
-          "id": "ENL-000009",
-          "url": "https://www.youtube.com/watch?v=YDy6QU0hess",
-          "plataforma": "YouTube · audio remasterizado (El Encuentro)",
+          "id": "ENL-000008",
+          "url": "https://music.apple.com/us/song/417148138",
+          "plataforma": "Apple Music · En Adoración",
           "tipo": "audio",
           "oficial": true
         },
