@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { groupLinks } from '../docs/links.mjs';
 
-test('YouTube normal va a Vídeo; Spotify y YouTube Music se muestran en Audio', () => {
+test('YouTube va a Vídeo; Spotify y YouTube Music primero, otras plataformas también en Audio', () => {
   const groups = groupLinks([
     { tipo: 'audio', oficial: true, url: 'https://www.youtube.com/watch?v=video' },
     { tipo: 'audio', oficial: true, url: 'https://open.spotify.com/track/audio' },
@@ -10,7 +10,7 @@ test('YouTube normal va a Vídeo; Spotify y YouTube Music se muestran en Audio',
     { tipo: 'audio', oficial: false, url: 'https://music.amazon.com/tracks/alternative' },
     { tipo: 'audio', oficial: false, url: 'https://music.apple.com/song/alternative' },
   ]);
-  assert.deepEqual(groups.audio.map(x => new URL(x.url).hostname), ['music.youtube.com', 'open.spotify.com']);
+  assert.deepEqual(groups.audio.map(x => new URL(x.url).hostname), ['open.spotify.com', 'music.youtube.com', 'music.apple.com', 'music.amazon.com']);
   assert.deepEqual(groups.video.map(x => new URL(x.url).hostname), ['www.youtube.com']);
 });
 
@@ -38,13 +38,13 @@ test('Letra excluye videos y mantiene páginas de texto escritas', () => {
   assert.equal(new URL(groups.letra[0].url).hostname, 'www.cifraclub.com');
 });
 
-test('Límites de tres audios y videos con oficiales primero', () => {
+test('Todos los audios se muestran y los videos se limitan a tres', () => {
   const links = [
     ...Array.from({ length: 5 }, (_, i) => ({ tipo: 'audio', oficial: i === 4, url: `https://open.spotify.com/track/${i}` })),
     ...Array.from({ length: 5 }, (_, i) => ({ tipo: 'video', oficial: i === 4, url: `https://www.youtube.com/watch?v=${i}` })),
   ];
   const g = groupLinks(links);
-  assert.equal(g.audio.length, 3);
+  assert.equal(g.audio.length, 5);
   assert.equal(g.video.length, 3);
   assert.equal(g.audio[0].oficial, true);
   assert.equal(g.video[0].oficial, true);
