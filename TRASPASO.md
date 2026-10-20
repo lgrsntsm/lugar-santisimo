@@ -123,3 +123,18 @@ En la carpeta padre del repositorio hay capturas locales, tampoco subidas: `marc
 Referencias de diseño aportadas en el chat y ubicadas fuera del repo: `C:/Users/usuario/Downloads/WhatsApp Image 2026-10-18 at 18.54.08.jpeg` (biblioteca de Spotify) y `C:/Users/usuario/AppData/Local/Temp/codex-clipboard-b42c93ef-a12f-4ef1-ac81-bd9968039a9b.png` (pantalla NIC.ar). Son rutas históricas; no se comprobó que sigan existiendo.
 
 Los borradores actuales también están guardados en Google Sheets y su copia de metadatos en `handoff/`: el trabajo pendiente ya no depende únicamente de estos archivos locales. No incluir tokens, contraseñas, sesiones ni datos del administrador de credenciales en un traspaso.
+
+
+## Actualización del catálogo — 20 de octubre de 2026 (posterior al traspaso original)
+
+**Este apartado reemplaza las cifras antiguas de este documento.** El usuario autorizó expresamente actualizar enlaces de todas las canciones existentes e incorporar discografía de Jesús Adrián Romero sin solicitar un nuevo OK. La web es ahora clara/crema, subtítulo «Repositorio Cristiano digital», listado aleatorio, tarjetas redondeadas, «Acordes» después de «Letra».
+
+- Fuente editable: la misma hoja Google Sheets indicada arriba. Para todo cambio editorial, actualizar `Canciones`, `Intérpretes`, relaciones y `Enlaces` en Sheets, y después sincronizar `docs/catalogo.json` en GitHub.
+- Estado después del commit `3627009a6646bfa1b6d5ed71bf6597e6e5f93e1b`: **70 canciones públicas, 211 enlaces activos**; 32 Marcos Witt, 14 Perfume de Alabanza y 24 Jesús Adrián Romero. Los registros de ensayo retirados no se exportan.
+- Se agregaron 23 enlaces de acordes de Cifra Club para Marcos Witt; se incorporaron más páginas de letras y acordes para Perfume de Alabanza.
+- Jesús Adrián Romero: intérprete `INT-000010`, Spotify `https://open.spotify.com/artist/29SeiO68HQHBs7pDdWOvvX`. Se cargaron los 12 temas de **El aire de tu casa** (2005, `CAN-000052` a `CAN-000063`), y los 12 de **A sus pies** (2002, `CAN-000064` a `CAN-000075`), con enlaces de acordes/letras y varios Spotify de canción individual.
+- Último `enlace_id` agregado: `ENL-000220` (Spotify Buscando refugio). Próximos IDs `CAN-000076`, `CCA-000076`, `CIN-000080`, `ENL-000221`. Comprobar rangos y máximos contra Sheets antes de usar.
+- Pendientes prioritarios: revisar las 46 canciones anteriores en **todas** las nuevas fuentes (Spotify, YouTube Music, YouTube, Música.com, Cifra Club, LaCuerda, Cancioneros, Musixmatch, Director Creativo, Banana Cifras), comprobar títulos/intérpretes y no inventar enlaces; 7 temas de Perfume de Alabanza aún sin letra verificada al último chequeo. En los 24 nuevos de Jesús Adrián Romero faltan varios audios individuales, aunque todos tienen al menos letra o acordes. Seguir otras etapas de su discografía por discos, evitando duplicados y versiones instrumentales involuntarias.
+- La función «¿Enlace roto?» en la página **todavía es mailto**, no un reporte automatizado. El usuario pidió checkbox por canción, cinco reportes/IP/día y registrar en Sheets; para el límite por IP y la escritura hace falta backend/autorización de despliegue. No declarar implementado.
+- Los audios de Spotify y YouTube Music van primero; otros servicios como Apple Music y Amazon aparecen después. Los videos de YouTube van en Video y páginas de letra escrita en Letra. Una página de acordes puede aparecer tanto en Letra como Acordes solo cuando contenga texto de ambas funciones.
+- No alojar audio/video/letras/acordes localmente, solo URLs externas.
