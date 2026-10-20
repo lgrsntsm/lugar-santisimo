@@ -15,8 +15,12 @@ function showLinks(song) {
     const h = element('h3', 'detail-heading', heading); h.id = `detail-${type}`; section.setAttribute('aria-labelledby', h.id); section.append(h);
     for (const [index, link] of groups[type].entries()) {
       const a = element('a', 'platform-link'); a.href = link.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
-      const label = element('span'); label.append(element('strong', '', link.plataforma || 'Abrir enlace'), element('small', '', `${link.oficial ? 'Fuente oficial' : 'Enlace externo'} · ${index === 0 ? 'Primera opción' : 'Alternativa'}`));
-      a.append(label, element('span', '', '↗')); section.append(a);
+      const label = element('span'); label.append(element('strong', '', link.plataforma || 'Abrir enlace'));
+      a.append(label, element('span', '', '↗'));
+      const report = element('a', 'report-link', '¿Enlace roto?');
+      report.href = `mailto:lgrsntsm@gmail.com?subject=${encodeURIComponent('Lugar Santísimo · Reportar enlace roto')}&body=${encodeURIComponent(`Canción: ${song.titulo}\nSección: ${heading}\nPlataforma: ${link.plataforma}\nEnlace: ${link.url}\n\nEl enlace no funciona correctamente.`)}`;
+      report.setAttribute('aria-label', `Reportar enlace roto de ${link.plataforma} para ${song.titulo}`);
+      const item = element('div', 'link-item'); item.append(a, report); section.append(item);
     }
     if (!groups[type].length) section.append(element('p', 'detail-empty', 'Sin información encontrada.'));
     $('#dialog-links').append(section);
