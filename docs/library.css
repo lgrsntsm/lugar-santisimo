@@ -23,3 +23,5 @@ dialog{width:min(520px,calc(100% - 32px));border:1px solid #333;border-radius:12
 @media(max-width:600px){.contact-block{font-size:11px;gap:2px}.contact-block a{font-size:10px}.header{column-gap:9px}.brand h1{font-size:18px}.brand{gap:7px}.brand-icon{width:29px;height:29px}.brand-tagline{padding-left:36px}}
 @media(max-width:360px){.brand h1{font-size:16px}.brand-icon{width:25px;height:25px;font-size:9px}.contact-block a{font-size:9px}.brand-tagline{padding-left:32px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+.link-item{margin:8px 0 12px}.link-item .platform-link{margin:0}.report-link{display:inline-block;color:#ababab;font-size:11px;padding:7px 4px 3px;text-decoration:underline;text-underline-offset:2px}.report-link:hover{color:var(--accent)}
