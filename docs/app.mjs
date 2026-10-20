@@ -1,19 +1,25 @@
 import { filterSongs } from './filter.mjs';
+import { groupLinks } from './links.mjs';
 const $ = selector => document.querySelector(selector);
 let songs = [], category = '';
 const colors = ['#56644f', '#a87956', '#5c536b', '#6b3545', '#657982'];
 const initials = text => text.split(/\s+/).slice(0, 2).map(word => word[0]).join('');
 function element(tag, className, text) { const e = document.createElement(tag); if (className) e.className = className; if (text !== undefined) e.textContent = text; return e; }
 function showLinks(song) {
-  $('#dialog-title').textContent = song.titulo;
-  $('#dialog-artists').textContent = song.interpretes.map(a => a.nombre).join(' · ');
+  $('#dialog-title').textContent = `🧾 Título: ${song.titulo || 'Sin información encontrada'}`;
+  $('#dialog-artists').textContent = `🎙️ Intérprete: ${song.interpretes.map(a => a.nombre).filter(Boolean).join(' · ') || 'Sin información encontrada'}`;
   $('#dialog-links').replaceChildren();
-  for (const [index, link] of song.enlaces.entries()) {
-    let url; try { url = new URL(link.url); } catch { continue; }
-    if (url.protocol !== 'https:' || url.username || url.password) continue;
-    const a = element('a', 'platform-link'); a.href = url.href; a.target = '_blank'; a.rel = 'noopener noreferrer';
-    const label = element('span'); label.append(element('strong', '', link.plataforma || 'Abrir enlace'), element('small', '', `${link.oficial ? 'Fuente oficial' : 'Enlace externo'}${index ? ' · Alternativa' : ''}`));
-    a.append(label, element('span', '', '↗')); $('#dialog-links').append(a);
+  const groups = groupLinks(song.enlaces);
+  for (const [type, heading] of [['audio', '🎹 Audio:'], ['video', '⏯️ Video:'], ['letra', '🔡 Letra:']]) {
+    const section = element('section', 'detail-section');
+    const h = element('h3', 'detail-heading', heading); h.id = `detail-${type}`; section.setAttribute('aria-labelledby', h.id); section.append(h);
+    for (const [index, link] of groups[type].entries()) {
+      const a = element('a', 'platform-link'); a.href = link.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      const label = element('span'); label.append(element('strong', '', link.plataforma || 'Abrir enlace'), element('small', '', `${link.oficial ? 'Fuente oficial' : 'Enlace externo'} · ${index === 0 ? 'Primera opción' : 'Alternativa'}`));
+      a.append(label, element('span', '', '↗')); section.append(a);
+    }
+    if (!groups[type].length) section.append(element('p', 'detail-empty', 'Sin información encontrada.'));
+    $('#dialog-links').append(section);
   }
   $('#song-dialog').showModal();
 }
