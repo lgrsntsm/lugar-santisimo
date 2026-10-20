@@ -60,3 +60,50 @@ dialog{width:min(520px,calc(100% - 32px));border:1px solid #333;border-radius:12
 .song-title{color:var(--accent);font-weight:700}
 .song-inline-artist{font-size:16px;font-weight:600;color:#d5d5d5}
 @media(max-width:600px){.song-body h3{font-size:16px;font-weight:700;line-height:1.45}.song-inline-artist{font-size:14px;font-weight:600}}
+
+/* Tema claro: crema y verde salvia, mantiene layout y tarjetas */
+:root{color-scheme:light;--paper:#f8f5ef;--ink:#41483f;--muted:#69736b;--line:#dedfd6;--accent:#50785d;background:var(--paper);color:var(--ink)}
+body{background:var(--paper);color:var(--ink)}
+.brand-icon{background:#819e85;color:#fff}
+.brand h1{color:#506c56}
+.brand-tagline,.contact-block,.contact-block a{color:#69766e}
+.contact-block a:hover{color:var(--accent)}
+.search{background:#fff;border-color:#e0e3da}
+.search input{color:var(--ink)}
+.search input::placeholder{color:#7c857e}
+.search svg{stroke:#708274}
+.sort-label,.sort-label select{color:#546454}
+.sort-label select{background:transparent}
+.chips button{background:#e7eee4;color:#536c58}
+.chips button:hover{background:#d9e7d8}
+.chips button[aria-pressed=true]{background:#78987f;color:#fff}
+.results-count{color:#657268}
+.song-card{background:#fff;border-color:#e2e4dd;box-shadow:0 1px 2px #63765e0a}
+.song-card:hover,.song-card:focus-within{background:#f1f7ef;border-color:#a3b8a4}
+.song-title,#dialog-title{color:#50785d}
+.song-title:hover{color:#315c40}
+.song-inline-artist{color:#657166}
+.song-separator{color:#8f998e}
+.read-button{color:#577f61}
+.read-button:hover{background:#e8f0e5;color:#355c42}
+.song-tag,.artists{color:#6d766e}
+.demo-note,.footer{color:#707970}
+.empty{background:#fff;color:var(--ink)}
+.empty p{color:var(--muted)}
+.empty button{background:#76967b;color:#fff}
+dialog{background:#fcfaf7;color:var(--ink);border-color:#dedfd5;box-shadow:0 22px 85px #38463726}
+dialog::backdrop{background:#17291b75;backdrop-filter:blur(4px)}
+.close-dialog{color:#526655}
+#dialog-artists{color:#657166}
+.detail-heading{color:#445848}
+.detail-empty{color:var(--muted)}
+.platform-link,.detail-section .platform-link{background:#fff;border-color:#e0e3db;color:#3d493f}
+.platform-link:hover{background:#f2f7ef;border-color:#91ab95}
+.platform-link strong{color:#405044}
+.platform-link>span:last-child{color:#628a6b}
+.report-link{color:#57765e}
+.report-link:hover{color:#315e3f}
+.dialog-note{color:#6d766d}
+.toast{background:#526b56;color:#fff}
+.skip{background:#54765c;color:#fff}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline-color:#50785d}
