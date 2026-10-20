@@ -55,3 +55,13 @@ test('Descarta duplicados, URLs inválidas y credenciales', () => {
   const groups = groupLinks([valid, valid, { tipo: 'audio', url: 'javascript:alert(1)' }, { tipo: 'audio', url: 'https://user:secret@open.spotify.com/track/2' }]);
   assert.equal(groups.audio.length, 1);
 });
+
+test('Acordes conserva páginas externas escritas y rechaza enlaces multimedia', () => {
+  const groups = groupLinks([
+    { tipo: 'acordes', url: 'https://www.cifraclub.com/marcos-witt/renuevame/' },
+    { tipo: 'acordes', url: 'https://acordes.lacuerda.net/artista/cancion.shtml' },
+    { tipo: 'acordes', url: 'https://www.youtube.com/watch?v=abc' },
+  ]);
+  assert.deepEqual(groups.acordes.map(x => new URL(x.url).hostname), ['www.cifraclub.com', 'acordes.lacuerda.net']);
+  assert.equal(groups.letra.length, 0);
+});
