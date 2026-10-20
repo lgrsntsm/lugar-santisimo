@@ -1641,6 +1641,13 @@
           "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
           "tipo": "audio",
           "oficial": false
+        },
+        {
+          "id": "ENL-000195",
+          "url": "https://www.musica.com/letras.asp?letra=2092768",
+          "plataforma": "Música.com · Letra de Una vertiente de alabanza",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
@@ -1703,6 +1710,27 @@
           "plataforma": "Spotify · Factor de Cambio (versión en vivo, 2024)",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000199",
+          "url": "https://www.cifraclub.com/perfume-de-alabanza/tengo-un-perfume/letra/",
+          "plataforma": "Cifra Club · Letra (Perfume de Alabanza)",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000200",
+          "url": "https://www.cifraclub.com/factor-de-cambio/tengo-un-perfume/letra/",
+          "plataforma": "Cifra Club · Letra (versión Factor de Cambio)",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000201",
+          "url": "https://www.cifraclub.com/fresca-uncion/tengo-un-perfume/",
+          "plataforma": "Cifra Club · Acordes (versión Fresca Unción)",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
@@ -1791,6 +1819,13 @@
           "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
           "tipo": "audio",
           "oficial": false
+        },
+        {
+          "id": "ENL-000196",
+          "url": "https://www.musica.com/letras.asp?letra=2092771",
+          "plataforma": "Música.com · Letra de Yo amo la cruz",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
@@ -1844,6 +1879,13 @@
           "url": "https://music.amazon.com/tracks/B0D461TJXC",
           "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
           "tipo": "audio",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000197",
+          "url": "https://www.musica.com/letras.asp?letra=2092308",
+          "plataforma": "Música.com · Letra de Cristo salvador",
+          "tipo": "letra",
           "oficial": false
         }
       ]
@@ -1981,6 +2023,20 @@
           "url": "https://music.amazon.com/tracks/B0D45ZRL67",
           "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
           "tipo": "audio",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000198",
+          "url": "https://www.cifraclub.com/perfume-de-alabanza/pertenezco-a-ti/",
+          "plataforma": "Cifra Club · Acordes de Pertenezco a ti",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000202",
+          "url": "https://www.cifraclub.com/perfume-de-alabanza/pertenezco-a-ti/letra/",
+          "plataforma": "Cifra Club · Letra de Pertenezco a ti",
+          "tipo": "letra",
           "oficial": false
         }
       ]
