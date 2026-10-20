@@ -112,3 +112,68 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .song-inline-artist{font-size:14px;font-weight:500;color:#737b75}
 .song-separator{color:#899189}
 @media(max-width:600px){.song-inline-artist{font-size:12px;font-weight:500;color:#737b75}}
+
+
+/* Selector de tema. El modo oscuro recupera la estética negra y verde anterior. */
+:root[data-theme="dark"]{color-scheme:dark;--paper:#121212;--ink:#f5f5f5;--muted:#aaa;--line:#292929;--accent:#a6d9b5;background:var(--paper);color:var(--ink)}
+:root[data-theme="dark"] body{background:#121212;color:#f5f5f5}
+:root[data-theme="dark"] .brand-icon{background:#8e644a;color:#fff}
+:root[data-theme="dark"] .brand h1{color:#f5f5f5}
+:root[data-theme="dark"] .brand-tagline,
+:root[data-theme="dark"] .contact-block,
+:root[data-theme="dark"] .contact-block a{color:#aaa}
+:root[data-theme="dark"] .search{background:#242424;border-color:#333}
+:root[data-theme="dark"] .search input{color:#f5f5f5}
+:root[data-theme="dark"] .search input::placeholder{color:#a9a9a9}
+:root[data-theme="dark"] .search svg{stroke:#b5b5b5}
+:root[data-theme="dark"] .sort-label,
+:root[data-theme="dark"] .sort-label select{color:#ccc}
+:root[data-theme="dark"] .sort-label select{background:#121212}
+:root[data-theme="dark"] .chips button{background:#292929;color:#eee}
+:root[data-theme="dark"] .chips button:hover{background:#383838}
+:root[data-theme="dark"] .chips button[aria-pressed=true]{background:#f1f1f1;color:#111}
+:root[data-theme="dark"] .results-count{color:#aaa}
+:root[data-theme="dark"] .song-card{background:#272727;border-color:#393939;box-shadow:none}
+:root[data-theme="dark"] .song-card:hover,
+:root[data-theme="dark"] .song-card:focus-within{background:#303030;border-color:#555}
+:root[data-theme="dark"] .song-title,
+:root[data-theme="dark"] #dialog-title{color:#a6d9b5}
+:root[data-theme="dark"] .song-title:hover{color:#cff1d9}
+:root[data-theme="dark"] .song-inline-artist{color:#b7b7b7}
+:root[data-theme="dark"] .song-separator{color:#999}
+:root[data-theme="dark"] .song-tag,
+:root[data-theme="dark"] .artists{color:#aaa}
+:root[data-theme="dark"] .read-button{color:#ddd}
+:root[data-theme="dark"] .read-button:hover{background:#303030;color:#a6d9b5}
+:root[data-theme="dark"] .footer,
+:root[data-theme="dark"] .demo-note{color:#888}
+:root[data-theme="dark"] .empty{background:#1b1b1b;color:#f5f5f5}
+:root[data-theme="dark"] .empty p{color:#aaa}
+:root[data-theme="dark"] .empty button{background:#eee;color:#111}
+:root[data-theme="dark"] dialog{background:#1c1c1c;color:#f5f5f5;border-color:#333;box-shadow:0 20px 90px #0008}
+:root[data-theme="dark"] dialog::backdrop{background:#000b}
+:root[data-theme="dark"] .close-dialog{color:#bbb}
+:root[data-theme="dark"] #dialog-artists,
+:root[data-theme="dark"] .detail-empty{color:#aaa}
+:root[data-theme="dark"] .detail-heading{color:#e9e9e9}
+:root[data-theme="dark"] .platform-link,
+:root[data-theme="dark"] .detail-section .platform-link{background:#272727;border-color:#393939;color:#f5f5f5}
+:root[data-theme="dark"] .platform-link:hover{background:#303030;border-color:#888}
+:root[data-theme="dark"] .platform-link strong{color:#f5f5f5}
+:root[data-theme="dark"] .platform-link>span:last-child{color:#a6d9b5}
+:root[data-theme="dark"] .report-link{color:#ababab}
+:root[data-theme="dark"] .report-link:hover{color:#a6d9b5}
+:root[data-theme="dark"] .dialog-note{color:#aaa}
+:root[data-theme="dark"] .toast{background:#ddd;color:#121212}
+:root[data-theme="dark"] .skip{background:#a6d9b5;color:#121212}
+:root[data-theme="dark"] button:focus-visible,
+:root[data-theme="dark"] a:focus-visible,
+:root[data-theme="dark"] input:focus-visible,
+:root[data-theme="dark"] select:focus-visible{outline-color:#a6d9b5}
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap;border:1px solid var(--line);background:transparent;color:var(--ink);padding:9px 12px;border-radius:24px;font-size:12px;cursor:pointer;min-height:38px}
+.theme-toggle:hover{background:#e7eee4}
+:root[data-theme="dark"] .theme-toggle{background:#262626;color:#f5f5f5;border-color:#444}
+:root[data-theme="dark"] .theme-toggle:hover{background:#353535}
+.theme-toggle-icon{font-size:16px;line-height:1}
+.header nav{gap:14px}
+@media(max-width:600px){.header nav{gap:8px}.theme-toggle{padding:8px 10px;font-size:11px;min-height:36px}.theme-toggle-icon{font-size:15px}}
