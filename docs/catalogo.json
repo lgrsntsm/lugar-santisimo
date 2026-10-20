@@ -1746,6 +1746,20 @@
           "plataforma": "LaCuerda · Acordes y letra de Siento tu amor",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000143",
+          "url": "https://www.cifraclub.com/perfume-de-alabanza/siento-tu-amor/",
+          "plataforma": "Cifra Club · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000144",
+          "url": "https://acordes.lacuerda.net/perfume_de_alabanza/siento_tu_amor",
+          "plataforma": "LaCuerda · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
