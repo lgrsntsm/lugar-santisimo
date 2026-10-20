@@ -62,6 +62,1331 @@
           "oficial": false
         }
       ]
+    },
+    {
+      "id": "CAN-000007",
+      "titulo": "Tu fidelidad",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000016",
+          "url": "https://open.spotify.com/intl-es/track/1tCdXIAdRx5CvilfUpCNuU",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000017",
+          "url": "https://www.cifraclub.com/marcos-witt/tu-fidelidad/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000008",
+      "titulo": "Gracias",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000002",
+          "nombre": "Gratitud"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000019",
+          "url": "https://www.youtube.com/watch?v=f12sNAX_Hg0",
+          "plataforma": "YouTube · Video oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000018",
+          "url": "https://open.spotify.com/intl-es/track/6UdpT2mTtU24VKgTPQATRM",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000020",
+          "url": "https://www.cifraclub.com/marcos-witt/gracias/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000009",
+      "titulo": "Temprano yo te buscaré",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000022",
+          "url": "https://www.youtube.com/watch?v=w0xpYAX3z7g",
+          "plataforma": "YouTube · Video oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000021",
+          "url": "https://open.spotify.com/intl-es/track/2UpIPk8SGn02aqZCfOEXcW",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000023",
+          "url": "https://www.cifraclub.com.br/marcos-witt/temprano-yo-te-buscare/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000010",
+      "titulo": "Yo te busco",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000025",
+          "url": "https://www.youtube.com/watch?v=H0gOam5h6VI",
+          "plataforma": "YouTube · Video oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000024",
+          "url": "https://open.spotify.com/intl-es/track/5eOrbGaR7tp3MJX0XAQVQo",
+          "plataforma": "Spotify · En adoración (2005)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000026",
+          "url": "https://www.cifraclub.com/marcos-witt/yo-te-busco/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000011",
+      "titulo": "Dios de pactos",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000004",
+          "nombre": "Confianza"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000028",
+          "url": "https://www.youtube.com/watch?v=ugtyvRCTNkY",
+          "plataforma": "YouTube · Video oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000027",
+          "url": "https://open.spotify.com/intl-es/track/4qkaaAYzVXogTQMz31tbS7",
+          "plataforma": "Spotify · En adoración (2005)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000029",
+          "url": "https://www.cifraclub.com/marcos-witt/dios-de-pactos/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000012",
+      "titulo": "Enciende una luz",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000003",
+          "nombre": "Fe"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000031",
+          "url": "https://www.youtube.com/watch?v=68WW8GZotIw",
+          "plataforma": "YouTube · Video oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000030",
+          "url": "https://open.spotify.com/intl-es/track/1UEwI2FyRaowh1kUWCzNLg",
+          "plataforma": "Spotify · En adoración (2005)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000032",
+          "url": "https://www.cifraclub.com/marcos-witt/enciende-una-luz/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000013",
+      "titulo": "Hermoso eres",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000113",
+          "url": "https://www.youtube.com/watch?v=aQBdKCXhs9E",
+          "plataforma": "YouTube · Video oficial (2025, medley Tu mirada / Hermoso eres, ECCOS)",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000033",
+          "url": "https://open.spotify.com/intl-es/track/7JXGEcmIDdzi0wOfkdndXZ",
+          "plataforma": "Spotify · En adoración (2005)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000034",
+          "url": "https://www.cifraclub.com/marcos-witt/hermoso-heres/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000014",
+      "titulo": "Cuán bello es el Señor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000036",
+          "url": "https://www.youtube.com/watch?v=FquhkXMq-sA",
+          "plataforma": "YouTube · Video oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000035",
+          "url": "https://open.spotify.com/intl-es/track/6F2EJ0GiiDIdOKiXEbBmvw",
+          "plataforma": "Spotify · En adoración (2005)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000037",
+          "url": "https://www.cifraclub.com/marcos-witt/cuan-bello-es-el-seor/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000015",
+      "titulo": "Poderoso",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000038",
+          "url": "https://www.youtube.com/watch?v=CB9-IRVVNsU",
+          "plataforma": "YouTube · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000111",
+          "url": "https://www.youtube.com/watch?v=xODYnxwPz_c",
+          "plataforma": "YouTube · Video oficial (2025, Kike Pavón y Factor de Cambio)",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000039",
+          "url": "https://open.spotify.com/intl-es/track/5byofIw5OuBmZsIEamYZ6k",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000040",
+          "url": "https://www.cifraclub.com/marcos-witt/poderoso/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000016",
+      "titulo": "Sobrenatural",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000003",
+          "nombre": "Fe"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000041",
+          "url": "https://www.youtube.com/watch?v=ohkGNk7Rzrw",
+          "plataforma": "YouTube · Sobrenatural (2008)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000042",
+          "url": "https://open.spotify.com/intl-es/track/0bYJJNIhLTPqz7SSU0Fw3V",
+          "plataforma": "Spotify · Sobrenatural (2008)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000043",
+          "url": "https://www.cifraclub.com.br/marcos-witt/1352341/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000017",
+      "titulo": "Dios imparable",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000003",
+          "nombre": "Fe"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000045",
+          "url": "https://www.youtube.com/watch?v=iOCCVPepUb8",
+          "plataforma": "YouTube · Video oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000044",
+          "url": "https://open.spotify.com/intl-es/track/4qpWZ9S0oMzlka1CQjFWNP",
+          "plataforma": "Spotify · Jesús Salva (2017, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000046",
+          "url": "https://www.cifraclub.com.br/marcos-witt/dios-imparable/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000018",
+      "titulo": "En los montes, en los valles",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000047",
+          "url": "https://www.youtube.com/watch?v=sZJLho1gbVE",
+          "plataforma": "YouTube · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000049",
+          "url": "https://www.youtube.com/watch?v=O4bQox2D_Ws",
+          "plataforma": "YouTube · Video con letra oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000048",
+          "url": "https://open.spotify.com/intl-es/track/700eVSudPworLFjq2cJkyj",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000050",
+          "url": "https://www.cifraclub.com.br/marcos-witt/en-los-montes-en-los-valles/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000019",
+      "titulo": "Somos el pueblo de Dios",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000051",
+          "url": "https://www.youtube.com/watch?v=-pVJ0Cftl2s",
+          "plataforma": "YouTube · Homenaje a Jesús (2000)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000053",
+          "url": "https://www.youtube.com/watch?v=GCnyax1nCPc",
+          "plataforma": "YouTube · Video con letra oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000052",
+          "url": "https://open.spotify.com/intl-es/track/3MF7cqKTCqQ6Xm8Pe2igJh",
+          "plataforma": "Spotify · Homenaje a Jesús (2000, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000054",
+          "url": "https://www.cifraclub.com/marcos-witt/somos-el-pueblo/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000020",
+      "titulo": "Al estar aquí",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000110",
+          "url": "https://www.youtube.com/watch?v=_zhBv6JjLxQ",
+          "plataforma": "YouTube · Video oficial (2025, con TAYA)",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000055",
+          "url": "https://open.spotify.com/intl-es/track/72tVbvGWzJ92cfyXaFd7nw",
+          "plataforma": "Spotify · Proyecto AA (1990)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000056",
+          "url": "https://www.cifraclub.com/marcos-witt/al-estar-aqui/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000021",
+      "titulo": "Amante de ti Señor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000057",
+          "url": "https://www.youtube.com/watch?v=ilFQrVEjmrU",
+          "plataforma": "YouTube · Venció (1996)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000058",
+          "url": "https://open.spotify.com/intl-es/track/5z3ZMbJp2TFoIXW8mUF2tM",
+          "plataforma": "Spotify · En adoración (2005)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000059",
+          "url": "https://www.cifraclub.com/marcos-witt/amante-de-ti/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000022",
+      "titulo": "Tu mirada",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000060",
+          "url": "https://www.youtube.com/watch?v=noH1sC9jQFk",
+          "plataforma": "YouTube · Venció (1996, remasterizado)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000112",
+          "url": "https://www.youtube.com/watch?v=aQBdKCXhs9E",
+          "plataforma": "YouTube · Video oficial (2025, medley Tu mirada / Hermoso eres, ECCOS)",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000061",
+          "url": "https://open.spotify.com/intl-es/track/1qpi3Zh2f9mPx5F0SR0xDB",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000062",
+          "url": "https://www.cifraclub.com/marcos-witt/tu-mirada/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000023",
+      "titulo": "Mas el Dios de toda gracia",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000063",
+          "url": "https://www.youtube.com/watch?v=EnJ16qI_smo",
+          "plataforma": "YouTube · Alabadle (1994, remasterizado)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000114",
+          "url": "https://www.youtube.com/watch?v=tI70aR3lBIY",
+          "plataforma": "YouTube · Video oficial (2025, medley Mas el Dios / Quiero levantar, Montesanto)",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000064",
+          "url": "https://open.spotify.com/intl-es/track/4lNE4l6QFqsHyxUVivsomu",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000065",
+          "url": "https://www.cifraclub.com/marcos-witt/mas-el-dios-de-toda-gracia/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000024",
+      "titulo": "Quiero levantar mis manos",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000066",
+          "url": "https://www.youtube.com/watch?v=QKJnKrUVqJc",
+          "plataforma": "YouTube · Proyecto AA (1990)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000115",
+          "url": "https://www.youtube.com/watch?v=tI70aR3lBIY",
+          "plataforma": "YouTube · Video oficial (2025, medley Mas el Dios / Quiero levantar, Montesanto)",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000067",
+          "url": "https://open.spotify.com/intl-es/track/3F3cpazSaWY0DCb6XjSBd9",
+          "plataforma": "Spotify · Proyecto AA (1990)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000068",
+          "url": "https://www.cifraclub.com/marcos-witt/quiero-levantar-mis-manos/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000025",
+      "titulo": "Levántate",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000069",
+          "url": "https://www.youtube.com/watch?v=4tgJ475_oW8",
+          "plataforma": "YouTube · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000070",
+          "url": "https://open.spotify.com/intl-es/track/5lbYXwMjDsVAYrV1I4Lxl4",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000071",
+          "url": "https://www.cifraclub.com.br/marcos-witt/levantate/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000026",
+      "titulo": "Al que es digno",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000072",
+          "url": "https://www.youtube.com/watch?v=LQhFO9hQl1o",
+          "plataforma": "YouTube · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000073",
+          "url": "https://open.spotify.com/intl-es/track/0iAEQmdnIpwlBfgQqKr7Gp",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000074",
+          "url": "https://www.cifraclub.com/marcos-witt/al-que-es-digno/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000027",
+      "titulo": "Un adorador",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000075",
+          "url": "https://www.youtube.com/watch?v=BWeVGuuOYbI",
+          "plataforma": "YouTube · Adoremos (1988)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000076",
+          "url": "https://open.spotify.com/intl-es/track/1p0q4pTcMtr3VlEGtLhBvr",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000077",
+          "url": "https://www.cifraclub.com/marcos-witt/un-adorador/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000028",
+      "titulo": "Sana nuestra tierra",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000004",
+          "nombre": "Confianza"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000079",
+          "url": "https://www.youtube.com/watch?v=JlTF1oFRbHI",
+          "plataforma": "YouTube · Video oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000078",
+          "url": "https://open.spotify.com/intl-es/track/6viyvAwhF791gksn4WBvcJ",
+          "plataforma": "Spotify · Sana Nuestra Tierra (2001, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000080",
+          "url": "https://www.cifraclub.com/marcos-witt/sana-nuestra-tierra/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000029",
+      "titulo": "Jesús salva",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000004",
+          "nombre": "Un Corazón",
+          "rol": "invitado"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000003",
+          "nombre": "Fe"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000082",
+          "url": "https://www.youtube.com/watch?v=DEuPGuTjsGU",
+          "plataforma": "YouTube · En vivo · con Un Corazón",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000081",
+          "url": "https://open.spotify.com/intl-es/track/2bTmFo7fvZ3zgxPTqTk1T1",
+          "plataforma": "Spotify · Jesús Salva (2017, en vivo, con Un Corazón)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000083",
+          "url": "https://www.cifraclub.com/marcos-witt/jesus-salva/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000030",
+      "titulo": "Mi pan, mi luz",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000084",
+          "url": "https://www.youtube.com/watch?v=YucINbug14U",
+          "plataforma": "YouTube · Dios de Pactos (2003)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000086",
+          "url": "https://www.youtube.com/watch?v=eIgRETTWsT4",
+          "plataforma": "YouTube · Video oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000085",
+          "url": "https://open.spotify.com/intl-es/track/37QrlPbzTbS2heFNd0gMcX",
+          "plataforma": "Spotify · Dios de Pactos (2003)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000087",
+          "url": "https://www.cifraclub.com/marcos-witt/276544/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000031",
+      "titulo": "Has cambiado mi lamento",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000002",
+          "nombre": "Gratitud"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000088",
+          "url": "https://www.youtube.com/watch?v=dabm-hPFDl8",
+          "plataforma": "YouTube · Tú y yo (remasterizado, 2016)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000089",
+          "url": "https://open.spotify.com/intl-es/track/5DyLPMcPCzFLlc4rOsv1Dt",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000090",
+          "url": "https://www.cifraclub.com/marcos-witt/1976593/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000032",
+      "titulo": "Dios ha sido fiel",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000002",
+          "nombre": "Gratitud"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000091",
+          "url": "https://www.youtube.com/watch?v=yhg9S2Cijx0",
+          "plataforma": "YouTube · Antología (2004)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000092",
+          "url": "https://open.spotify.com/intl-es/track/7DLIqy6MT8wZuQkKuU2wps",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000093",
+          "url": "https://www.cifraclub.com/marcos-witt/dios-ha-sido-fiel/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000033",
+      "titulo": "Tu amor por mí",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000002",
+          "nombre": "Gratitud"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000094",
+          "url": "https://www.youtube.com/watch?v=Srb21QwiaKs",
+          "plataforma": "YouTube · Tú y yo (remasterizado, 2016)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000095",
+          "url": "https://open.spotify.com/intl-es/track/3xZX2uiPACsDdMRNQkSfh0",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000096",
+          "url": "https://www.cifraclub.com/marcos-witt/tu-amor-por-mi/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000034",
+      "titulo": "Exáltate",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000097",
+          "url": "https://www.youtube.com/watch?v=d8DN5e43nN4",
+          "plataforma": "YouTube · Poderoso (1993)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000098",
+          "url": "https://open.spotify.com/intl-es/track/5ZP2i9V4pjfadqnzkRIRQu",
+          "plataforma": "Spotify · 25 Concierto Conmemorativo (2011, en vivo)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000099",
+          "url": "https://www.cifraclub.com/marcos-witt/exaltate/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000035",
+      "titulo": "Escucharte hablar",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000100",
+          "url": "https://www.youtube.com/watch?v=-X73b2N5h4o",
+          "plataforma": "YouTube · Enciende una luz (1999)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000102",
+          "url": "https://www.youtube.com/watch?v=1IWQpFm3keI",
+          "plataforma": "YouTube · Video con letra oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000101",
+          "url": "https://open.spotify.com/intl-es/track/1Z9BmwH848XdyykTN8OhSM",
+          "plataforma": "Spotify · En adoración (2005)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000103",
+          "url": "https://www.cifraclub.com/marcos-witt/escucharte-hablar/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000036",
+      "titulo": "Dios ha sido bueno",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000002",
+          "nombre": "Gratitud"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000105",
+          "url": "https://www.youtube.com/watch?v=CeQoe6IcWuc",
+          "plataforma": "YouTube · Video oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000104",
+          "url": "https://open.spotify.com/intl-es/track/7dhiLa8Fvcdhzs6cpC4Osp",
+          "plataforma": "Spotify · En adoración (2005)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000106",
+          "url": "https://www.cifraclub.com/marcos-witt/dios-ha-sido-bueno/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000037",
+      "titulo": "Si puedes creer",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000003",
+          "nombre": "Marcos Witt",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000003",
+          "nombre": "Fe"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000108",
+          "url": "https://www.youtube.com/watch?v=pH3Dc_LhEmw",
+          "plataforma": "YouTube · Video con letra oficial",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000107",
+          "url": "https://open.spotify.com/intl-es/track/46Z4MHyYfzHONL5Xc9I7da",
+          "plataforma": "Spotify · En adoración (2005)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000109",
+          "url": "https://www.cifraclub.com/marcos-witt/si-puedes-creer/letra/",
+          "plataforma": "Cifra Club · Letra escrita",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
     }
   ]
 }
