@@ -1387,6 +1387,384 @@
           "oficial": false
         }
       ]
+    },
+    {
+      "id": "CAN-000038",
+      "titulo": "Todo lo que has hecho",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000116",
+          "url": "https://music.amazon.com/tracks/B0D4615NMT",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000039",
+      "titulo": "Cristo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000117",
+          "url": "https://music.amazon.com/tracks/B0D45XY3B7",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000040",
+      "titulo": "Una vertiente de alabanza",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000118",
+          "url": "https://music.amazon.com/tracks/B0D45ZLKXT",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000041",
+      "titulo": "Tengo un perfume",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000119",
+          "url": "https://music.amazon.com/tracks/B0D45Z6SWH",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000042",
+      "titulo": "Alabanzas",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000120",
+          "url": "https://music.amazon.com/tracks/B0D461JSZP",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000043",
+      "titulo": "Tu cruz",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000121",
+          "url": "https://music.amazon.com/tracks/B0D45YRPQ2",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000044",
+      "titulo": "Yo amo la cruz",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000122",
+          "url": "https://music.amazon.com/tracks/B0D45ZW51K",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000045",
+      "titulo": "Al cordero de Dios",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000123",
+          "url": "https://music.amazon.com/tracks/B0D45Z8LMV",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000046",
+      "titulo": "Cristo salvador",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000124",
+          "url": "https://music.amazon.com/tracks/B0D461TJXC",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000047",
+      "titulo": "Siento tu amor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000125",
+          "url": "https://music.amazon.com/tracks/B0D4617M92",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000048",
+      "titulo": "Tengo para ti",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000126",
+          "url": "https://music.amazon.com/tracks/B0D45Y9NHC",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000049",
+      "titulo": "Pertenezco a ti",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000127",
+          "url": "https://music.amazon.com/tracks/B0D45ZRL67",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000050",
+      "titulo": "Vencedores",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000128",
+          "url": "https://music.amazon.com/tracks/B0D45WZTD3",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000051",
+      "titulo": "Yo quiero darte gloria",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000129",
+          "url": "https://music.amazon.com/tracks/B0D45Z3QF4",
+          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
     }
   ]
 }
