@@ -48,3 +48,9 @@ dialog{width:min(520px,calc(100% - 32px));border:1px solid #333;border-radius:12
   .song-body{display:grid;grid-template-columns:minmax(0,1fr) 57px;gap:4px 8px}
   .song-bottom{display:flex;grid-column:2;grid-row:1 / 3;justify-content:flex-end;align-items:center}
 }
+
+/* Título e intérprete compactos en una sola línea, con ajuste en pantallas estrechas */
+.song-body h3{grid-column:1;grid-row:1 / 3;display:block;font-weight:normal;font-size:15px;line-height:1.45;overflow-wrap:anywhere}
+.song-inline-artist{font-size:inherit;color:var(--muted)}
+.song-separator{color:var(--muted)}
+@media(max-width:600px){.song-body h3{font-size:14px;line-height:1.4}}
