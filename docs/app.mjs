@@ -1,7 +1,15 @@
 import { filterSongs } from './filter.mjs';
-import { groupLinks } from './links.mjs?v=platforms1';
+import { groupLinks } from './links.mjs?v=media2';
 const $ = selector => document.querySelector(selector);
 let songs = [], category = '';
+function shuffle(input) {
+  const list = [...input];
+  for (let i = list.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [list[i], list[j]] = [list[j], list[i]];
+  }
+  return list;
+}
 const colors = ['#56644f', '#a87956', '#5c536b', '#6b3545', '#657982'];
 const initials = text => text.split(/\s+/).slice(0, 2).map(word => word[0]).join('');
 function element(tag, className, text) { const e = document.createElement(tag); if (className) e.className = className; if (text !== undefined) e.textContent = text; return e; }
@@ -58,7 +66,7 @@ async function load() {
   try {
     const response = await fetch('./catalogo.json', { cache: 'no-cache' }); if (!response.ok) throw new Error('Catálogo no disponible');
     const catalog = await response.json(); if (catalog.schema_version !== 1 || !Array.isArray(catalog.canciones)) throw new Error('Catálogo incompatible');
-    songs = catalog.canciones;
+    songs = shuffle(catalog.canciones);
     const categories = new Map(songs.flatMap(song => song.categorias.map(c => [c.id, c.nombre])));
     $('#categories').querySelectorAll('button:not([data-category=""])').forEach(button => button.remove());
     for (const [id, name] of categories) { const b = element('button', '', name); b.type = 'button'; b.dataset.category = id; b.setAttribute('aria-pressed', 'false'); $('#categories').append(b); }
