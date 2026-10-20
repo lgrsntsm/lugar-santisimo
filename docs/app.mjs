@@ -38,7 +38,7 @@ function render() {
     const index = songs.indexOf(song);
     const card = element('article', 'song-card');
     card.addEventListener('click', event => { if (!event.target.closest('button, a')) showLinks(song); });
-    const body = element('div', 'song-body'); const title = element('h3'); const openTitle = element('button', 'song-title', song.titulo); openTitle.type = 'button'; openTitle.addEventListener('click', () => showLinks(song)); title.append(openTitle); body.append(element('span', 'song-tag', song.categorias.map(c => c.nombre).join(' / ')), title, element('p', 'artists', song.interpretes.map(a => a.nombre).join(' · ')));
+    const body = element('div', 'song-body'); const title = element('h3'); const openTitle = element('button', 'song-title', song.titulo); openTitle.type = 'button'; openTitle.addEventListener('click', () => showLinks(song)); title.append(openTitle, element('span', 'song-separator', ' | '), element('span', 'song-inline-artist', song.interpretes.map(a => a.nombre).join(' · '))); body.append(element('span', 'song-tag', song.categorias.map(c => c.nombre).join(' / ')), title);
     const bottom = element('div', 'song-bottom'); const listen = element('button', 'read-button'); listen.type = 'button';
     const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); icon.setAttribute('viewBox', '0 0 24 24'); icon.setAttribute('aria-hidden', 'true');
     const path = document.createElementNS('http://www.w3.org/2000/svg', 'path'); path.setAttribute('d', 'M12 5v15M12 5C8 2 3 4 3 4v14s5-2 9 2c4-4 9-2 9-2V4s-5-2-9 1Z'); icon.append(path);
