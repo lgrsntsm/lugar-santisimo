@@ -25,3 +25,26 @@ dialog{width:min(520px,calc(100% - 32px));border:1px solid #333;border-radius:12
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 
 .link-item{margin:8px 0 12px}.link-item .platform-link{margin:0}.report-link{display:inline-block;color:#ababab;font-size:11px;padding:7px 4px 3px;text-decoration:underline;text-underline-offset:2px}.report-link:hover{color:var(--accent)}
+
+/* Catálogo: tarjetas compactas sin círculos decorativos */
+.song-grid{gap:10px}
+.song-card{
+  display:block;
+  min-height:0;
+  padding:14px 16px;
+  background:#272727;
+  border:1px solid #393939;
+  border-radius:11px;
+}
+.song-card:hover,.song-card:focus-within{background:#303030;border-color:#555}
+.song-cover{display:none}
+.song-body{grid-template-columns:minmax(0,1fr) 100px 85px;gap:4px 12px}
+.song-title,#dialog-title{color:var(--accent)}
+.song-title:hover{color:#cff1d9}
+@media(max-width:900px){.song-body{grid-template-columns:minmax(0,1fr) 75px}}
+@media(max-width:600px){
+  .song-grid{gap:9px}
+  .song-card{padding:12px 13px}
+  .song-body{display:grid;grid-template-columns:minmax(0,1fr) 57px;gap:4px 8px}
+  .song-bottom{display:flex;grid-column:2;grid-row:1 / 3;justify-content:flex-end;align-items:center}
+}
