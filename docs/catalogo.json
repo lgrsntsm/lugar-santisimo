@@ -2038,6 +2038,428 @@
           "oficial": false
         }
       ]
+    },
+    {
+      "id": "CAN-000052",
+      "titulo": "El aire de tu casa",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000169",
+          "url": "https://open.spotify.com/intl-es/track/2UsPksUedNa1Ok0GfPOJYv",
+          "plataforma": "Spotify · El aire de tu casa (Jesús Adrián Romero)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000170",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/el-aire-de-tu-casa/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000171",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/el-aire-de-tu-casa/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000053",
+      "titulo": "Mi universo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000172",
+          "url": "https://open.spotify.com/track/68B7xUe42YHo2sf0ZdlG6x",
+          "plataforma": "Spotify · Mi universo (2005)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000173",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/mi-universo/twwkhp.html",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000174",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/mi-universo/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000054",
+      "titulo": "Espérame",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000175",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/esperame/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000055",
+      "titulo": "Aquí estoy",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000176",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/556942/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000056",
+      "titulo": "No es como yo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000177",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/no-es-como-yo/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000178",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/no-es-como-yo/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000057",
+      "titulo": "Mi corazón te canta",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000179",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/mi-corazon-te-canta/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000180",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/mi-corazon-te-canta/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000058",
+      "titulo": "Te veo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000181",
+          "url": "https://open.spotify.com/track/19J5P1LE5pijpdtz4mStQG",
+          "plataforma": "Spotify · Te veo (2005)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000182",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/te-veo/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000059",
+      "titulo": "Mi herencia",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000183",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/mi-herencia/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000184",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/mi-herencia/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000060",
+      "titulo": "Me dice que me ama",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000185",
+          "url": "https://open.spotify.com/track/5Q175erZOZJZHKaZzJFYDN",
+          "plataforma": "Spotify · Me dice que me ama",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000186",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/me-dice-que-me-amas/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000187",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/546863/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000061",
+      "titulo": "Es por tu gracia",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000188",
+          "url": "https://open.spotify.com/track/4Ld1sh3fj7iqmqrXcbDUDO",
+          "plataforma": "Spotify · Es por tu gracia (versión Colección Adoración II)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000189",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/es-por-tu-gracia/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000190",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/es-por-tu-gracia/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000062",
+      "titulo": "De ti dependo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000191",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/de-ti-dependo/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000192",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/de-ti-dependo/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000063",
+      "titulo": "Pegao a ti",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000010",
+          "nombre": "Jesús Adrián Romero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000193",
+          "url": "https://www.cifraclub.com/jesus-adrian-romero/pegado-ti/",
+          "plataforma": "Cifra Club · Acordes (Pegado a ti)",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000194",
+          "url": "https://www.musica.com/letras.asp?letra=944061",
+          "plataforma": "Música.com · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
     }
   ]
 }
