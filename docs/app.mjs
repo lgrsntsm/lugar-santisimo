@@ -1,5 +1,5 @@
 import { filterSongs } from './filter.mjs';
-import { groupLinks } from './links.mjs?v=media2';
+import { groupLinks } from './links.mjs?v=media3';
 const $ = selector => document.querySelector(selector);
 let songs = [], category = '';
 function shuffle(input) {
