@@ -1,5 +1,5 @@
 import { filterSongs } from './filter.mjs';
-import { groupLinks } from './links.mjs';
+import { groupLinks } from './links.mjs?v=textlyrics1';
 const $ = selector => document.querySelector(selector);
 let songs = [], category = '';
 const colors = ['#56644f', '#a87956', '#5c536b', '#6b3545', '#657982'];

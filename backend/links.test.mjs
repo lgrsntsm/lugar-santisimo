@@ -1,6 +1,17 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { groupLinks } from '../docs/links.mjs';
+test('Letra excluye videos mal clasificados y conserva páginas de texto', () => {
+  const groups = groupLinks([
+    { tipo: 'letra', oficial: true, url: 'https://www.youtube.com/watch?v=CSd-I2LUGv0' },
+    { tipo: 'letra', url: 'https://youtu.be/CSd-I2LUGv0' },
+    { tipo: 'letra', url: 'https://vimeo.com/12345' },
+    { tipo: 'letra', url: 'https://example.com/lyric.mp4' },
+    { tipo: 'letra', url: 'https://www.cifraclub.com/marcos-witt/renuevame/letra/' },
+  ]);
+  assert.equal(groups.letra.length, 1);
+  assert.equal(new URL(groups.letra[0].url).hostname, 'www.cifraclub.com');
+});
 test('hasta tres audios y tres videos independientes con oficiales primero', () => {
   const links = ['audio', 'video'].flatMap(tipo => Array.from({ length: 5 }, (_, i) => ({ tipo, oficial: i === 4, url: `https://example.com/${tipo}/${i}` })));
   const groups = groupLinks(links);
