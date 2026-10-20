@@ -1,5 +1,4 @@
-// Solo mostrar medios de las plataformas prioritarias.
-// Amazon y Apple Music permanecen en Sheets y catálogo para una etapa posterior.
+// Spotify y YouTube Music primero; otros audios como Apple y Amazon también visibles.
 export function isTextLyricsUrl(value) {
   let url;
   try { url = new URL(value); } catch { return false; }
@@ -31,7 +30,7 @@ export function groupLinks(links = []) {
     if (service === 'youtube' && (type === 'audio' || type === 'video')) type = 'video';
     if (service === 'youtube-music' && (type === 'audio' || type === 'video')) type = 'audio';
     if (service === 'spotify' && (type === 'audio' || type === 'video')) type = 'audio';
-    if (type === 'audio' && !['youtube-music', 'spotify'].includes(service)) continue;
+    // Conservar también las plataformas de audio alternativas.
     if (type === 'video' && service !== 'youtube') continue;
     if (type === 'letra' && !isTextLyricsUrl(url.href)) continue;
     if (!Object.hasOwn(groups, type)) continue;
@@ -41,9 +40,9 @@ export function groupLinks(links = []) {
     groups[type].push({ ...link, tipo: type, url: url.href });
   }
   const officialFirst = (a, b) => Number(b.oficial === true) - Number(a.oficial === true);
-  groups.audio.sort((a, b) => officialFirst(a, b) || (platform(new URL(a.url)) === 'youtube-music' ? -1 : 0) - (platform(new URL(b.url)) === 'youtube-music' ? -1 : 0));
+  const audioPriority = link => { const service = platform(new URL(link.url)); return service === 'spotify' ? 0 : service === 'youtube-music' ? 1 : 2; };
+  groups.audio.sort((a, b) => audioPriority(a) - audioPriority(b) || officialFirst(a, b));
   groups.video.sort(officialFirst);
-  groups.audio = groups.audio.slice(0, 3);
   groups.video = groups.video.slice(0, 3);
   return groups;
 }
