@@ -1412,6 +1412,13 @@
           "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
           "tipo": "audio",
           "oficial": false
+        },
+        {
+          "id": "ENL-000130",
+          "url": "https://www.youtube.com/watch?v=nd5RePtbH9g",
+          "plataforma": "YouTube · Perfume de Alabanza (en vivo)",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
@@ -1493,6 +1500,13 @@
           "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
           "tipo": "audio",
           "oficial": false
+        },
+        {
+          "id": "ENL-000131",
+          "url": "https://www.youtube.com/watch?v=5Mt6l_nNNN4",
+          "plataforma": "YouTube · Perfume de Alabanza (Montserrat Pradas)",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
@@ -1520,6 +1534,13 @@
           "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
           "tipo": "audio",
           "oficial": false
+        },
+        {
+          "id": "ENL-000135",
+          "url": "https://open.spotify.com/intl-id/track/0HpQutrwKvDQsBdUCMrlTC",
+          "plataforma": "Spotify · Alabanzas (1995)",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
@@ -1655,6 +1676,27 @@
           "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
           "tipo": "audio",
           "oficial": false
+        },
+        {
+          "id": "ENL-000132",
+          "url": "https://www.youtube.com/watch?v=zbgTseV_31M",
+          "plataforma": "YouTube · Ríos de Vida (video con letra)",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000133",
+          "url": "https://www.youtube.com/watch?v=_1RYsYd_1XU",
+          "plataforma": "YouTube · Perfume de Alabanza Topic (1995)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000134",
+          "url": "https://open.spotify.com/track/3PcMZsJ4cAFSmGqVpzufAf",
+          "plataforma": "Spotify · Siento tu amor (1995)",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
