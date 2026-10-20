@@ -1,9 +1,14 @@
 # Lugar Santísimo · base de datos para la web
 
-Backend de exportación y primera web estática. El directorio `docs/` contiene la
-versión de prueba con cinco canciones, búsqueda, categorías y favoritas locales.
+Backend de exportación y web estática. El directorio `docs/` contiene el
+catálogo público con Renuévame, búsqueda, categorías y fichas de enlaces; sin favoritas.
 Está preparado para GitHub Pages desde la rama `main`, carpeta `/docs`.
 No hay credenciales en el repositorio ni conexión automática con Google activada.
+
+Estado al 20 de octubre de 2026: hay 31 canciones adicionales de Marcos Witt
+en borrador en Google Sheets, pendientes de aprobación explícita para publicar.
+Ver [TRASPASO.md](TRASPASO.md) para continuar el proyecto y
+[metadatos pendientes](handoff/marcos-witt-pendientes.json) para recuperar el lote.
 
 Flujo previsto: Google Sheets privada → validación y revisión → catálogo JSON → web.
 La web usa el JSON en GitHub Pages. Las credenciales de Google nunca
