@@ -19,15 +19,15 @@ function showLinks(song) {
       a.append(label, element('span', '', '↗')); section.append(a);
     }
     if (!groups[type].length) section.append(element('p', 'detail-empty', 'Sin información encontrada.'));
-    if (groups[type].length) {
-      const report = element('a', 'report-link', '¿Enlace roto?');
-      const options = groups[type].map((link, i) => `${i + 1}. ${link.plataforma}: ${link.url}`).join('\n');
-      report.href = `mailto:lgrsntsm@gmail.com?subject=${encodeURIComponent('Lugar Santísimo · Reportar enlace roto')}&body=${encodeURIComponent(`Canción: ${song.titulo}\nSección: ${heading}\n\nIndicá cuál de estos enlaces no funciona:\n${options}\n\nEnlace roto (número o plataforma): `)}`;
-      report.setAttribute('aria-label', `Reportar enlace roto en ${heading} de ${song.titulo}`);
-      section.append(report);
-    }
     $('#dialog-links').append(section);
   }
+  const report = element('a', 'report-link report-song', '¿Enlace roto?');
+  const options = [['audio', 'Audio'], ['video', 'Video'], ['letra', 'Letra']]
+    .flatMap(([type, name]) => groups[type].map((link, index) => `${name} ${index + 1}: ${link.plataforma} — ${link.url}`))
+    .join('\n');
+  report.href = `mailto:lgrsntsm@gmail.com?subject=${encodeURIComponent('Lugar Santísimo · Reportar enlace roto')}&body=${encodeURIComponent(`Canción: ${song.titulo}\n\nIndicá qué enlace no funciona:\n${options}\n\nEnlace roto (sección y número o plataforma): `)}`;
+  report.setAttribute('aria-label', `Reportar un enlace roto de ${song.titulo}`);
+  $('#dialog-links').append(report);
   $('#song-dialog').showModal();
 }
 function render() {
