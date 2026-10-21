@@ -39,16 +39,38 @@ function showLinks(song) {
     const section = element('section', 'detail-section');
     const h = element('h3', 'detail-heading', heading); h.id = `detail-${type}`; section.setAttribute('aria-labelledby', h.id); section.append(h);
     for (const link of groups[type]) {
+      const item = element('div', 'platform-item');
       const a = element('a', 'platform-link'); a.href = link.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      const original = String(link.plataforma || '').trim();
+      const parts = original.split(/\s*[·—]\s*/);
+      const source = parts[0] || 'Abrir enlace';
+      const detail = parts.slice(1).join(' · ');
+      const title = song.titulo || 'Canción';
+      const hasTitle = detail.toLocaleLowerCase('es').includes(title.toLocaleLowerCase('es'));
+      const extra = detail && !hasTitle && !/^(letra|acordes?|audio|video|enlace oficial)$/i.test(detail) ? ' · ' + detail : '';
+      const text = source + ' · ' + title + extra;
       const label = element('span', 'platform-label');
-      label.append(element('strong', '', link.plataforma || 'Abrir enlace'));
+      label.append(element('strong', '', text));
+      a.append(label, element('span', '', '↗'));
+      item.append(a);
       if (link.oficial === true) {
-        const verified = element('span', 'verified-link', '✓');
-        verified.title = 'Fuente oficial verificada';
-        verified.setAttribute('aria-label', 'Fuente oficial verificada');
-        label.append(verified);
+        const verified = element('button', 'verified-link', '✓');
+        verified.type = 'button';
+        verified.setAttribute('aria-label', 'Mostrar información del enlace oficial');
+        verified.setAttribute('aria-expanded', 'false');
+        const tooltip = element('span', 'verified-tooltip', 'Link oficial');
+        tooltip.setAttribute('role', 'tooltip');
+        tooltip.hidden = true;
+        verified.addEventListener('click', () => {
+          const wasOpen = !tooltip.hidden;
+          $('#dialog-links').querySelectorAll('.verified-tooltip').forEach(t => { t.hidden = true; });
+          $('#dialog-links').querySelectorAll('.verified-link[aria-expanded]').forEach(b => b.setAttribute('aria-expanded', 'false'));
+          tooltip.hidden = wasOpen;
+          verified.setAttribute('aria-expanded', String(!wasOpen));
+        });
+        item.append(verified, tooltip);
       }
-      a.append(label, element('span', '', '↗')); section.append(a);
+      section.append(item);
     }
     if (!groups[type].length) section.append(element('p', 'detail-empty', 'Sin información encontrada.'));
     $('#dialog-links').append(section);
