@@ -150,3 +150,22 @@ Los borradores actuales también están guardados en Google Sheets y su copia de
 6. **Consistencia de publicación:** Sheets es la fuente editable; GitHub `docs/catalogo.json` se actualiza después de aprobaciones. Reutilizar intérpretes y canciones existentes y validar concordancia de IDs/enlaces antes de declarar publicación completa.
 
 Estas reglas reemplazan las antiguas menciones a publicar únicamente una selección icónica cuando el usuario ahora ha pedido discografías completas.
+
+
+## Fuentes adicionales suministradas por el usuario (21/10/2026)
+
+Estas 11 URLs se usarán para la investigación de links por canción, sin sumar metadatos ni alojar contenido ajeno:
+
+- Himnos y Canciones: https://himnosycanciones.com/ — letras, himnos y acordes para diversos instrumentos.
+- AcordesWeb: https://acordesweb.com/artista/musica-cristiana — canciones cristianas con acordes; comprobar intérprete individual.
+- TuCuatro: https://tucuatro.com/es/cancion/genero/cristiana/ — letras y acordes para instrumentos.
+- Notas y Acordes: https://notasyacordes.com/ — notas, acordes y PDF externos individuales.
+- AcordesCristianos: https://www.acordescristianos.com/ — letras y acordes; comprobar páginas individuales.
+- CanZion en YouTube: https://www.youtube.com/@CanZion1 — videos/audio; comprobar procedencia del canal y derechos de cada grabación.
+- Textos Apostólicos: https://textosapostolicos.com/ — letras, acordes, himnos y coros.
+- Himnos y Cánticos del Evangelio: https://www.himnosycanticosdelevangelio.org/himnos/ — himnario.
+- Generación Pentecostal: https://www.generacionpentecostal.com/letras-de-canciones/ — letras (verificar URL antes de usar).
+- Reawaken Hymns Español: https://www.reawakenhymns.com/espanol — himnos; página pendiente de revisión individual.
+- Música.com cristiana: https://www.musica.com/letras.asp?letras=16677 — letras.
+
+Criterio: abrir el enlace INDIVIDUAL por canción, validar artista, versión y destino, deduplicar por URL y tipo. Ninguna de estas fuentes recibe sello oficial automáticamente; el check verde requiere una fuente primaria demostrable (artista, sello, distribuidora autorizada). Mantener únicamente Audio, Video, Letra y Acordes. Nunca copiar letras, partituras, audio ni video al repositorio. Las fuentes son para búsqueda continua, no prueba de discografía completada.
