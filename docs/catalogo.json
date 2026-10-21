@@ -2127,6 +2127,13 @@
           "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
           "tipo": "audio",
           "oficial": false
+        },
+        {
+          "id": "ENL-000278",
+          "url": "https://www.youtube.com/watch?v=i8mOho3-Rfk",
+          "plataforma": "YouTube · Perfume de Alabanza (Heaven Network)",
+          "tipo": "video",
+          "oficial": true
         }
       ]
     },
