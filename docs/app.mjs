@@ -119,12 +119,19 @@ function render() {
       });
       cardTags.append(tag);
     }
-    body.append(cardTags, title);
-    const bottom = element('div', 'song-bottom'); const listen = element('button', 'read-button'); listen.type = 'button';
-    const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); icon.setAttribute('viewBox', '0 0 24 24'); icon.setAttribute('aria-hidden', 'true');
-    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path'); path.setAttribute('d', 'M12 5v15M12 5C8 2 3 4 3 4v14s5-2 9 2c4-4 9-2 9-2V4s-5-2-9 1Z'); icon.append(path);
-    listen.append(icon, element('span', '', 'Leer')); listen.setAttribute('aria-label', `Leer enlaces de ${song.titulo}`); listen.addEventListener('click', () => showLinks(song));
-    bottom.append(listen); if (song.enlaces.some(link => link.oficial)) bottom.append(element('span', 'official', 'Enlace oficial'));
+    body.append(title);
+    const bottom = element('div', 'song-bottom');
+    const listen = element('button', 'read-button'); listen.type = 'button';
+    const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    icon.setAttribute('viewBox', '0 0 24 24'); icon.setAttribute('aria-hidden', 'true');
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', 'M9 6.5a1 1 0 0 1 1.5-.86l9.1 5.5a1 1 0 0 1 0 1.72l-9.1 5.5A1 1 0 0 1 9 17.5z');
+    icon.append(path);
+    listen.append(icon);
+    listen.setAttribute('aria-label', `Abrir enlaces de ${song.titulo}`);
+    listen.title = 'Abrir canción';
+    listen.addEventListener('click', () => showLinks(song));
+    bottom.append(cardTags, listen);
     body.append(bottom); card.append(body); $('#songs').append(card);
   }
 }
