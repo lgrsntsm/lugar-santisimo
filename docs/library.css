@@ -229,3 +229,11 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   .song-card .read-button{width:39px;height:39px;min-width:39px;flex-basis:39px}
   .song-card .song-category-chip{font-size:10px;padding:5px 8px}
 }
+
+/* Play compacto: círculo blanco en ambos temas. */
+.song-card .read-button{flex:0 0 32px;width:32px;height:32px;min-width:32px;background:#fff;color:#5481a4;border:1px solid #dce5ea;box-shadow:0 1px 3px #00000012}
+.song-card .read-button svg{width:19px;height:19px}
+.song-card .read-button:hover{background:#f5f9ff;color:#386785}
+:root[data-theme="dark"] .song-card .read-button{background:#fff;color:#5481a4;border-color:#e2e8ed}
+:root[data-theme="dark"] .song-card .read-button:hover{background:#f5f9ff;color:#386785}
+@media(max-width:600px){.song-card .read-button{flex-basis:30px;width:30px;height:30px;min-width:30px}.song-card .read-button svg{width:18px;height:18px}}
