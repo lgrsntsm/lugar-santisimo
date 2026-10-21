@@ -108,6 +108,13 @@
           "plataforma": "Cifra Club · Acordes de Tu fidelidad",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000260",
+          "url": "https://www.secuencias.com/songs/Marcos-Witt/25-Concierto-Conmemorativo/Tu-Fidelidad/",
+          "plataforma": "Secuencias.com · Letra (25 Concierto Conmemorativo)",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
@@ -292,6 +299,27 @@
           "url": "https://www.cifraclub.com/marcos-witt/dios-de-pactos/",
           "plataforma": "Cifra Club · Acordes de Dios de pactos",
           "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000261",
+          "url": "https://www.secuencias.com/songs/Director-Creativo/Dios-De-Pactos/Dios-De-Pactos/overview/",
+          "plataforma": "Secuencias.com · Letra (versión Director Creativo)",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000262",
+          "url": "https://www.e-chords.com/chords/marcos-witt/dios-de-pactos",
+          "plataforma": "E-Chords · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000263",
+          "url": "https://www.e-chords.com/chords/marcos-witt/dios-de-pactos",
+          "plataforma": "E-Chords · Letra con acordes",
+          "tipo": "letra",
           "oficial": false
         }
       ]
@@ -2181,6 +2209,20 @@
           "plataforma": "Cifra Club · Letra",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000264",
+          "url": "https://www.e-chords.com/es/acordes/jesus-adrian-romero/mi-universo",
+          "plataforma": "E-Chords · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000265",
+          "url": "https://www.e-chords.com/es/acordes/jesus-adrian-romero/mi-universo",
+          "plataforma": "E-Chords · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
@@ -2962,6 +3004,13 @@
           "plataforma": "Cifra Club · Acordes simplificados",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000266",
+          "url": "https://www.secuencias.com/songs/Christine-D%27Clario/Eterno-Live/Como-Dijiste/",
+          "plataforma": "Secuencias.com · Letra (Eterno Live)",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
@@ -3001,6 +3050,13 @@
           "id": "ENL-000229",
           "url": "https://www.cifraclub.com/hillsong-en-espaol/oceanos-donde-mis-pies-pueden-fallar/letra/",
           "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000267",
+          "url": "https://www.secuencias.com/songs/Hillsong/Zion/Oceans-%28Where-Feet-May-Fail%29/overview/",
+          "plataforma": "Secuencias.com · Letra (versión Hillsong)",
           "tipo": "letra",
           "oficial": false
         }
@@ -3050,6 +3106,13 @@
           "url": "https://www.cifraclub.com/elevation-worship/tumbas-a-jardines/simplificada.html",
           "plataforma": "Cifra Club · Acordes simplificados",
           "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000268",
+          "url": "https://www.secuencias.com/songs/Elevation-Worship/Tumbas-a-Jardines/Tumbas-A-Jardines-%28Graves-Into-Gardens%29-ft.-Brandon-Lake-/custommix/",
+          "plataforma": "Secuencias.com · Letra (Elevation Español, Brandon Lake)",
+          "tipo": "letra",
           "oficial": false
         }
       ]
@@ -3249,6 +3312,13 @@
           "plataforma": "Cifra Club · Otra versión de acordes",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000269",
+          "url": "https://www.secuencias.com/songs/Miel-San-Marcos/Agradecido/No-Hay-Lugar-M%C3%A1s-Alto/",
+          "plataforma": "Secuencias.com · Letra (Agradecido)",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
@@ -3282,6 +3352,13 @@
           "url": "https://www.cifraclub.com/miel-san-marcos/increible/",
           "plataforma": "Cifra Club · Acordes",
           "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000270",
+          "url": "https://www.secuencias.com/songs/Miel-San-Marcos/Agradecido/Incre%C3%ADble/",
+          "plataforma": "Secuencias.com · Letra (Agradecido)",
+          "tipo": "letra",
           "oficial": false
         }
       ]
