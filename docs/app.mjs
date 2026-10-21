@@ -1,5 +1,5 @@
 import { filterSongs } from './filter.mjs';
-import { groupLinks } from './links.mjs?v=acordes1';
+import { groupLinks } from './links.mjs?v=verified1';
 const $ = selector => document.querySelector(selector);
 let songs = [], category = '';
 const themeButton = $('#theme-toggle');
