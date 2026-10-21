@@ -138,3 +138,15 @@ Los borradores actuales también están guardados en Google Sheets y su copia de
 - La función «¿Enlace roto?» en la página **todavía es mailto**, no un reporte automatizado. El usuario pidió checkbox por canción, cinco reportes/IP/día y registrar en Sheets; para el límite por IP y la escritura hace falta backend/autorización de despliegue. No declarar implementado.
 - Los audios de Spotify y YouTube Music van primero; otros servicios como Apple Music y Amazon aparecen después. Los videos de YouTube van en Video y páginas de letra escrita en Letra. Una página de acordes puede aparecer tanto en Letra como Acordes solo cuando contenga texto de ambas funciones.
 - No alojar audio/video/letras/acordes localmente, solo URLs externas.
+
+
+## Premisas obligatorias de catalogación — decisión del usuario, octubre de 2026
+
+1. **Discografías completas:** cuando el usuario pide trabajar un intérprete, investigar su catálogo **completo**, no una selección de cinco temas exitosos. Avanzar por álbumes, sencillos, colaboraciones y versiones, contrastando catálogos, sin dar un lote parcial por terminado. Informar claramente qué cobertura está hecha y qué falta. No inventar pistas para llenar huecos.
+2. **Todas las fuentes útiles por canción:** buscar individualmente Audio (Spotify, YouTube Music, Apple Music, Amazon Music), Video (YouTube), Letra y Acordes (Cifra Club, LaCuerda, Música.com, Musixmatch, Cancioneros, E-Chords, Chordify cuando aplique, sitios oficiales, etc.). Incorporar múltiples alternativas verificadas, sin limitar Letra/Acordes a un resultado, sin duplicados y distinguiendo versiones.
+3. **Fuentes oficiales primero:** cada plataforma se investiga desde sitio, perfil, canal o distribuidor oficial comprobado. Priorizar grabaciones originales y etiquetar en vivo, covers y otras versiones. No deducir oficialidad solo por el dominio de Spotify/YouTube/Apple/Amazon ni por un canal Topic sin contrastar procedencia.
+4. **Check verde de oficialidad:** en la web, enlaces con `oficial: true` reciben check circular verde y se ordenan primero en su sección. Este valor proviene de `Enlaces.es_oficial` de Sheets. Auditar los indicadores heredados gradualmente: no asumir que toda etiqueta histórica ha sido comprobada al mismo nivel. Los enlaces de terceros confiables siguen sin check.
+5. **Sin agregar metadatos al sitio:** la ficha mantiene solo Audio, Video, Letra y Acordes. No añadir año, álbum, compositor ni nuevas columnas por iniciativa propia. Seguir alojando solo información y URL externas, nunca contenido musical.
+6. **Consistencia de publicación:** Sheets es la fuente editable; GitHub `docs/catalogo.json` se actualiza después de aprobaciones. Reutilizar intérpretes y canciones existentes y validar concordancia de IDs/enlaces antes de declarar publicación completa.
+
+Estas reglas reemplazan las antiguas menciones a publicar únicamente una selección icónica cuando el usuario ahora ha pedido discografías completas.
