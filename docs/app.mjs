@@ -7,7 +7,6 @@ function updateThemeButton() {
   const dark = document.documentElement.dataset.theme === 'dark';
   themeButton.setAttribute('aria-pressed', String(dark));
   themeButton.setAttribute('aria-label', dark ? 'Activar modo claro' : 'Activar modo oscuro');
-  themeButton.querySelector('.theme-toggle-icon').textContent = dark ? '☀' : '☾';
   themeButton.querySelector('.theme-toggle-label').textContent = dark ? 'Claro' : 'Oscuro';
   const themeMeta = document.querySelector('meta[name="theme-color"]');
   if (themeMeta) themeMeta.content = dark ? '#121212' : '#f8f5ef';
