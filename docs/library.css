@@ -260,3 +260,20 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 }
 .song-card .song-bottom .read-button svg{flex:none;width:16px;height:16px;transform:translateX(1px)}
 @media(max-width:600px){.song-card .song-bottom .read-button{flex-basis:34px;inline-size:34px;block-size:34px;min-inline-size:34px;min-block-size:34px}}
+
+/* Solo el triángulo play, sin círculo, relleno ni borde. */
+.song-card .song-bottom .read-button,
+:root[data-theme="dark"] .song-card .song-bottom .read-button{
+  background:transparent;
+  border:0;
+  border-radius:0;
+  box-shadow:none;
+  overflow:visible;
+  color:#8cbbda;
+}
+.song-card .song-bottom .read-button:hover,
+:root[data-theme="dark"] .song-card .song-bottom .read-button:hover{
+  background:transparent;
+  color:#689fc7;
+}
+.song-card .song-bottom .read-button svg{width:22px;height:22px}
