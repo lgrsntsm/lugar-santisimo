@@ -2963,6 +2963,13 @@
           "plataforma": "Cifra Club · Acordes",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000274",
+          "url": "https://www.youtube.com/watch?v=AB2x_DII3W0",
+          "plataforma": "YouTube · Video oficial de Marcela Gándara",
+          "tipo": "video",
+          "oficial": true
         }
       ]
     },
@@ -3011,6 +3018,13 @@
           "plataforma": "Secuencias.com · Letra (Eterno Live)",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000275",
+          "url": "https://www.youtube.com/watch?v=3uUJCvdbH3k",
+          "plataforma": "YouTube · Video oficial de Christine D’Clario",
+          "tipo": "video",
+          "oficial": true
         }
       ]
     },
@@ -3114,6 +3128,20 @@
           "plataforma": "Secuencias.com · Letra (Elevation Español, Brandon Lake)",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000276",
+          "url": "https://www.youtube.com/watch?v=fJtXIo4f9RE",
+          "plataforma": "YouTube · Video lyric oficial (Miel San Marcos feat. Elevation Worship)",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000277",
+          "url": "https://www.youtube.com/watch?v=ikSpWWr9Dog",
+          "plataforma": "YouTube · Video oficial (Christine D’Clario y Elevation Worship, en vivo)",
+          "tipo": "video",
+          "oficial": true
         }
       ]
     },
