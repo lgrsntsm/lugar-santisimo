@@ -3053,6 +3053,388 @@
           "oficial": false
         }
       ]
+    },
+    {
+      "id": "CAN-000080",
+      "titulo": "Eres Todopoderoso",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000014",
+          "nombre": "Danilo Montero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000234",
+          "url": "https://open.spotify.com/intl-es/track/5bKVv8AT1jG2KhDA6pBRAB",
+          "plataforma": "Spotify · Eres Todo Poderoso (recopilación de 2014)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000235",
+          "url": "https://www.cifraclub.com/danilo-montero/poderoso/letra/",
+          "plataforma": "Cifra Club · Letra (Poderoso)",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000236",
+          "url": "https://www.cifraclub.com/danilo-montero/todo-poderoso/zkhptw.html",
+          "plataforma": "Cifra Club · Acordes (Todo Poderoso)",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000081",
+      "titulo": "En tu presencia",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000014",
+          "nombre": "Danilo Montero",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000237",
+          "url": "https://www.cifraclub.com/danilo-montero/en-tu-presencia/letra/",
+          "plataforma": "Cifra Club · Letra de En tu presencia",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000082",
+      "titulo": "Sueño de morir",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000015",
+          "nombre": "Alex Campos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000238",
+          "url": "https://www.cifraclub.com/alex-campos/sueo-de-morir/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000239",
+          "url": "https://www.cifraclub.com/alex-campos/sueo-de-morir/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000083",
+      "titulo": "Al taller del maestro",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000015",
+          "nombre": "Alex Campos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000240",
+          "url": "https://www.cifraclub.com/alex-campos/al-taller-del-maestro/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000241",
+          "url": "https://www.cifraclub.com/alex-campos/al-taller-del-maestro/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000242",
+          "url": "https://www.cifraclub.com/alex-campos/el-taller-del-maestro/",
+          "plataforma": "Cifra Club · Otra versión de acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000084",
+      "titulo": "No hay lugar más alto",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000243",
+          "url": "https://open.spotify.com/track/6cE4pXUugIVTs68iMfAB6Q",
+          "plataforma": "Spotify · Ambientes de Adoración (2019)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000244",
+          "url": "https://open.spotify.com/track/7EYO8VrrjWM8MHVkHYYs5j",
+          "plataforma": "Spotify · Dios en Casa (2022)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000245",
+          "url": "https://www.cifraclub.com/miel-san-marcos/no-hay-lugar-mas-alto/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000246",
+          "url": "https://www.cifraclub.com/miel-san-marcos/no-hay-lugar-mas-alto/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000247",
+          "url": "https://www.cifraclub.com/miel-san-marcos/no-hay-lugar-mas-alto/wswsww.html",
+          "plataforma": "Cifra Club · Otra versión de acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000085",
+      "titulo": "Increíble",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000248",
+          "url": "https://www.cifraclub.com/miel-san-marcos/increible/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000249",
+          "url": "https://www.cifraclub.com/miel-san-marcos/increible/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000086",
+      "titulo": "Venga tu reino",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000006",
+          "nombre": "Marco Barrientos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000250",
+          "url": "https://www.cifraclub.com/marco-barrientos/venga-tu-reino/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000251",
+          "url": "https://www.cifraclub.com/marco-barrientos/venga-tu-reino/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000087",
+      "titulo": "Padre nuestro",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000006",
+          "nombre": "Marco Barrientos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000252",
+          "url": "https://www.cifraclub.com/marco-barrientos/padre-nuestro/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000088",
+      "titulo": "Al final",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000016",
+          "nombre": "Lilly Goodman",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000253",
+          "url": "https://open.spotify.com/track/7DiE6uMPyWO5e9J7vsvwIx",
+          "plataforma": "Spotify · Alabanzas del Alma (2014)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000254",
+          "url": "https://www.cifraclub.com/lilly-goodman/al-final/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000255",
+          "url": "https://www.cifraclub.com/lilly-goodman/al-final/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000256",
+          "url": "https://www.cifraclub.com/lilly-goodman/al-final/tttkmj.html",
+          "plataforma": "Cifra Club · Otra versión de acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000089",
+      "titulo": "Ven, te necesito",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000016",
+          "nombre": "Lilly Goodman",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000257",
+          "url": "https://www.cifraclub.com/lilly-goodman/635964/letra/",
+          "plataforma": "Cifra Club · Letra (con Jesús Adrián Romero)",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000258",
+          "url": "https://www.cifraclub.com/lilly-goodman/ven-te-necesito/tttkwk.html",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000259",
+          "url": "https://www.cifraclub.com/lilly-goodman/ven-te-necesito/tttkzs.html",
+          "plataforma": "Cifra Club · Otra versión de acordes",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
     }
   ]
 }
