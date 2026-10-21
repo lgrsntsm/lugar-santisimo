@@ -237,3 +237,26 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 :root[data-theme="dark"] .song-card .read-button{background:#fff;color:#5481a4;border-color:#e2e8ed}
 :root[data-theme="dark"] .song-card .read-button:hover{background:#f5f9ff;color:#386785}
 @media(max-width:600px){.song-card .read-button{flex-basis:30px;width:30px;height:30px;min-width:30px}.song-card .read-button svg{width:18px;height:18px}}
+
+/* Play circular real: tamaño fijo, sin estiramiento ni deformación. */
+.song-card .song-bottom .read-button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 34px;
+  inline-size:34px;
+  block-size:34px;
+  min-inline-size:34px;
+  min-block-size:34px;
+  max-inline-size:34px;
+  max-block-size:34px;
+  aspect-ratio:1 / 1;
+  border-radius:9999px;
+  padding:0;
+  background:#fff;
+  border:1px solid #d5e1e7;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+.song-card .song-bottom .read-button svg{flex:none;width:16px;height:16px;transform:translateX(1px)}
+@media(max-width:600px){.song-card .song-bottom .read-button{flex-basis:34px;inline-size:34px;block-size:34px;min-inline-size:34px;min-block-size:34px}}
