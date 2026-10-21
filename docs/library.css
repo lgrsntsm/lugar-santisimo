@@ -212,3 +212,20 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 :root[data-theme="dark"] .song-category-chip:hover,:root[data-theme="dark"] .song-category-chip:focus-visible{background:#33513a;border-color:#8cbe96}
 @media(max-width:900px){.song-tag{display:flex;grid-column:1;grid-row:2}.song-body h3{grid-row:1}.song-bottom{grid-row:1 / 3}}
 @media(max-width:600px){.song-tag{display:flex;grid-column:1;grid-row:2}.song-category-chip{font-size:10px;padding:4px 9px}}
+
+/* Tarjetas: categorías a la derecha y acceso circular tipo play azul pastel. */
+.song-card .song-body{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px;min-width:0}
+.song-card .song-body h3{grid-column:1;grid-row:1;min-width:0}
+.song-card .song-bottom{grid-column:2;grid-row:1;display:flex;justify-content:flex-end;align-items:center;gap:10px;min-width:0}
+.song-card .song-tag{grid-column:auto;grid-row:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:5px;min-width:0}
+.song-card .read-button{display:grid;place-items:center;flex:0 0 42px;width:42px;height:42px;min-width:42px;border:0;border-radius:50%;padding:0;background:#d5eaff;color:#5189bf;transition:background .15s,transform .15s}
+.song-card .read-button svg{width:24px;height:24px;fill:currentColor;stroke:none;display:block}
+.song-card .read-button:hover{background:#bcddff;color:#346d9f;transform:scale(1.04)}
+:root[data-theme="dark"] .song-card .read-button{background:#cee5ff;color:#3f78af}
+:root[data-theme="dark"] .song-card .read-button:hover{background:#b5d7fa;color:#2e669a}
+@media(max-width:600px){
+  .song-card .song-body{grid-template-columns:minmax(0,1fr) auto;gap:8px}
+  .song-card .song-bottom{gap:8px}
+  .song-card .read-button{width:39px;height:39px;min-width:39px;flex-basis:39px}
+  .song-card .song-category-chip{font-size:10px;padding:5px 8px}
+}
