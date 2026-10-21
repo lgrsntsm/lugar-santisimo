@@ -169,3 +169,5 @@ Estas 11 URLs se usarán para la investigación de links por canción, sin sumar
 - Música.com cristiana: https://www.musica.com/letras.asp?letras=16677 — letras.
 
 Criterio: abrir el enlace INDIVIDUAL por canción, validar artista, versión y destino, deduplicar por URL y tipo. Ninguna de estas fuentes recibe sello oficial automáticamente; el check verde requiere una fuente primaria demostrable (artista, sello, distribuidora autorizada). Mantener únicamente Audio, Video, Letra y Acordes. Nunca copiar letras, partituras, audio ni video al repositorio. Las fuentes son para búsqueda continua, no prueba de discografía completada.
+
+- Cancioneros.com, sección Música Cristiana aportada por el usuario: https://www.cancioneros.com/letras/artista/49996/musica-cristiana — fuente candidata de letras para búsquedas por canción. La página no respondió a la comprobación web del 21/10/2026; verificar accesibilidad, autoría, canción e intérprete antes de publicar un enlace específico. No atribuir oficialidad ni check verde automáticamente.
