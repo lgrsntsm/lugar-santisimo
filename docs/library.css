@@ -182,3 +182,12 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .platform-label{display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap;min-width:0}
 .verified-link{display:inline-grid;place-items:center;width:17px;height:17px;min-width:17px;border-radius:50%;background:#2c995d;color:#fff;font-size:12px;font-family:Arial,Helvetica,sans-serif;font-weight:800;line-height:1;vertical-align:middle}
 :root[data-theme="dark"] .verified-link{background:#398e5b;color:#fff}
+
+/* El indicador verde es independiente del enlace y se puede tocar. */
+.platform-item{position:relative}
+.platform-item .platform-link{padding-right:76px;min-height:48px}
+.platform-item .verified-link{position:absolute;top:50%;right:43px;transform:translateY(-50%);display:grid;place-items:center;width:21px;height:21px;min-width:21px;border-radius:50%;border:0;background:#2c995d;color:#fff;font-size:13px;font-weight:800;line-height:1;padding:0;cursor:pointer;z-index:2}
+.platform-item .verified-link:hover,.platform-item .verified-link:focus-visible{background:#217d4c;outline:2px solid #91caa8;outline-offset:3px}
+.platform-item .verified-tooltip{position:absolute;right:14px;bottom:calc(50% + 17px);z-index:5;background:#245e3d;color:#fff;padding:7px 11px;border-radius:7px;box-shadow:0 3px 14px #0003;font-size:12px;font-weight:600;white-space:nowrap;pointer-events:none}
+:root[data-theme="dark"] .platform-item .verified-link{background:#398e5b}
+:root[data-theme="dark"] .platform-item .verified-tooltip{background:#286944}
