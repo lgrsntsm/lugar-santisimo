@@ -177,3 +177,8 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .theme-toggle-icon{font-size:16px;line-height:1}
 .header nav{gap:14px}
 @media(max-width:600px){.header nav{gap:8px}.theme-toggle{padding:8px 10px;font-size:11px;min-height:36px}.theme-toggle-icon{font-size:15px}}
+
+/* Distintivo de fuente oficial, no afiliado a ninguna red social. */
+.platform-label{display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap;min-width:0}
+.verified-link{display:inline-grid;place-items:center;width:17px;height:17px;min-width:17px;border-radius:50%;background:#2c995d;color:#fff;font-size:12px;font-family:Arial,Helvetica,sans-serif;font-weight:800;line-height:1;vertical-align:middle}
+:root[data-theme="dark"] .verified-link{background:#398e5b;color:#fff}
