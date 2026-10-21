@@ -3319,6 +3319,27 @@
           "plataforma": "Secuencias.com · Letra (Agradecido)",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000271",
+          "url": "https://www.e-chords.com/es/teclado/miel-san-marcos/no-hay-lugar-mas-alto",
+          "plataforma": "E-Chords · Acordes de teclado",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000272",
+          "url": "https://www.e-chords.com/chords/miel-san-marcos/no-hay-lugar-mas-grande",
+          "plataforma": "E-Chords · Acordes (No hay lugar más grande)",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000273",
+          "url": "https://www.e-chords.com/chords/miel-san-marcos/no-hay-lugar-mas-grande",
+          "plataforma": "E-Chords · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
