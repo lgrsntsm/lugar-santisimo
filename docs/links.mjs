@@ -41,8 +41,10 @@ export function groupLinks(links = []) {
   }
   const officialFirst = (a, b) => Number(b.oficial === true) - Number(a.oficial === true);
   const audioPriority = link => { const service = platform(new URL(link.url)); return service === 'spotify' ? 0 : service === 'youtube-music' ? 1 : 2; };
-  groups.audio.sort((a, b) => audioPriority(a) - audioPriority(b) || officialFirst(a, b));
+  groups.audio.sort((a, b) => officialFirst(a, b) || audioPriority(a) - audioPriority(b));
   groups.video.sort(officialFirst);
+  groups.letra.sort(officialFirst);
+  groups.acordes.sort(officialFirst);
   groups.video = groups.video.slice(0, 3);
   return groups;
 }
