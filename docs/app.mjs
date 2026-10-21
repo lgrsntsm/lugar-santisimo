@@ -40,7 +40,14 @@ function showLinks(song) {
     const h = element('h3', 'detail-heading', heading); h.id = `detail-${type}`; section.setAttribute('aria-labelledby', h.id); section.append(h);
     for (const link of groups[type]) {
       const a = element('a', 'platform-link'); a.href = link.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
-      const label = element('span'); label.append(element('strong', '', link.plataforma || 'Abrir enlace'));
+      const label = element('span', 'platform-label');
+      label.append(element('strong', '', link.plataforma || 'Abrir enlace'));
+      if (link.oficial === true) {
+        const verified = element('span', 'verified-link', '✓');
+        verified.title = 'Fuente oficial verificada';
+        verified.setAttribute('aria-label', 'Fuente oficial verificada');
+        label.append(verified);
+      }
       a.append(label, element('span', '', '↗')); section.append(a);
     }
     if (!groups[type].length) section.append(element('p', 'detail-empty', 'Sin información encontrada.'));
