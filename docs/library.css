@@ -202,3 +202,13 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   font-size:11px;
 }
 .platform-item .verified-link:focus-visible{outline:3px solid #91caa8;outline-offset:2px}
+
+/* Categorías navegables tanto en las tarjetas como dentro de cada canción. */
+.detail-categories{display:flex;flex-wrap:wrap;gap:8px;margin:-12px 0 24px}
+.song-tag{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.song-category-chip{display:inline-flex;align-items:center;justify-content:center;border:1px solid #b7ccb8;border-radius:24px;padding:5px 11px;background:#ebf2e9;color:#426d4d;font-size:11px;font-weight:600;line-height:1.2;cursor:pointer;max-width:100%;text-align:center}
+.song-category-chip:hover,.song-category-chip:focus-visible{background:#d9e9d8;border-color:#6c9873;color:#284b30}
+:root[data-theme="dark"] .song-category-chip{background:#24382a;color:#add9b6;border-color:#46644b}
+:root[data-theme="dark"] .song-category-chip:hover,:root[data-theme="dark"] .song-category-chip:focus-visible{background:#33513a;border-color:#8cbe96}
+@media(max-width:900px){.song-tag{display:flex;grid-column:1;grid-row:2}.song-body h3{grid-row:1}.song-bottom{grid-row:1 / 3}}
+@media(max-width:600px){.song-tag{display:flex;grid-column:1;grid-row:2}.song-category-chip{font-size:10px;padding:4px 9px}}
