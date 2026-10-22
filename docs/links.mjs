@@ -23,6 +23,13 @@ export function groupLinks(links = []) {
     let url;
     try { url = new URL(link.url); } catch { continue; }
     if (url.protocol !== 'https:' || url.username || url.password) continue;
+    // No publicar Apple Music ni Amazon Music. Se conservan sus referencias en
+    // el archivo maestro para poder recuperar grabaciones desde otras plataformas.
+    const host = url.hostname.toLowerCase();
+    if (host === 'music.apple.com' || host.endsWith('.music.apple.com') ||
+        host === 'music.amazon.com' || host.startsWith('music.amazon.') ||
+        host === 'amazon.com' || host.startsWith('www.amazon.') ||
+        /(?:apple music|amazon music)/i.test(link.plataforma || '')) continue;
     const service = platform(url);
     let type = link.tipo;
     // Un enlace de vídeo normal de YouTube va siempre en Video,
