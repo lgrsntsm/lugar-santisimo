@@ -66,8 +66,10 @@ function renderDiscoveries(song) {
     }
     $('#dialog-links').append(section);
   }
-  const ids = new Set(song.interpretes.map(a => a.id));
-  const candidates = songs.filter(s => s.id !== song.id && s.interpretes.some(a => ids.has(a.id)));
+  // Recomendar por el intérprete principal; colaboraciones no mezclan repertorios.
+  const principals = song.interpretes.filter(a => a.rol === 'principal');
+  const ids = new Set((principals.length ? principals : song.interpretes).map(a => a.id));
+  const candidates = songs.filter(s => s.id !== song.id && s.interpretes.some(a => ids.has(a.id) && a.rol === 'principal'));
   if (!candidates.length) return;
   const section = element('section', 'detail-section recommendations-section');
   section.append(element('h3', 'detail-heading', '🎶 Más canciones del artista:'));
