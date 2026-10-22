@@ -1,108 +1,53 @@
-# Lugar Santísimo · base de datos para la web
+# Lugar Santísimo
 
-Backend de exportación y web estática. El directorio `docs/` contiene el
-catálogo público con Renuévame, búsqueda, categorías y fichas de enlaces; sin favoritas.
-Está preparado para GitHub Pages desde la rama `main`, carpeta `/docs`.
-No hay credenciales en el repositorio ni conexión automática con Google activada.
+Sitio público: https://lugarsantisimo.com.ar  
+Repositorio: https://github.com/lgrsntsm/lugar-santisimo
 
-Estado al 20 de octubre de 2026: hay 31 canciones adicionales de Marcos Witt
-en borrador en Google Sheets, pendientes de aprobación explícita para publicar.
-Ver [TRASPASO.md](TRASPASO.md) para continuar el proyecto y
-[metadatos pendientes](handoff/marcos-witt-pendientes.json) para recuperar el lote.
+## Fuente única de datos: GitHub
 
-Flujo previsto: Google Sheets privada → validación y revisión → catálogo JSON → web.
-La web usa el JSON en GitHub Pages. Las credenciales de Google nunca
-se envían al navegador. La planilla se sigue editando manualmente.
+**Desde el 21/10/2026, Google Sheets queda fuera del flujo de trabajo.** No se necesita acceder a Sheets, sincronizar, exportar ni mantener una planilla paralela.
 
-## Qué funciona
+- **Catálogo maestro y publicado:** `docs/catalogo.json`.
+- **Sitio:** `docs/index.html`, `docs/app.mjs`, `docs/library.css` y demás archivos de `docs/`.
+- **Alojamiento:** GitHub Pages desde `main` y la carpeta `/docs`.
+- **Dominio:** https://lugarsantisimo.com.ar.
+- **Historial y recuperación:** commits e historial de GitHub. No reescribir la historia.
+- **Sin almacenamiento multimedia:** solo nombres, intérpretes, categorías y enlaces externos a Audio, Video, Letra y Acordes.
 
-- Lee una captura JSON local de las seis tablas necesarias del catálogo.
-- Incluye un adaptador de solo lectura para Sheets, sin ejecutar durante la preparación.
-- Valida IDs únicos, relaciones, estados, URLs HTTPS, prioridades y campos requeridos.
-- Separa borrador, revisión y aprobación explícita.
-- Exige un hash aprobado para cada versión exacta de una canción publicada.
-- Ordena enlaces activos: oficiales primero, luego prioridad e ID.
-- Exporta solo campos públicos: no exporta notas, evidencias, búsquedas o reportes.
-- Un error impide reemplazar el catálogo anterior.
+## Cómo incorporar canciones
 
-## Uso local
+1. **Buscar primero el sitio oficial del intérprete**, y comprobar que pertenezca al artista. Desde allí identificar perfiles oficiales de streaming, canales de YouTube y sello/distribuidora.
+2. **Investigar exhaustivamente las fuentes oficiales**, por álbum, sencillo y pista, diferenciando grabaciones originales, nuevas versiones y covers.
+3. **Después** consultar fuentes complementarias de letras, acordes e himnos. El check verde se utiliza solo para fuentes oficiales realmente verificadas.
+4. Buscar la canción y el artista existentes antes de crear nuevos registros. Evitar duplicados y reutilizar IDs. No añadir metadatos extra a la ficha.
+5. Editar **únicamente `docs/catalogo.json`**, conservando `schema_version: 1` y los campos actuales.
+6. Ejecutar la validación automática y comprobar cantidad de canciones, enlaces, URLs y versiones antes de declarar publicada la actualización.
+7. Subir el cambio a GitHub. GitHub Pages publica el archivo actualizado; el usuario puede tener que recargar su navegador.
 
-Requiere Node.js 22 o posterior. No necesita instalar paquetes.
+Los nuevos IDs siguen `CAN-000000`, `INT-000000`, `CAT-000000` y `ENL-000000` (seis dígitos). Utilizar el siguiente identificador libre observado directamente en el JSON y comprobar unicidad. Cada enlace requiere `id`, `url`, `plataforma`, `tipo` y `oficial` booleano.
 
-Desde `backend/`:
+### Validación
 
-```sh
-node --test
-node cli.mjs preview ejemplo-vacio.json
-node cli.mjs build ejemplo-vacio.json
-```
-
-La captura local es un objeto con nombres de hojas como claves y filas como
-arrays; la primera fila contiene los encabezados reales. Ver el ejemplo vacío.
-Se reconocen columnas por su nombre, aunque se reordenen. No cambiar los nombres.
-
-## Aprobación de versiones
-
-1. Completar revisión y autorización explícita en Sheets según la Guía.
-2. Generar una vista privada con `preview`. La revisión devuelve IDs y hashes pendientes.
-3. Revisar los datos exactos que se van a publicar y obtener aprobación del usuario.
-4. Solo tras esa aprobación, registrar el hash de cada canción en un archivo privado:
-
-```json
-{ "CAN-000001": "hash exacto mostrado en la revisión" }
-```
-
-5. Ejecutar `node cli.mjs build captura.json ../private/aprobaciones.json`.
-
-El hash incluye todo el contenido público de la canción (también nombres y enlaces
-relacionados) y su evidencia de aprobación. Cambiar esos datos exige aprobar otra
-versión. Nunca llenar aprobaciones automáticamente ni copiar hashes sin revisión.
-Los hashes detectan cambios; no autentican la identidad del usuario. Antes de
-automatizar habrá que proteger las aprobaciones con acceso restringido y una
-revisión manual del despliegue. Los estados vacíos o inválidos provocan error.
-
-## Conexión posterior a Google
-
-El adaptador usa la API oficial `spreadsheets.values.batchGet`, con un token OAuth
-en la variable de entorno `GOOGLE_ACCESS_TOKEN` y acceso de lectura a la planilla.
-No incluir el token en archivos, código, argumentos o mensajes de chat.
+Con Node.js 22 o superior, sin instalar paquetes:
 
 ```sh
-node cli.mjs preview --sheets
+node scripts/validar-catalogo.mjs
 ```
 
-Esta opción no se ejecutó. Los cinco registros iniciales se leyeron mediante el
-conector de Sheets y se exportaron a partir de esa captura verificada. Antes de
-activar sincronización sin intervención falta elegir y configurar la
-autenticación en la cuenta del usuario. Un token de acceso temporal no renueva
-sesiones: la automatización requerirá una configuración adicional de identidad.
+GitHub Actions también ejecuta la misma validación al modificar `docs/catalogo.json` en `main` o abrir una solicitud de cambios. Un chequeo fallido genera una alerta, pero GitHub Pages podría publicar igualmente un commit hecho directamente sobre `main`: **comprobar la validación antes de publicar**.
 
-## Actualización manual y publicación
+### Crecimiento futuro
 
-La selección inicial se autorizó mediante el pedido explícito del usuario en el
-chat del 18 de octubre de 2026 de publicar una prueba con cinco canciones.
-Las evidencias y aprobaciones de versión quedan fuera del repositorio público.
+Con miles de canciones, se puede dividir el catálogo en fragmentos y un índice de búsqueda sin cambiar la dirección de la web. Por ahora se mantiene un JSON único y el navegador presenta páginas de 50 canciones.
 
-Para futuras actualizaciones, obtener una captura vigente y repetir el flujo de
-aprobación. Después de un `build` correcto, copiar únicamente `build/catalogo.json`
-a `docs/catalogo.json`, revisar los cambios y subirlos al repositorio. La publicación
-de Pages sirve solo la carpeta `docs/`; nunca configurar la raíz como fuente.
-Los cambios manuales en Sheets no aparecen en la web hasta una nueva exportación.
+### Componentes históricos
 
-Para previsualizar localmente, servir `docs/` con un servidor HTTP. No abrir el HTML
-directamente mediante `file://`, porque el navegador bloquea la lectura del JSON.
+`backend/` y `handoff/` conservan herramientas y capturas de etapas anteriores que dependían de Google Sheets. **Son material histórico, no el flujo activo, y no deben ejecutarse ni usarse para sobrescribir `docs/catalogo.json`.** El documento `TRASPASO.md` tiene notas de investigación y premisas adicionales; sus antiguas referencias a Sheets son obsoletas.
 
-## Pendiente
+### Reportes de enlaces rotos
 
-- Renovación de credenciales, ejecución automática y aprobación de despliegue.
-- Si se desea enviar reportes o registrar búsquedas desde la web: un servicio de
-  escritura autenticado con límites de uso. Este backend no expone endpoints de escritura.
-- No hay rutas para subir audio, video ni letras.
+El sitio dispone de un botón de reporte con un toque. El servicio externo de entrega por email necesita confirmación/activación y verificación de recepción; **no suponer que los reportes funcionan hasta comprobarlo**. Cada aviso puede ser falso: verificar el destino antes de eliminar o cambiar el enlace. El límite del navegador no equivale a una restricción real por IP.
 
-Los resultados locales se guardan en `private/` y `build/`, excluidos de Git.
-En `docs/` se copia únicamente el JSON aprobado junto con la web.
-Retirar o revocar una canción la elimina en la próxima generación y despliegue;
-no puede borrar copias ya descargadas.
+### Seguridad
 
-Documentación: [API de Google Sheets](https://developers.google.com/workspace/sheets/api/reference/rest/v4/spreadsheets.values/batchGet),
-[GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+El catálogo es público. `robots.txt` expresa preferencias de rastreo, pero no evita la extracción técnica. No publicar secretos, contraseñas ni tokens en este repositorio.
