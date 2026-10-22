@@ -1,7 +1,8 @@
 import { filterSongs } from './filter.mjs';
 import { groupLinks } from './links.mjs?v=verified1';
 const $ = selector => document.querySelector(selector);
-let songs = [], category = '';
+let songs = [], category = '', currentPage = 1;
+const PAGE_SIZE = 50;
 const themeButton = $('#theme-toggle');
 function updateThemeButton() {
   const dark = document.documentElement.dataset.theme === 'dark';
@@ -101,9 +102,12 @@ function showLinks(song) {
 }
 function render() {
   const list = filterSongs(songs, { query: $('#search').value, category, sort: $('#sort').value });
+  const pages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
+  currentPage = Math.min(currentPage, pages);
+  const visible = list.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
   $('#songs').replaceChildren(); $('#empty').hidden = list.length > 0;
   $('#results-count').textContent = `${list.length} ${list.length === 1 ? 'canción' : 'canciones'}`;
-  for (const song of list) {
+  for (const song of visible) {
     const index = songs.indexOf(song);
     const card = element('article', 'song-card');
     card.addEventListener('click', event => { if (!event.target.closest('button, a')) showLinks(song); });
@@ -134,10 +138,43 @@ function render() {
     bottom.append(cardTags, listen);
     body.append(bottom); card.append(body); $('#songs').append(card);
   }
+  renderPagination(list.length, pages);
 }
-function selectCategory(id) { category = id; for (const b of $('#categories').children) b.setAttribute('aria-pressed', b.dataset.category === id); render(); }
+function renderPagination(total, pages) {
+  const nav = $('#pagination');
+  nav.replaceChildren();
+  nav.hidden = total <= PAGE_SIZE;
+  if (nav.hidden) return;
+  const go = page => {
+    if (page < 1 || page > pages || page === currentPage) return;
+    currentPage = page;
+    render();
+    $('#catalogo').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+  const make = (text, page, selected = false) => {
+    const b = element('button', selected ? 'page-button is-current' : 'page-button', text);
+    b.type = 'button'; b.disabled = selected;
+    if (selected) b.setAttribute('aria-current', 'page');
+    b.setAttribute('aria-label', selected ? `Página ${page}, actual` : `Ir a la página ${page}`);
+    b.addEventListener('click', () => go(page));
+    return b;
+  };
+  const prev = make('← Anterior', currentPage - 1);
+  prev.disabled = currentPage === 1;
+  nav.append(prev);
+  const start = Math.max(1, Math.min(currentPage - 2, pages - 4));
+  const end = Math.min(pages, start + 4);
+  for (let n = start; n <= end; n++) nav.append(make(String(n), n, n === currentPage));
+  const next = make('Siguiente →', currentPage + 1);
+  next.disabled = currentPage === pages;
+  nav.append(next);
+  const summary = element('span', 'pagination-summary', `Mostrando ${(currentPage - 1) * PAGE_SIZE + 1}–${Math.min(currentPage * PAGE_SIZE, total)} de ${total}`);
+  nav.append(summary);
+}
+
+function selectCategory(id) { currentPage = 1; category = id; for (const b of $('#categories').children) b.setAttribute('aria-pressed', b.dataset.category === id); render(); }
 $('#categories').addEventListener('click', event => { const button = event.target.closest('button[data-category]'); if (button) selectCategory(button.dataset.category); });
-$('#search').addEventListener('input', render); $('#sort').addEventListener('change', render);
+$('#search').addEventListener('input', () => { currentPage = 1; render(); }); $('#sort').addEventListener('change', () => { currentPage = 1; render(); });
 $('#reset').addEventListener('click', () => { $('#search').value = ''; selectCategory(''); $('#search').focus(); });
 $('#close-dialog').addEventListener('click', () => $('#song-dialog').close());
 $('#song-dialog').addEventListener('click', event => { if (event.target === $('#song-dialog')) { const box = event.target.getBoundingClientRect(); if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) event.target.close(); } });
@@ -147,11 +184,12 @@ async function load() {
     const response = await fetch('./catalogo.json', { cache: 'no-cache' }); if (!response.ok) throw new Error('Catálogo no disponible');
     const catalog = await response.json(); if (catalog.schema_version !== 1 || !Array.isArray(catalog.canciones)) throw new Error('Catálogo incompatible');
     songs = shuffle(catalog.canciones);
+    currentPage = 1;
     const categories = new Map(songs.flatMap(song => song.categorias.map(c => [c.id, c.nombre])));
     $('#categories').querySelectorAll('button:not([data-category=""])').forEach(button => button.remove());
     for (const [id, name] of categories) { const b = element('button', '', name); b.type = 'button'; b.dataset.category = id; b.setAttribute('aria-pressed', 'false'); $('#categories').append(b); }
     render();
-  } catch { $('#load-error').hidden = false; $('#songs').replaceChildren(); $('#results-count').textContent = 'Catálogo no disponible'; }
+  } catch { $('#load-error').hidden = false; $('#songs').replaceChildren(); $('#pagination').hidden = true; $('#results-count').textContent = 'Catálogo no disponible'; }
   finally { $('#songs').setAttribute('aria-busy', 'false'); }
 }
 $('#retry').addEventListener('click', load); load();
