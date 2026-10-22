@@ -91,13 +91,63 @@ function showLinks(song) {
     if (!groups[type].length) section.append(element('p', 'detail-empty', 'Sin información encontrada.'));
     $('#dialog-links').append(section);
   }
-  const report = element('a', 'report-link report-song', '¿Enlace roto?');
-  const options = [['audio', 'Audio'], ['video', 'Video'], ['letra', 'Letra'], ['acordes', 'Acordes']]
-    .flatMap(([type, name]) => groups[type].map((link, index) => `${name} ${index + 1}: ${link.plataforma} — ${link.url}`))
-    .join('\n');
-  report.href = `mailto:lgrsntsm@gmail.com?subject=${encodeURIComponent('Lugar Santísimo · Reportar enlace roto')}&body=${encodeURIComponent(`Canción: ${song.titulo}\n\nIndicá qué enlace no funciona:\n${options}\n\nEnlace roto (sección y número o plataforma): `)}`;
-  report.setAttribute('aria-label', `Reportar un enlace roto de ${song.titulo}`);
-  $('#dialog-links').append(report);
+  const report = element('button', 'report-link report-song', 'En esta canción hay uno o varios enlaces rotos');
+  report.type = 'button';
+  report.setAttribute('aria-label', `Reportar enlaces rotos de ${song.titulo}`);
+  const reportMessage = element('span', 'report-status');
+  reportMessage.setAttribute('role', 'status');
+  reportMessage.setAttribute('aria-live', 'polite');
+  const storageKey = 'ls-broken-report-' + song.id;
+  const getSaved = key => { try { return JSON.parse(localStorage.getItem(key) || 'null'); } catch { return null; } };
+  const reportedAt = getSaved(storageKey);
+  if (typeof reportedAt === 'number' && Date.now() - reportedAt < 86400000) {
+    report.textContent = 'Tu reporte ha sido enviado';
+    report.disabled = true;
+    report.classList.add('reported');
+  }
+  report.addEventListener('click', async () => {
+    if (report.disabled) return;
+    const now = Date.now();
+    const recent = (getSaved('ls-broken-reports-history') || []).filter(t => typeof t === 'number' && now - t < 86400000);
+    if (recent.length >= 5) {
+      reportMessage.textContent = 'Alcanzaste el máximo de 5 reportes diarios. Gracias por ayudarnos.';
+      return;
+    }
+    report.disabled = true;
+    report.textContent = 'Enviando reporte…';
+    reportMessage.textContent = '';
+    try {
+      const answer = await fetch('https://formsubmit.co/ajax/lgrsntsm@gmail.com', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          _subject: 'Lugar Santísimo · Reporte de enlaces rotos',
+          _captcha: 'false',
+          _template: 'table',
+          _url: 'https://lugarsantisimo.com.ar/',
+          tipo: 'reporte_enlaces_rotos',
+          cancion_id: song.id,
+          titulo: song.titulo,
+          interpretes: song.interpretes.map(a => a.nombre).join(' · '),
+          cantidad_enlaces: song.enlaces.length,
+          enlace_catalogo: 'https://lugarsantisimo.com.ar/',
+          observacion: 'Un visitante indicó que uno o varios enlaces no funcionan; verificar antes de modificar nada.'
+        })
+      });
+      const result = await answer.json();
+      if (!answer.ok || (result.success !== true && result.success !== 'true')) throw new Error('Reporte no aceptado');
+      localStorage.setItem(storageKey, String(now));
+      localStorage.setItem('ls-broken-reports-history', JSON.stringify([...recent, now]));
+      report.textContent = 'Tu reporte ha sido enviado';
+      report.classList.add('reported');
+      reportMessage.textContent = 'Gracias por ayudarnos a mejorar la biblioteca.';
+    } catch (_) {
+      report.textContent = 'En esta canción hay uno o varios enlaces rotos';
+      reportMessage.textContent = 'No pudimos enviar el reporte. Intentá nuevamente más tarde.';
+      report.disabled = false;
+    }
+  });
+  $('#dialog-links').append(report, reportMessage);
   $('#song-dialog').showModal();
 }
 function render() {
