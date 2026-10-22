@@ -298,3 +298,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .report-song.reported{border-color:#85b99a;color:#3c8762;background:#edf5ee;opacity:1}
 :root[data-theme="dark"] .report-song.reported{background:#233d2d;color:#a9d8b5}
 .report-status{display:block;color:var(--muted);font-size:12px;margin-top:6px;line-height:1.5}
+
+/* Reporte discreto, texto reducido. */
+.report-song{font-size:12px;line-height:1.35;font-weight:400}
+@media(max-width:600px){.report-song{font-size:11px}}
