@@ -395,3 +395,30 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 @media(max-width:550px){
   #song-dialog .detail-section:not(.interest-section):not(.recommendations-section){padding:13px 11px 14px;margin-top:13px;border-radius:10px}
 }
+
+/* Refinamiento del modo claro: menos crema saturada y acentos verdes dominantes.
+   Las fichas solo ocupan espacio si el script agregó enlaces reales. */
+:root:not([data-theme="dark"]){--paper:#f8f9f8;--ink:#343c39;--muted:#68736e;--line:#e2e6e3;--accent:#47765c;background:var(--paper)}
+:root:not([data-theme="dark"]) body{background:var(--paper)}
+:root:not([data-theme="dark"]) #song-dialog{background:#fff;color:var(--ink);border:1px solid #e7eae8;box-shadow:0 22px 70px rgba(24,38,30,.19)}
+:root:not([data-theme="dark"]) #song-dialog .detail-section:not(.interest-section):not(.recommendations-section){
+ background:#fcfdfc;
+ border:1px solid #e6eae7;
+ box-shadow:0 2px 7px rgba(29,45,35,.035);
+}
+:root:not([data-theme="dark"]) #song-dialog .platform-link,
+:root:not([data-theme="dark"]) #song-dialog .interest-album,
+:root:not([data-theme="dark"]) #song-dialog .recommended-song{
+ background:#fff;
+ border-color:#e3e7e4;
+}
+:root:not([data-theme="dark"]) #song-dialog .platform-link:hover,
+:root:not([data-theme="dark"]) #song-dialog .interest-album:hover,
+:root:not([data-theme="dark"]) #song-dialog .recommended-song:hover{border-color:#adc2b3;background:#f8faf9}
+:root:not([data-theme="dark"]) #song-dialog .close-dialog{background:#f0f2f0;color:#53635b}
+:root:not([data-theme="dark"]) #song-dialog .see-all-songs{border-color:#bdd0c3;color:#456d56}
+:root:not([data-theme="dark"]) .song-category-chip{background:#f0f5f0;color:#557b5e;border-color:#d6e2d8}
+:root:not([data-theme="dark"]) .chips button{background:#edf1ee;color:#586a5e}
+:root:not([data-theme="dark"]) .chips button[aria-pressed="true"]{background:#667f70;color:#fff}
+#song-dialog .detail-categories:empty{display:none}
+#song-dialog #dialog-links>.detail-section:first-child{margin-top:4px}
