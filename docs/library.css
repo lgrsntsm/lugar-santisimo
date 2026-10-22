@@ -302,3 +302,6 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 /* Reporte discreto, texto reducido. */
 .report-song{font-size:12px;line-height:1.35;font-weight:400}
 @media(max-width:600px){.report-song{font-size:11px}}
+
+/* Separar el aviso de reporte de los últimos enlaces de acordes. */
+.report-song{margin-top:20px}
