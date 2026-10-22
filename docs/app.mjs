@@ -140,7 +140,7 @@ function showLinks(song) {
       localStorage.setItem('ls-broken-reports-history', JSON.stringify([...recent, now]));
       report.textContent = 'Tu reporte ha sido enviado';
       report.classList.add('reported');
-      reportMessage.textContent = 'Gracias por ayudarnos a mejorar la biblioteca.';
+      reportMessage.textContent = '';
     } catch (_) {
       report.textContent = 'Presionar para reportar uno o varios enlaces rotos';
       reportMessage.textContent = 'No pudimos enviar el reporte. Intentá nuevamente más tarde.';
