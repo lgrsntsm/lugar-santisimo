@@ -143,6 +143,18 @@ function showLinks(song) {
       groups.video.push(link);
     }
   }
+  // Si solo se conservó una grabación histórica en video, también debe ser
+  // fácilmente accesible como opción para escuchar (sin confundirla con audio independiente).
+  if (!groups.audio.length && groups.video.length) {
+    const historical = groups.video.find(link => /(?:fragmento del álbum completo|desde \\d{1,2}:\\d{2}|\\bt=\\d+s)/i.test((link.plataforma || '') + ' ' + (link.url || '')));
+    if (historical) {
+      groups.audio.push({
+        ...historical,
+        plataforma: 'YouTube · Escuchar en grabación histórica (álbum completo)',
+        oficial: false
+      });
+    }
+  }
   for (const [type, heading] of [['audio', '🎹 Audio'], ['video', '⏯️ Video'], ['letra', '📄 Letra'], ['acordes', '🎸 Acordes']]) {
     const section = element('section', 'detail-section');
     const h = element('h3', 'detail-heading', heading); h.id = `detail-${type}`; section.setAttribute('aria-labelledby', h.id); section.append(h);
@@ -333,7 +345,7 @@ $('#song-dialog').addEventListener('click', event => { if (event.target === $('#
 async function load() {
   $('#load-error').hidden = true; $('#empty').hidden = true; $('#songs').setAttribute('aria-busy', 'true');
   try {
-    const response = await fetch('./catalogo.json?v=detail-fix-20261022', { cache: 'no-store' }); if (!response.ok) throw new Error('Catálogo no disponible');
+    const response = await fetch('./catalogo.json?v=catalog-correct-20261022', { cache: 'no-store' }); if (!response.ok) throw new Error('Catálogo no disponible');
     const catalog = await response.json(); if (catalog.schema_version !== 1 || !Array.isArray(catalog.canciones)) throw new Error('Catálogo incompatible');
     songs = shuffle(catalog.canciones);
     songsByArtist = new Map();
