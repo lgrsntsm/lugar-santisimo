@@ -1,5 +1,5 @@
 import { filterSongs } from './filter.mjs';
-import { groupLinks } from './links.mjs?v=verified1';
+import { groupLinks } from './links.mjs?v=platforms-no-empty-1';
 const $ = selector => document.querySelector(selector);
 let songs = [], category = '', currentPage = 1, albumsByArtist = new Map(), songsByArtist = new Map();
 const PAGE_SIZE = 50;
@@ -143,19 +143,8 @@ function showLinks(song) {
       groups.video.push(link);
     }
   }
-  // Si solo se conservó una grabación histórica en video, también debe ser
-  // fácilmente accesible como opción para escuchar (sin confundirla con audio independiente).
-  if (!groups.audio.length && groups.video.length) {
-    const historical = groups.video.find(link => /(?:fragmento del álbum completo|desde \d{1,2}:\d{2}|\bt=\d+s)/i.test((link.plataforma || '') + ' ' + (link.url || '')));
-    if (historical) {
-      groups.audio.push({
-        ...historical,
-        plataforma: 'YouTube · Escuchar en grabación histórica (álbum completo)',
-        oficial: false
-      });
-    }
-  }
   for (const [type, heading] of [['audio', '🎹 Audio'], ['video', '⏯️ Video'], ['letra', '📄 Letra'], ['acordes', '🎸 Acordes']]) {
+    if (!groups[type].length) continue;
     const section = element('section', 'detail-section');
     const h = element('h3', 'detail-heading', heading); h.id = `detail-${type}`; section.setAttribute('aria-labelledby', h.id); section.append(h);
     for (const link of groups[type]) {
@@ -191,14 +180,6 @@ function showLinks(song) {
         item.append(verified, tooltip);
       }
       section.append(item);
-    }
-    if (!groups[type].length) {
-      const hasVideo = groups.video.length > 0 || (song.enlaces || []).some(link =>
-        link.tipo === 'video' && /^https:\/\/(www\.)?(youtube\.com|youtu\.be)\//i.test(link.url || ''));
-      const message = type === 'audio' && hasVideo
-        ? 'Esta canción se puede escuchar desde su enlace en Video.'
-        : 'Sin información encontrada.';
-      section.append(element('p', 'detail-empty', message));
     }
     $('#dialog-links').append(section);
   }
@@ -347,7 +328,12 @@ async function load() {
   try {
     const response = await fetch('./catalogo.json?v=catalog-correct-20261022', { cache: 'no-store' }); if (!response.ok) throw new Error('Catálogo no disponible');
     const catalog = await response.json(); if (catalog.schema_version !== 1 || !Array.isArray(catalog.canciones)) throw new Error('Catálogo incompatible');
-    songs = shuffle(catalog.canciones);
+    // Las fichas sin enlaces admitidos quedan pendientes de investigación.
+    // Evitar mostrar canciones que abren un detalle sin audio/video/letra/acordes.
+    songs = shuffle(catalog.canciones.filter(song => {
+      const groups = groupLinks(song.enlaces);
+      return groups.audio.length || groups.video.length || groups.letra.length || groups.acordes.length;
+    }));
     songsByArtist = new Map();
     for (const song of songs) for (const artist of song.interpretes) {
       const entries = songsByArtist.get(artist.id) || [];
