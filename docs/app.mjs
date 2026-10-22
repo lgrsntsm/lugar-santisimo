@@ -61,11 +61,11 @@ function renderDiscoveries(song) {
     for (const album of albums.slice(0, 3)) {
       const a = element('a', 'interest-album');
       a.href = album.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
-      a.append(element('span', 'interest-album-icon', album.formato === 'video' ? '▶' : '♫'));
       const content = element('span', 'interest-album-content');
       content.append(element('span', 'interest-album-title', album.titulo));
       content.append(element('span', 'interest-album-source', album.plataforma.replace(' · Álbum completo', '') + ' · Álbum completo'));
       a.append(content, element('span', 'interest-external', '↗'));
+      a.setAttribute('aria-label', album.titulo + ' · abrir álbum completo en otra pestaña');
       section.append(a);
     }
     $('#dialog-links').append(section);
