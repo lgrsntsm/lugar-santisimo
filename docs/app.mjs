@@ -64,7 +64,7 @@ function renderDiscoveries(song) {
       a.append(element('span', 'interest-album-icon', album.formato === 'video' ? '▶' : '♫'));
       const content = element('span', 'interest-album-content');
       content.append(element('span', 'interest-album-title', album.titulo));
-      content.append(element('span', 'interest-album-source', album.plataforma.replace(/\\s*·\\s*Álbum completo/i, '') + ' · Álbum completo'));
+      content.append(element('span', 'interest-album-source', album.plataforma.replace(' · Álbum completo', '') + ' · Álbum completo'));
       a.append(content, element('span', 'interest-external', '↗'));
       section.append(a);
     }
