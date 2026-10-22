@@ -5892,6 +5892,168 @@
           "oficial": true
         }
       ]
+    },
+    {
+      "id": "CAN-000160",
+      "titulo": "Quiero estar contigo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000411",
+          "url": "https://music.amazon.in/tracks/B0D683M7VR",
+          "plataforma": "Amazon Music · Anhelamos conocerte (reedición digital)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000161",
+      "titulo": "Anhelamos conocerte",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000412",
+          "url": "https://music.amazon.in/tracks/B0D67F7QJW",
+          "plataforma": "Amazon Music · Anhelamos conocerte (reedición digital)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000162",
+      "titulo": "Te cantamos alabanzas",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000413",
+          "url": "https://music.amazon.in/tracks/B0D67J2N4Z",
+          "plataforma": "Amazon Music · Anhelamos conocerte (reedición digital)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000163",
+      "titulo": "Cantaré por siempre",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000414",
+          "url": "https://music.amazon.in/tracks/B0D68374F5",
+          "plataforma": "Amazon Music · Anhelamos conocerte (reedición digital)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000164",
+      "titulo": "Tu presencia",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000415",
+          "url": "https://music.amazon.in/tracks/B0D67KB37L",
+          "plataforma": "Amazon Music · Anhelamos conocerte (reedición digital)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000165",
+      "titulo": "Cantemos al Dios de Israel",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000416",
+          "url": "https://music.amazon.in/tracks/B0D67ZC71L",
+          "plataforma": "Amazon Music · Anhelamos conocerte (reedición digital)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
     }
   ]
 }
