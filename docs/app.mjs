@@ -146,7 +146,7 @@ function showLinks(song) {
   // Si solo se conservó una grabación histórica en video, también debe ser
   // fácilmente accesible como opción para escuchar (sin confundirla con audio independiente).
   if (!groups.audio.length && groups.video.length) {
-    const historical = groups.video.find(link => /(?:fragmento del álbum completo|desde \\d{1,2}:\\d{2}|\\bt=\\d+s)/i.test((link.plataforma || '') + ' ' + (link.url || '')));
+    const historical = groups.video.find(link => /(?:fragmento del álbum completo|desde \d{1,2}:\d{2}|\bt=\d+s)/i.test((link.plataforma || '') + ' ' + (link.url || '')));
     if (historical) {
       groups.audio.push({
         ...historical,
