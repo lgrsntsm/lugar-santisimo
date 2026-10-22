@@ -49,6 +49,7 @@ for (const [index, song] of songs.entries()) {
     }
   }
   if (!Array.isArray(song.enlaces)) { fail(where, 'enlaces inválidos'); continue; }
+  if (song.enlaces.length === 0) fail(where, 'ficha vacía: exige al menos un enlace individual comprobado antes de publicar');
   unique(song.enlaces, a => a.tipo + '|' + a.url, 'URL del mismo tipo', where);
   for (const link of song.enlaces) {
     links++;
