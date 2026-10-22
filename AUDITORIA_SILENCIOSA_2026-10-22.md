@@ -40,3 +40,8 @@ YouTube, canal «Ríos de Vida» (presentado como canal oficial de artista), vid
 - Cruzar pista por pista la discografía oficial y album tracklists contra JSON, especialmente Rabito y Palabra en Acción; sacar candidatos con prueba verificable y tipos de enlace.
 - Releer links.mjs para detectar enlaces erróneamente invisibles y hacer pruebas de regresión.
 - Continuar por Perfume de Alabanza (68), Los Voceros (10), Manuel Bonilla (6), Nena Leal (6), Stanislao Marino (6), después resto; no limitar a estos artistas ni repetir solo estas fuentes.
+
+## Hallazgo técnico confirmado tras inspeccionar el código
+- `docs/links.mjs` **excluye de la visualización todos los enlaces Apple Music y Amazon Music**, aunque `docs/catalogo.json` los almacene. Por tanto, una ficha puede tener un enlace de audio en GitHub y mostrar «Sin información encontrada» en la web. Esta es una causa concreta de fichas aparentemente vacías. Debe tomarse una decisión editorial sobre visibilidad de plataformas y revisar compatibilidad de las reglas antes de cambiar la interfaz.
+- `docs/links.mjs` restringe los videos a YouTube y a un máximo de tres. Un enlace alternativo en otras plataformas no se muestra. Esto exige auditar cobertura **visible**, no solo cobertura del JSON.
+- Recomendación: agregar un test automático que ejecute `groupLinks(song.enlaces)` sobre todas las canciones y marque cuáles quedan sin enlaces VISIBLES, además de listar los enlaces filtrados por plataforma. No se alteraron reglas ni enlaces públicos durante esta auditoría.
