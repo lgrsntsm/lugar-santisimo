@@ -70,7 +70,7 @@ function renderDiscoveries(song) {
   const candidates = songs.filter(s => s.id !== song.id && s.interpretes.some(a => ids.has(a.id)));
   if (!candidates.length) return;
   const section = element('section', 'detail-section recommendations-section');
-  section.append(element('h3', 'detail-heading', '🎶 Más del artista:'));
+  section.append(element('h3', 'detail-heading', '🎶 Más canciones del artista:'));
   const list = element('div', 'recommended-songs');
   for (const suggested of shuffle(candidates).slice(0, 3)) {
     const b = element('button', 'recommended-song', suggested.titulo);
