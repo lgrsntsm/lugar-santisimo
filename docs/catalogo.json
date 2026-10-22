@@ -5302,6 +5302,87 @@
           "oficial": true
         }
       ]
+    },
+    {
+      "id": "CAN-000141",
+      "titulo": "Que maravilla de amor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000381",
+          "url": "https://open.spotify.com/track/3p4SiUSQq7JS2X5EPQfhvb",
+          "plataforma": "Spotify · Ríos de Vida: 40 Años",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000142",
+      "titulo": "Toda la gloria sea a Dios",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000382",
+          "url": "https://music.amazon.in/tracks/B0D683N47Z",
+          "plataforma": "Amazon Music · Anhelamos conocerte",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000143",
+      "titulo": "Ríos de Vida",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000383",
+          "url": "https://open.spotify.com/track/0C2xEmKweBf5hp8cxVIwXN",
+          "plataforma": "Spotify · Ríos de Vida · Colaboración con Música Cristiana",
+          "tipo": "audio",
+          "oficial": false
+        }
+      ]
     }
   ]
 }
