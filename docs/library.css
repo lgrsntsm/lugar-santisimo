@@ -290,3 +290,11 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .pagination .page-button:disabled:not(.is-current){opacity:.35;cursor:default}
 .pagination .pagination-summary{flex-basis:100%;text-align:center;font-size:12px;color:var(--muted);margin-top:3px}
 @media(max-width:600px){.pagination{gap:5px}.pagination .page-button{padding:7px 8px;min-width:34px;min-height:38px;font-size:12px}}
+
+/* Reporte de enlaces rotos con un toque: sin formularios ni correo del visitante. */
+.report-song{font:inherit;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;text-align:center;min-height:44px;padding:11px 15px;border-radius:9px;border:1px solid var(--line);background:transparent;color:var(--ink);max-width:100%}
+.report-song:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
+.report-song:disabled{cursor:default;opacity:.74}
+.report-song.reported{border-color:#85b99a;color:#3c8762;background:#edf5ee;opacity:1}
+:root[data-theme="dark"] .report-song.reported{background:#233d2d;color:#a9d8b5}
+.report-status{display:block;color:var(--muted);font-size:12px;margin-top:6px;line-height:1.5}
