@@ -99,3 +99,11 @@ Para artistas cristianos antiguos, ampliar la exploración a hemerotecas religio
 
 **Rutina de investigación, no repetición:** 1) fuentes oficiales y discografía existente; 2) fuentes nuevas descubiertas por pistas surgidas de la primera fase; 3) seguimiento de esas fuentes hacia nuevos sellos, álbumes e intérpretes; 4) comprobación de enlaces por canción; 5) auditoría de cobertura y siguientes huecos. Conservar un registro interno de fuentes nuevas, qué aportaron y qué no aportaron, y alternar estrategias en vez de relanzar siempre las mismas búsquedas. Las fuentes de archivos y terceros sirven para descubrir y contrastar; **no prueban por sí solas que una grabación sea oficial**.
 
+
+## Enlaces de interés y Más del artista
+
+- `docs/catalogo.json` incluye un arreglo opcional `albumes_interes`, separado de los enlaces individuales de canciones. Cada entrada contiene `id` (ALB-000001), `interprete_id`, `titulo`, `formato` (solo `video` o `mp3`), `url` y `plataforma`.
+- **Exclusivamente álbumes completos** del artista, en video o MP3, no entrevistas, biografías, discografías escritas ni listas genéricas. Las fuentes de terceros deben identificarse sin insignia de oficialidad, y descartarse si hay indicios de distribución no autorizada.
+- Se reparten automáticamente **hasta tres álbumes por canción**, rotando de a tres sobre la lista del intérprete en el catálogo. Un álbum puede repetirse en otras canciones para que los usuarios descubran el material, pero no en una misma ficha.
+- **Más del artista** recomienda tres canciones al azar del mismo intérprete, distintas de la actual, y abre su ficha interna sin abandonar Lugar Santísimo. En artistas con menos de cuatro canciones mostrará menos de tres.
+- Las secciones aparecen solo cuando existen recursos o sugerencias. No reemplazan Audio, Video, Letra y Acordes.
