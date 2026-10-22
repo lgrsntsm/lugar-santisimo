@@ -171,3 +171,14 @@ Estas 11 URLs se usarán para la investigación de links por canción, sin sumar
 Criterio: abrir el enlace INDIVIDUAL por canción, validar artista, versión y destino, deduplicar por URL y tipo. Ninguna de estas fuentes recibe sello oficial automáticamente; el check verde requiere una fuente primaria demostrable (artista, sello, distribuidora autorizada). Mantener únicamente Audio, Video, Letra y Acordes. Nunca copiar letras, partituras, audio ni video al repositorio. Las fuentes son para búsqueda continua, no prueba de discografía completada.
 
 - Cancioneros.com, sección Música Cristiana aportada por el usuario: https://www.cancioneros.com/letras/artista/49996/musica-cristiana — fuente candidata de letras para búsquedas por canción. La página no respondió a la comprobación web del 21/10/2026; verificar accesibilidad, autoría, canción e intérprete antes de publicar un enlace específico. No atribuir oficialidad ni check verde automáticamente.
+
+
+## Orden obligatorio de investigación por intérprete (21/10/2026)
+
+**Primera prioridad:** identificar el sitio web oficial de cada artista/grupo y verificar que sea auténtico. Desde allí recopilar todos sus enlaces oficiales a canales de YouTube/YouTube Music y perfiles de Spotify, Apple Music, Amazon Music, sellos y distribuidores. **Segunda prioridad:** realizar barrido profundo de esas fuentes oficiales, álbum por álbum, sencillo por sencillo y pista por pista, recolectando todos los enlaces individuales válidos para Audio, Video, Letra y Acordes. **Tercera prioridad:** únicamente después, revisar exhaustivamente fuentes externas fiables como Cifra Club, Secuencias, AcordesWeb, Himnos y Canciones, Música.com, Cancioneros y otros sitios aportados por el usuario. No limitar un intérprete a una selección de éxitos; explicitar siempre las tareas pendientes hasta verificar la discografía. No añadir metadatos o columnas.
+
+## Protección contra scraping (21/10/2026)
+
+Se añadió `docs/robots.txt` para indicar a determinados bots de recolección/datasets que no rastreen el sitio, manteniendo la indexación de buscadores generales. **No es una barrera de seguridad real**: robots.txt solo expresa una preferencia y se puede ignorar. La web y su `catalogo.json` son públicos por diseño en GitHub Pages.
+
+Para mitigación efectiva de bots abusivos, Cloudflare Free ofrece Bot Fight Mode y reglas de seguridad, pero **únicamente para tráfico que pase por el proxy de Cloudflare**. El dominio había usado DNS only (nube gris), por lo que no activar/describir Cloudflare como protección efectiva sin configurar y comprobar antes proxy naranja, DNS, HTTPS y la compatibilidad con GitHub Pages. Evitar medidas de Javascript anti-copia (fáciles de eludir y perjudican accesibilidad). Si se configuran controles de Cloudflare, comprobar funcionamiento de GitHub Pages/HTTPS y usuarios legítimos.
