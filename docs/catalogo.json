@@ -6054,6 +6054,1185 @@
           "oficial": true
         }
       ]
+    },
+    {
+      "id": "CAN-000166",
+      "titulo": "Mi Pensamiento Eres Tú",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000022",
+          "nombre": "Manuel Bonilla",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000417",
+          "url": "https://music.apple.com/us/song/1531495750",
+          "plataforma": "Apple Music · 12 Éxitos Cristianos",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000167",
+      "titulo": "Pon Tu Mano",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000022",
+          "nombre": "Manuel Bonilla",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000418",
+          "url": "https://music.apple.com/us/song/1532123388",
+          "plataforma": "Apple Music · El Rey Ya Viene",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000168",
+      "titulo": "Soy Feliz",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000022",
+          "nombre": "Manuel Bonilla",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000419",
+          "url": "https://music.apple.com/us/song/1532123389",
+          "plataforma": "Apple Music · El Rey Ya Viene",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000169",
+      "titulo": "Paz, Paz",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000022",
+          "nombre": "Manuel Bonilla",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000420",
+          "url": "https://music.apple.com/us/song/1532123391",
+          "plataforma": "Apple Music · El Rey Ya Viene",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000170",
+      "titulo": "Si No Es Eso Amor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000022",
+          "nombre": "Manuel Bonilla",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000421",
+          "url": "https://music.apple.com/us/song/1532123394",
+          "plataforma": "Apple Music · El Rey Ya Viene",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000171",
+      "titulo": "Tengo Mi Mano En La Mano Del Señor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000022",
+          "nombre": "Manuel Bonilla",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000422",
+          "url": "https://music.apple.com/us/song/1523860075",
+          "plataforma": "Apple Music · Soy La Triste Oveja",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000172",
+      "titulo": "Ven Señor Jesús",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000023",
+          "nombre": "Los Voceros de Cristo",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000423",
+          "url": "https://music.apple.com/us/song/1879638902",
+          "plataforma": "Apple Music · La Venida de Jesús (1972)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000173",
+      "titulo": "Oh Alma Mía",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000023",
+          "nombre": "Los Voceros de Cristo",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000424",
+          "url": "https://music.apple.com/us/song/1558840905",
+          "plataforma": "Apple Music · Oh Alma Mía (1974)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000174",
+      "titulo": "Por Amor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000023",
+          "nombre": "Los Voceros de Cristo",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000425",
+          "url": "https://music.apple.com/us/song/1558840904",
+          "plataforma": "Apple Music · Oh Alma Mía (1974)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000175",
+      "titulo": "Escogido Fui de Dios",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000023",
+          "nombre": "Los Voceros de Cristo",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000426",
+          "url": "https://music.apple.com/us/song/1558840908",
+          "plataforma": "Apple Music · Oh Alma Mía (1974)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000176",
+      "titulo": "Los Juicios de Dios",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000023",
+          "nombre": "Los Voceros de Cristo",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000427",
+          "url": "https://music.apple.com/us/song/1533227384",
+          "plataforma": "Apple Music · Oh Alma Mía (1974)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000177",
+      "titulo": "La Perdida Oveja",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000023",
+          "nombre": "Los Voceros de Cristo",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000428",
+          "url": "https://music.apple.com/us/song/1558840911",
+          "plataforma": "Apple Music · Oh Alma Mía (1974)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000178",
+      "titulo": "Estoy Agradecido Señor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000023",
+          "nombre": "Los Voceros de Cristo",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000429",
+          "url": "https://music.apple.com/us/song/1532917568",
+          "plataforma": "Apple Music · Mi Señor y Dios (1979)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000179",
+      "titulo": "Responde a Mi Oración",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000023",
+          "nombre": "Los Voceros de Cristo",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000430",
+          "url": "https://music.apple.com/us/song/1532917575",
+          "plataforma": "Apple Music · Mi Señor y Dios (1979)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000180",
+      "titulo": "Su Amor Siempre Es Su Amor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000023",
+          "nombre": "Los Voceros de Cristo",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000431",
+          "url": "https://music.apple.com/us/song/1532917574",
+          "plataforma": "Apple Music · Mi Señor y Dios (1979)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000181",
+      "titulo": "La Traición de Judas",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000023",
+          "nombre": "Los Voceros de Cristo",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000432",
+          "url": "https://music.apple.com/us/song/1532917571",
+          "plataforma": "Apple Music · Mi Señor y Dios (1979)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000182",
+      "titulo": "Escucha Mi Oración",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000024",
+          "nombre": "Rabito",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000433",
+          "url": "https://music.apple.com/us/song/1212419812",
+          "plataforma": "Apple Music · Pueblo de Dios (1999)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000183",
+      "titulo": "Para Siempre Mi Amor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000024",
+          "nombre": "Rabito",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000434",
+          "url": "https://music.apple.com/us/song/1212419813",
+          "plataforma": "Apple Music · Pueblo de Dios (1999)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000184",
+      "titulo": "Dale Tu Amor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000024",
+          "nombre": "Rabito",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000435",
+          "url": "https://music.apple.com/us/song/1212419815",
+          "plataforma": "Apple Music · Pueblo de Dios (1999)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000185",
+      "titulo": "Suenen las Campanas",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000024",
+          "nombre": "Rabito",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000436",
+          "url": "https://music.apple.com/us/song/1212419819",
+          "plataforma": "Apple Music · Pueblo de Dios (1999)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000186",
+      "titulo": "Alegra Mi Vida",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000024",
+          "nombre": "Rabito",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000437",
+          "url": "https://music.apple.com/us/song/768997892",
+          "plataforma": "Apple Music · Sinceridad",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000187",
+      "titulo": "El Rapto",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000025",
+          "nombre": "Nena Leal",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000438",
+          "url": "https://music.apple.com/us/song/1706253402",
+          "plataforma": "Apple Music · Tu Grandeza · Remasterización 2023",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000188",
+      "titulo": "El Hombre",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000025",
+          "nombre": "Nena Leal",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000439",
+          "url": "https://music.apple.com/us/song/1706253618",
+          "plataforma": "Apple Music · Tu Grandeza · Remasterización 2023",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000189",
+      "titulo": "Las Huellas",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000025",
+          "nombre": "Nena Leal",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000440",
+          "url": "https://music.apple.com/us/song/1490057198",
+          "plataforma": "Apple Music · El León De Juda (1990)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000190",
+      "titulo": "El Alfarero",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000025",
+          "nombre": "Nena Leal",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000441",
+          "url": "https://music.apple.com/us/song/1513108847",
+          "plataforma": "Apple Music · Impresión Norteña (2020)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000191",
+      "titulo": "Acuérdate De Tu Creador",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000025",
+          "nombre": "Nena Leal",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000442",
+          "url": "https://music.apple.com/us/song/1470336018",
+          "plataforma": "Apple Music · El Alfarero (1989)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000192",
+      "titulo": "Cuando Conocí a Jesus",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000025",
+          "nombre": "Nena Leal",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000443",
+          "url": "https://music.apple.com/us/song/1455560165",
+          "plataforma": "Apple Music · El Joven Galileo (1986)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000193",
+      "titulo": "Glorificad a Jehová",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000026",
+          "nombre": "Palabra en Acción",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000444",
+          "url": "https://music.apple.com/us/song/1556105940",
+          "plataforma": "Apple Music · Glorificad a Jehová (1989)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000194",
+      "titulo": "Aunque Gigante se Encuentre Allá",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000026",
+          "nombre": "Palabra en Acción",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000445",
+          "url": "https://music.apple.com/us/song/1556105945",
+          "plataforma": "Apple Music · Glorificad a Jehová (1989)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000195",
+      "titulo": "Vengo Hoy",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000026",
+          "nombre": "Palabra en Acción",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000446",
+          "url": "https://music.apple.com/us/song/6800151245",
+          "plataforma": "Apple Music · Glorificad a Jehová (1989)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000196",
+      "titulo": "Bendito Sea El Señor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000026",
+          "nombre": "Palabra en Acción",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000447",
+          "url": "https://music.apple.com/us/song/1556106127",
+          "plataforma": "Apple Music · Glorificad a Jehová (1989)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000197",
+      "titulo": "Hay Momentos",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000026",
+          "nombre": "Palabra en Acción",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000448",
+          "url": "https://music.apple.com/us/song/6800131647",
+          "plataforma": "Apple Music · Jehová Es Mi Guerrero (1988)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000198",
+      "titulo": "Me Alegraré",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000026",
+          "nombre": "Palabra en Acción",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000449",
+          "url": "https://music.apple.com/us/song/1556098923",
+          "plataforma": "Apple Music · Jehová Es Mi Guerrero (1988)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000199",
+      "titulo": "No Temáis",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000026",
+          "nombre": "Palabra en Acción",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000450",
+          "url": "https://music.apple.com/us/song/1556107711",
+          "plataforma": "Apple Music · Más Que Vencedor (1991)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000200",
+      "titulo": "Va a Haber Un Avivamiento",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000026",
+          "nombre": "Palabra en Acción",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000451",
+          "url": "https://music.apple.com/us/song/1556107926",
+          "plataforma": "Apple Music · Más Que Vencedor (1991)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000201",
+      "titulo": "Mil Gracias",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000026",
+          "nombre": "Palabra en Acción",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000452",
+          "url": "https://music.apple.com/us/song/1556107931",
+          "plataforma": "Apple Music · Más Que Vencedor (1991)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000202",
+      "titulo": "La Gran Tribulación",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000027",
+          "nombre": "Stanislao Marino",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000453",
+          "url": "https://music.apple.com/us/song/310328771",
+          "plataforma": "Apple Music · La Gran Tribulacion - Es Tiempo Ya (1976)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000203",
+      "titulo": "El Camino del Evangelio",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000027",
+          "nombre": "Stanislao Marino",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000454",
+          "url": "https://music.apple.com/us/song/310328795",
+          "plataforma": "Apple Music · La Gran Tribulacion - Es Tiempo Ya (1976)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000204",
+      "titulo": "Soy Evangélico",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000027",
+          "nombre": "Stanislao Marino",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000455",
+          "url": "https://music.apple.com/us/song/310328204",
+          "plataforma": "Apple Music · Himnos y Coros Para Recordar",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000205",
+      "titulo": "Por Que Te Alejas de Dios",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000027",
+          "nombre": "Stanislao Marino",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000456",
+          "url": "https://music.apple.com/us/song/310328808",
+          "plataforma": "Apple Music · La Gran Tribulacion - Es Tiempo Ya (1976)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000206",
+      "titulo": "Apóyate en Cristo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000027",
+          "nombre": "Stanislao Marino",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000457",
+          "url": "https://music.apple.com/us/song/628058365",
+          "plataforma": "Apple Music · La Gran Tribulación / A Mi Lado Está el Señor",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000207",
+      "titulo": "Dios No Te Ha Olvidado",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000027",
+          "nombre": "Stanislao Marino",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000458",
+          "url": "https://music.apple.com/us/song/310328882",
+          "plataforma": "Apple Music · La Gran Tribulacion - Es Tiempo Ya (1977)",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
     }
   ]
 }
