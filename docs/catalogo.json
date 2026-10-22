@@ -1857,6 +1857,13 @@
           "plataforma": "Apple Music · Todo Adoración",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000485",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=3761s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 01:02:41 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
         }
       ]
     },
@@ -1891,6 +1898,13 @@
           "plataforma": "Spotify · Alabanzas (1995)",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000484",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=3483s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:58:03 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
         }
       ]
     },
@@ -4895,6 +4909,13 @@
           "plataforma": "Apple Music · Todo Adoración",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000461",
+          "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=477s",
+          "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 07:57 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
         }
       ]
     },
@@ -4922,6 +4943,13 @@
           "plataforma": "Amazon Music · 20 Años",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000464",
+          "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=1264s",
+          "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 21:04 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
         }
       ]
     },
@@ -4949,6 +4977,13 @@
           "plataforma": "Spotify · Todo Adoración",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000469",
+          "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=2709s",
+          "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 45:09 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
         }
       ]
     },
@@ -4976,6 +5011,13 @@
           "plataforma": "Amazon Music · 20 Años",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000462",
+          "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=683s",
+          "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 11:23 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
         }
       ]
     },
@@ -5003,6 +5045,13 @@
           "plataforma": "Apple Music · Todo Adoración",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000463",
+          "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=1023s",
+          "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 17:03 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
         }
       ]
     },
@@ -5030,6 +5079,13 @@
           "plataforma": "Apple Music · Todo Adoración",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000467",
+          "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=2079s",
+          "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 34:39 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
         }
       ]
     },
@@ -5219,6 +5275,13 @@
           "plataforma": "Apple Music · 20 Años",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000473",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=1051s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:17:31 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
         }
       ]
     },
@@ -5246,6 +5309,13 @@
           "plataforma": "Amazon Music · 20 Años",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000460",
+          "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=215s",
+          "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 03:35 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
         }
       ]
     },
@@ -5327,6 +5397,13 @@
           "plataforma": "Spotify · Ríos de Vida: 40 Años",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000479",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=2757s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:45:57 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
         }
       ]
     },
@@ -5401,7 +5478,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000459",
+          "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=0s",
+          "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 00:00 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000145",
@@ -5420,7 +5505,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000465",
+          "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=1615s",
+          "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 26:55 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000146",
@@ -5439,7 +5532,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000466",
+          "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=1874s",
+          "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 31:14 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000147",
@@ -5458,7 +5559,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000468",
+          "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=2390s",
+          "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 39:50 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000148",
@@ -5477,7 +5586,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000470",
+          "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=3106s",
+          "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 51:46 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000149",
@@ -5496,7 +5613,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000471",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=0s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:00:00 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000150",
@@ -5515,7 +5640,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000472",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=507s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:08:27 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000151",
@@ -5534,7 +5667,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000474",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=1527s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:25:27 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000152",
@@ -5553,7 +5694,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000475",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=2049s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:34:09 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000153",
@@ -5572,7 +5721,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000476",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=2250s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:37:30 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000154",
@@ -5591,7 +5748,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000477",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=2388s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:39:48 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000155",
@@ -5610,7 +5775,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000478",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=2529s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:42:09 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000156",
@@ -5629,7 +5802,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000480",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=2856s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:47:36 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000157",
@@ -5648,7 +5829,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000481",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=3032s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:50:32 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000158",
@@ -5667,7 +5856,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000482",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=3147s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:52:27 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000159",
@@ -5686,7 +5883,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000483",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=3340s",
+          "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:55:40 (fragmento del álbum completo)",
+          "tipo": "video",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000160",
