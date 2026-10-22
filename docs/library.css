@@ -363,3 +363,16 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
  #song-dialog .recommendations-heading{align-items:center}
  #song-dialog .see-all-songs{padding:7px 10px;font-size:11px}
 }
+
+/* Detalle de canción: interfaz textual, sin portadas ni logotipos de las plataformas.
+   Los símbolos se reservan a los títulos de las secciones Audio, Video,
+   Letra, Acordes, Enlaces de interés y Más canciones del artista. */
+#song-dialog .interest-album{gap:8px;padding:12px 14px}
+#song-dialog .interest-album-icon{display:none}
+#song-dialog .interest-album-content{width:100%}
+#song-dialog .interest-album-source{font-size:11px}
+#song-dialog .platform-link{gap:8px}
+#song-dialog .platform-link strong{font-size:13px;font-weight:500}
+#song-dialog .recommended-song{background:transparent}
+#song-dialog .recommended-song-text{flex:1}
+@media(max-width:550px){#song-dialog .interest-album{padding:11px 12px}}
