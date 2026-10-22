@@ -84,3 +84,18 @@ El catálogo es público. `robots.txt` expresa preferencias de rastreo, pero no 
 **6. Auditoría de cobertura:** comprobar artista por artista: catálogo de lanzamientos descubierto y revisado; cantidad de pistas únicas; número de fichas existentes y faltantes; cobertura verificada por Audio/Video/Letra/Acordes; URLs rotas o inconsistentes; enlaces nuevos agregados. Repetir barridos complementarios de forma iterativa cuando nuevos sitios o grabaciones aparezcan. No equiparar «no encontré» con «no existe».
 
 **Objetivo explícito: máxima cantidad sostenible de canciones bien documentadas.** No detener las incorporaciones por una cuota arbitraria (5, 10, 20 temas), pero tampoco declarar completa una investigación a la que le faltan discos o fuentes. Las fichas existentes se enriquecen en paralelo con nuevas incorporaciones.
+
+### Descubrimiento CONTINUO de fuentes nuevas (obligatorio)
+
+**No trabajar en un circuito cerrado de plataformas habituales.** Cada investigación de artista debe dedicar una fase separada a *encontrar fuentes no usadas previamente* mediante búsquedas por nombre alternativo, sello, época, país, álbum, LP, casete, referencia de catálogo, colaboraciones y versiones. Rastrear referencias encadenadas: un disco lleva a un sello, el sello a un catálogo, el catálogo a nuevos grupos, y las contratapas a autores y otras ediciones. Contrastar de forma independiente los hallazgos. No limitar el descubrimiento a Google, Spotify, Apple Music o YouTube.
+
+Para artistas cristianos antiguos, ampliar la exploración a hemerotecas religiosas, bibliotecas eclesiásticas y universitarias, catálogos de archivos de grabaciones, sellos regionales, archivos de radios cristianas, coleccionistas documentados, fotografías de LP/casetes, revistas históricas y catálogos de editoriales de himnarios. **Ejemplos recién localizados que todavía deben investigarse por artista, no asumirse como fuentes de canciones específicas:**
+- Fundación Gladys Palmera, archivo de discos y documentos musicales latinoamericanos: https://fundaciongladyspalmera.org/coleccion/
+- Discografías por sellos históricos de gospel: https://www.bsnpubs.com/christian/index.html
+- Biblioteca Universidad Adventista del Plata, investigación de discos cristianos históricos en Argentina: https://biblioteca.uap.edu.ar/2017/04/dos-revoluciones-en-la-musica-del-cap/
+- Discografía del sello Producciones Cristianas Asociadas en Qobuz: https://www.qobuz.com/us-en/label/producciones-cristianas-asociadas/download-streaming-albums/1928825/page/2
+- Catálogo original del músico Alejandro Alonso, con detalle de un LP de 1982: https://alejandroalonso.com/tienda/musica/cantico-de-libertad/
+- Christian Music Archive, discografías históricas (incluye intérpretes hispanos): https://www.christianmusicarchive.com/
+
+**Rutina de investigación, no repetición:** 1) fuentes oficiales y discografía existente; 2) fuentes nuevas descubiertas por pistas surgidas de la primera fase; 3) seguimiento de esas fuentes hacia nuevos sellos, álbumes e intérpretes; 4) comprobación de enlaces por canción; 5) auditoría de cobertura y siguientes huecos. Conservar un registro interno de fuentes nuevas, qué aportaron y qué no aportaron, y alternar estrategias en vez de relanzar siempre las mismas búsquedas. Las fuentes de archivos y terceros sirven para descubrir y contrastar; **no prueban por sí solas que una grabación sea oficial**.
+
