@@ -1,7 +1,7 @@
 import { filterSongs } from './filter.mjs';
 import { groupLinks } from './links.mjs?v=verified1';
 const $ = selector => document.querySelector(selector);
-let songs = [], category = '', currentPage = 1;
+let songs = [], category = '', currentPage = 1, albumsByArtist = new Map(), songsByArtist = new Map();
 const PAGE_SIZE = 50;
 const themeButton = $('#theme-toggle');
 function updateThemeButton() {
@@ -31,6 +31,58 @@ function shuffle(input) {
 const colors = ['#56644f', '#a87956', '#5c536b', '#6b3545', '#657982'];
 const initials = text => text.split(/\s+/).slice(0, 2).map(word => word[0]).join('');
 function element(tag, className, text) { const e = document.createElement(tag); if (className) e.className = className; if (text !== undefined) e.textContent = text; return e; }
+
+// ÁLBUMES COMPLETOS: repartir grupos de hasta tres sin repetir dentro de la ficha.
+// Para N álbumes se distribuyen 3 por ficha y se reinicia la vuelta al agotar N.
+function albumsForSong(song) {
+  const result = [], used = new Set();
+  for (const artist of song.interpretes) {
+    const albums = albumsByArtist.get(artist.id) || [];
+    const siblings = songsByArtist.get(artist.id) || [];
+    const pos = siblings.findIndex(s => s.id === song.id);
+    const start = (Math.max(0, pos) * 3) % (albums.length || 1);
+    for (let j = 0; j < Math.min(3, albums.length); j++) {
+      const album = albums[(start + j) % albums.length];
+      if (!used.has(album.url)) {
+        used.add(album.url);
+        result.push(album);
+      }
+      if (result.length >= 3) return result;
+    }
+  }
+  return result;
+}
+function renderDiscoveries(song) {
+  const albums = albumsForSong(song);
+  if (albums.length) {
+    const section = element('section', 'detail-section interest-section');
+    section.append(element('h3', 'detail-heading', '🔗 Enlaces de interés:'));
+    for (const album of albums) {
+      const a = element('a', 'interest-album');
+      a.href = album.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      a.append(element('span', 'interest-album-title', album.titulo));
+      a.append(element('span', 'interest-album-source', album.plataforma + ' ↗'));
+      section.append(a);
+    }
+    $('#dialog-links').append(section);
+  }
+  const ids = new Set(song.interpretes.map(a => a.id));
+  const candidates = songs.filter(s => s.id !== song.id && s.interpretes.some(a => ids.has(a.id)));
+  if (!candidates.length) return;
+  const section = element('section', 'detail-section recommendations-section');
+  section.append(element('h3', 'detail-heading', '🎶 Más del artista:'));
+  const list = element('div', 'recommended-songs');
+  for (const suggested of shuffle(candidates).slice(0, 3)) {
+    const b = element('button', 'recommended-song', suggested.titulo);
+    b.type = 'button';
+    b.setAttribute('aria-label', 'Abrir canción ' + suggested.titulo);
+    b.addEventListener('click', () => showLinks(suggested));
+    list.append(b);
+  }
+  section.append(list);
+  $('#dialog-links').append(section);
+}
+
 function showLinks(song) {
   $('#dialog-title').textContent = `🧾 Título: ${song.titulo || 'Sin información encontrada'}`;
   $('#dialog-artists').textContent = `🎙️ Intérprete: ${song.interpretes.map(a => a.nombre).filter(Boolean).join(' · ') || 'Sin información encontrada'}`;
@@ -91,6 +143,7 @@ function showLinks(song) {
     if (!groups[type].length) section.append(element('p', 'detail-empty', 'Sin información encontrada.'));
     $('#dialog-links').append(section);
   }
+  renderDiscoveries(song);
   const report = element('button', 'report-link report-song', 'Presionar para reportar uno o varios enlaces rotos');
   report.type = 'button';
   report.setAttribute('aria-label', `Reportar enlaces rotos de ${song.titulo}`);
@@ -234,6 +287,21 @@ async function load() {
     const response = await fetch('./catalogo.json', { cache: 'no-cache' }); if (!response.ok) throw new Error('Catálogo no disponible');
     const catalog = await response.json(); if (catalog.schema_version !== 1 || !Array.isArray(catalog.canciones)) throw new Error('Catálogo incompatible');
     songs = shuffle(catalog.canciones);
+    songsByArtist = new Map();
+    for (const song of songs) for (const artist of song.interpretes) {
+      const entries = songsByArtist.get(artist.id) || [];
+      entries.push(song);
+      songsByArtist.set(artist.id, entries);
+    }
+    for (const list of songsByArtist.values()) list.sort((a,b) => a.id.localeCompare(b.id));
+    albumsByArtist = new Map();
+    for (const album of Array.isArray(catalog.albumes_interes) ? catalog.albumes_interes : []) {
+      if (!album || !/^https:\/\//.test(album.url || '') || !['video', 'mp3'].includes(album.formato)) continue;
+      if (!songsByArtist.has(album.interprete_id)) continue;
+      const entries = albumsByArtist.get(album.interprete_id) || [];
+      if (!entries.some(a => a.url === album.url)) entries.push(album);
+      albumsByArtist.set(album.interprete_id, entries);
+    }
     currentPage = 1;
     const categories = new Map(songs.flatMap(song => song.categorias.map(c => [c.id, c.nombre])));
     $('#categories').querySelectorAll('button:not([data-category=""])').forEach(button => button.remove());
