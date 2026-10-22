@@ -91,7 +91,7 @@ function showLinks(song) {
     if (!groups[type].length) section.append(element('p', 'detail-empty', 'Sin información encontrada.'));
     $('#dialog-links').append(section);
   }
-  const report = element('button', 'report-link report-song', 'En esta canción hay uno o varios enlaces rotos');
+  const report = element('button', 'report-link report-song', 'Presionar para reportar uno o varios enlaces rotos');
   report.type = 'button';
   report.setAttribute('aria-label', `Reportar enlaces rotos de ${song.titulo}`);
   const reportMessage = element('span', 'report-status');
@@ -142,7 +142,7 @@ function showLinks(song) {
       report.classList.add('reported');
       reportMessage.textContent = 'Gracias por ayudarnos a mejorar la biblioteca.';
     } catch (_) {
-      report.textContent = 'En esta canción hay uno o varios enlaces rotos';
+      report.textContent = 'Presionar para reportar uno o varios enlaces rotos';
       reportMessage.textContent = 'No pudimos enviar el reporte. Intentá nuevamente más tarde.';
       report.disabled = false;
     }
