@@ -376,3 +376,22 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 #song-dialog .recommended-song{background:transparent}
 #song-dialog .recommended-song-text{flex:1}
 @media(max-width:550px){#song-dialog .interest-album{padding:11px 12px}}
+
+/* Separadores con profundidad discreta entre Audio, Video, Letra y Acordes. */
+#song-dialog .detail-section:not(.interest-section):not(.recommendations-section){
+  margin-top:17px;
+  padding:16px 15px 17px;
+  border:1px solid #e4e6df;
+  border-radius:11px;
+  background:#fffefa;
+  box-shadow:0 2px 9px rgba(49,58,47,.055);
+}
+#song-dialog .detail-section:not(.interest-section):not(.recommendations-section) .detail-heading{margin-bottom:11px}
+:root[data-theme="dark"] #song-dialog .detail-section:not(.interest-section):not(.recommendations-section){
+  border-color:#373a39;
+  background:#202120;
+  box-shadow:0 2px 12px rgba(0,0,0,.18);
+}
+@media(max-width:550px){
+  #song-dialog .detail-section:not(.interest-section):not(.recommendations-section){padding:13px 11px 14px;margin-top:13px;border-radius:10px}
+}
