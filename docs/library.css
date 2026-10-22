@@ -281,3 +281,12 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 /* Logo oficial circular bordó y dorado. */
 .brand-icon.brand-logo{display:block;object-fit:contain;object-position:center;border-radius:50%;background:transparent;width:39px;height:39px;flex-shrink:0}
 @media(max-width:600px){.brand-icon.brand-logo{width:33px;height:33px}}
+
+/* Paginación de catálogo: 50 canciones por página. */
+.pagination{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:9px;margin:30px 0 10px}
+.pagination .page-button{min-height:40px;min-width:40px;padding:8px 13px;border-radius:10px;border:1px solid var(--line);background:var(--paper);color:var(--ink);font-weight:600;font-size:13px}
+.pagination .page-button:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
+.pagination .page-button.is-current{background:var(--accent);color:#121212;border-color:var(--accent);cursor:default}
+.pagination .page-button:disabled:not(.is-current){opacity:.35;cursor:default}
+.pagination .pagination-summary{flex-basis:100%;text-align:center;font-size:12px;color:var(--muted);margin-top:3px}
+@media(max-width:600px){.pagination{gap:5px}.pagination .page-button{padding:7px 8px;min-width:34px;min-height:38px;font-size:12px}}
