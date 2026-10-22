@@ -1,0 +1,26 @@
+name: Validar catálogo
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/catalogo.json'
+      - 'scripts/validar-catalogo.mjs'
+      - '.github/workflows/validar-catalogo.yml'
+  pull_request:
+    paths:
+      - 'docs/catalogo.json'
+      - 'scripts/validar-catalogo.mjs'
+      - '.github/workflows/validar-catalogo.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validar formato, identificadores, enlaces y duplicados
+        run: node scripts/validar-catalogo.mjs
