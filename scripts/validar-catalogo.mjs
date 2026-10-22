@@ -61,6 +61,20 @@ for (const [index, song] of songs.entries()) {
     if (typeof link.oficial !== 'boolean') fail(where, 'oficial debe ser true o false');
   }
 }
+
+if (catalog.albumes_interes !== undefined && !Array.isArray(catalog.albumes_interes)) fail('catálogo', 'albumes_interes debe ser un arreglo');
+const artistIDs = new Set(songs.flatMap(s => (s.interpretes || []).map(a => a.id)));
+const albums = Array.isArray(catalog.albumes_interes) ? catalog.albumes_interes : [];
+unique(albums, a => a.id, 'id de álbum', 'albumes_interes');
+unique(albums, a => a.interprete_id + '|' + a.url, 'enlace por intérprete', 'albumes_interes');
+for (const a of albums) {
+  if (!/^ALB-\d{6}$/.test(a.id || '')) fail('albumes_interes', 'ID inválido');
+  if (!artistIDs.has(a.interprete_id)) fail('albumes_interes', 'intérprete inexistente: ' + a.interprete_id);
+  if (!present(a.titulo) || !present(a.plataforma)) fail('albumes_interes', 'falta título o plataforma');
+  if (!['video', 'mp3'].includes(a.formato)) fail('albumes_interes', 'solo videos o MP3 de álbumes completos');
+  if (!isHttps(a.url)) fail('albumes_interes', 'URL HTTPS inválida: ' + a.url);
+}
+
 if (errors.length) {
   console.error('El catálogo NO supera la validación (' + errors.length + ' errores):');
   for (const e of errors) console.error(' - ' + e);
