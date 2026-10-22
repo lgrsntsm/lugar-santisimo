@@ -3764,6 +3764,740 @@
           "oficial": false
         }
       ]
+    },
+    {
+      "id": "CAN-000090",
+      "titulo": "Vamos a entrar",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000017",
+          "nombre": "Ingrid Rosario",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000307",
+          "url": "https://www.cifraclub.com/ingrid-rosario/vamos-a-entrar/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000308",
+          "url": "https://www.cifraclub.com/ingrid-rosario/vamos-a-entrar/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000091",
+      "titulo": "Donde vayas",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000017",
+          "nombre": "Ingrid Rosario",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000309",
+          "url": "https://www.cifraclub.com/ingrid-rosario/donde-vayas/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000310",
+          "url": "https://www.cifraclub.com/ingrid-rosario/donde-vayas/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000092",
+      "titulo": "Abre los cielos",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000017",
+          "nombre": "Ingrid Rosario",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000311",
+          "url": "https://www.cifraclub.com/ingrid-rosario/abre-los-cielos/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000312",
+          "url": "https://www.cifraclub.com/ingrid-rosario/abre-los-cielos/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000093",
+      "titulo": "Quiero estar en tu presencia",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000017",
+          "nombre": "Ingrid Rosario",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000313",
+          "url": "https://www.cifraclub.com/ingrid-rosario/quiero-estar-en-tu-presencia/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000314",
+          "url": "https://www.cifraclub.com/ingrid-rosario/quiero-estar-en-tu-presencia/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000094",
+      "titulo": "Te amo tanto",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000017",
+          "nombre": "Ingrid Rosario",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000315",
+          "url": "https://www.cifraclub.com/ingrid-rosario/te-amo-tanto/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000316",
+          "url": "https://www.cifraclub.com/ingrid-rosario/te-amo-tanto/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000095",
+      "titulo": "El Poderoso de Israel",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000317",
+          "url": "https://www.cifraclub.com/juan-carlos-alvarado/el-poderoso-de-israel/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000318",
+          "url": "https://www.cifraclub.com/juan-carlos-alvarado/el-poderoso-de-israel/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000096",
+      "titulo": "Tu fidelidad",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000319",
+          "url": "https://www.cifraclub.com/juan-carlos-alvarado/tu-fidelidad/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000320",
+          "url": "https://www.cifraclub.com/juan-carlos-alvarado/tu-fidelidad/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000097",
+      "titulo": "A quién iré",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000321",
+          "url": "https://www.cifraclub.com/juan-carlos-alvarado/a-quien-ire/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000322",
+          "url": "https://www.cifraclub.com/juan-carlos-alvarado/a-quien-ire/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000098",
+      "titulo": "Alzaré mis ojos",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000018",
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000323",
+          "url": "https://www.cifraclub.com/juan-carlos-alvarado/alzare-mis-ojos/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000324",
+          "url": "https://www.cifraclub.com/juan-carlos-alvarado/alzare-mis-ojos/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000099",
+      "titulo": "Enamórame",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000019",
+          "nombre": "Abel Zavala",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000325",
+          "url": "https://www.cifraclub.com/abel-zavala/enamorame/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000326",
+          "url": "https://www.cifraclub.com/abel-zavala/enamorame/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000100",
+      "titulo": "Jesús mi fiel amigo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000019",
+          "nombre": "Abel Zavala",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000327",
+          "url": "https://www.cifraclub.com/abel-zavala/jesus-mi-fiel-amigo/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000328",
+          "url": "https://www.cifraclub.com/abel-zavala/jesus-mi-fiel-amigo/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000101",
+      "titulo": "Guárdame en tu presencia",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000019",
+          "nombre": "Abel Zavala",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000329",
+          "url": "https://www.cifraclub.com/abel-zavala/guardame-en-tu-presencia/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000330",
+          "url": "https://www.cifraclub.com/abel-zavala/guardame-en-tu-presencia/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000102",
+      "titulo": "Lo único que quiero",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000019",
+          "nombre": "Abel Zavala",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000331",
+          "url": "https://www.cifraclub.com/abel-zavala/lo-unico-que-quiero/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000103",
+      "titulo": "Examíname",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000020",
+          "nombre": "Generación 12",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000332",
+          "url": "https://www.cifraclub.com/generacion-12/examiname/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000333",
+          "url": "https://www.cifraclub.com/generacion-12/examiname/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000104",
+      "titulo": "En tus brazos",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000020",
+          "nombre": "Generación 12",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000334",
+          "url": "https://www.cifraclub.com/generacion-12/en-tus-brazos/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000335",
+          "url": "https://www.cifraclub.com/generacion-12/en-tus-brazos/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000105",
+      "titulo": "Tú nos salvarás",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000020",
+          "nombre": "Generación 12",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000336",
+          "url": "https://www.cifraclub.com/generacion-12/tu-nos-salvaras/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000337",
+          "url": "https://www.cifraclub.com/generacion-12/tu-nos-salvaras/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000106",
+      "titulo": "Tus pensamientos",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000020",
+          "nombre": "Generación 12",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000338",
+          "url": "https://www.cifraclub.com/generacion-12/tus-pensamientos/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000339",
+          "url": "https://www.cifraclub.com/generacion-12/tus-pensamientos/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000107",
+      "titulo": "Lléname",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000020",
+          "nombre": "Generación 12",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000340",
+          "url": "https://www.cifraclub.com/generacion-12/llename/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000108",
+      "titulo": "Eres Dios",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000021",
+          "nombre": "Barak",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000341",
+          "url": "https://www.cifraclub.com/barak/eres-dios/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000342",
+          "url": "https://www.cifraclub.com/barak/eres-dios/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000109",
+      "titulo": "Todo va a estar bien",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000021",
+          "nombre": "Barak",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000343",
+          "url": "https://www.cifraclub.com/barak/todo-va-a-estar-bien/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000344",
+          "url": "https://www.cifraclub.com/barak/todo-va-a-estar-bien/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000110",
+      "titulo": "Alfa y Omega",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000021",
+          "nombre": "Barak",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000345",
+          "url": "https://www.cifraclub.com/barak/alfa-y-omega/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000346",
+          "url": "https://www.cifraclub.com/barak/alfa-y-omega/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000111",
+      "titulo": "La tierra canta",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000021",
+          "nombre": "Barak",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000347",
+          "url": "https://www.cifraclub.com/barak/la-tierra-canta/",
+          "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000348",
+          "url": "https://www.cifraclub.com/barak/la-tierra-canta/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
     }
   ]
 }
