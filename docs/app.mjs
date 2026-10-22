@@ -201,7 +201,9 @@ function showLinks(song) {
     }
   });
   $('#dialog-links').append(report, reportMessage);
-  $('#song-dialog').showModal();
+  const dialog = $('#song-dialog');
+  if (!dialog.open) dialog.showModal();
+  dialog.scrollTop = 0;
 }
 function render() {
   const list = filterSongs(songs, { query: $('#search').value, category, sort: $('#sort').value });
