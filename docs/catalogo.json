@@ -7234,5 +7234,23 @@
         }
       ]
     }
+  ],
+  "albumes_interes": [
+    {
+      "id": "ALB-000001",
+      "interprete_id": "INT-000007",
+      "titulo": "Perfume de Alabanza 3 (1998)",
+      "formato": "video",
+      "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM",
+      "plataforma": "YouTube · Álbum completo · Archivo histórico"
+    },
+    {
+      "id": "ALB-000002",
+      "interprete_id": "INT-000007",
+      "titulo": "Ríos de Vida: 40 Años",
+      "formato": "video",
+      "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc",
+      "plataforma": "YouTube · Álbum completo · Archivo histórico"
+    }
   ]
 }
