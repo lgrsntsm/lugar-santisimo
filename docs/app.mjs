@@ -130,6 +130,19 @@ function showLinks(song) {
   detailCategories.hidden = !detailCategories.childElementCount;
   $('#dialog-links').replaceChildren();
   const groups = groupLinks(song.enlaces);
+  // Resguardo: no ocultar videos de canciones históricas que apuntan
+  // a un minuto específico de un álbum completo.
+  if (!groups.video.length) {
+    for (const link of song.enlaces || []) {
+      if (link.tipo !== 'video') continue;
+      let url;
+      try { url = new URL(link.url); } catch { continue; }
+      if (url.protocol !== 'https:' || url.username || url.password) continue;
+      if (!['youtube.com', 'www.youtube.com', 'm.youtube.com', 'youtu.be'].includes(url.hostname.toLowerCase())) continue;
+      if (!url.searchParams.has('v') && url.hostname !== 'youtu.be') continue;
+      groups.video.push(link);
+    }
+  }
   for (const [type, heading] of [['audio', '🎹 Audio'], ['video', '⏯️ Video'], ['letra', '📄 Letra'], ['acordes', '🎸 Acordes']]) {
     const section = element('section', 'detail-section');
     const h = element('h3', 'detail-heading', heading); h.id = `detail-${type}`; section.setAttribute('aria-labelledby', h.id); section.append(h);
