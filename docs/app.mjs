@@ -56,28 +56,53 @@ function renderDiscoveries(song) {
   const albums = albumsForSong(song);
   if (albums.length) {
     const section = element('section', 'detail-section interest-section');
-    section.append(element('h3', 'detail-heading', '🔗 Enlaces de interés:'));
-    for (const album of albums) {
+    const h = element('h3', 'detail-heading', '🔗 Enlaces de interés');
+    section.append(h, element('p', 'discovery-note', 'Álbumes completos de este intérprete'));
+    for (const album of albums.slice(0, 3)) {
       const a = element('a', 'interest-album');
       a.href = album.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
-      a.append(element('span', 'interest-album-title', album.titulo));
-      a.append(element('span', 'interest-album-source', album.plataforma + ' ↗'));
+      a.append(element('span', 'interest-album-icon', album.formato === 'video' ? '▶' : '♫'));
+      const content = element('span', 'interest-album-content');
+      content.append(element('span', 'interest-album-title', album.titulo));
+      content.append(element('span', 'interest-album-source', album.plataforma.replace(/\\s*·\\s*Álbum completo/i, '') + ' · Álbum completo'));
+      a.append(content, element('span', 'interest-external', '↗'));
       section.append(a);
     }
     $('#dialog-links').append(section);
   }
-  // Recomendar por el intérprete principal; colaboraciones no mezclan repertorios.
   const principals = song.interpretes.filter(a => a.rol === 'principal');
-  const ids = new Set((principals.length ? principals : song.interpretes).map(a => a.id));
+  const artists = principals.length ? principals : song.interpretes;
+  const ids = new Set(artists.map(a => a.id));
   const candidates = songs.filter(s => s.id !== song.id && s.interpretes.some(a => ids.has(a.id) && a.rol === 'principal'));
   if (!candidates.length) return;
   const section = element('section', 'detail-section recommendations-section');
-  section.append(element('h3', 'detail-heading', '🎶 Más canciones del artista:'));
+  const heading = element('div', 'recommendations-heading');
+  const headingText = element('div', 'recommendations-heading-text');
+  headingText.append(element('h3', 'detail-heading', '🎶 Más canciones del artista'));
+  headingText.append(element('p', 'discovery-note', 'Descubrí otras canciones de ' + artists.map(a => a.nombre).join(' · ')));
+  heading.append(headingText);
+  const seeAll = element('button', 'see-all-songs', 'Ver todas ›');
+  seeAll.type = 'button';
+  seeAll.setAttribute('aria-label', 'Ver todas las canciones de ' + artists.map(a => a.nombre).join(' y '));
+  seeAll.addEventListener('click', () => {
+    $('#song-dialog').close();
+    category = '';
+    $('#search').value = artists[0].nombre;
+    currentPage = 1;
+    for (const b of $('#categories').children) b.setAttribute('aria-pressed', b.dataset.category === '');
+    render();
+    $('#catalogo').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  heading.append(seeAll);
+  section.append(heading);
   const list = element('div', 'recommended-songs');
   for (const suggested of shuffle(candidates).slice(0, 3)) {
-    const b = element('button', 'recommended-song', suggested.titulo);
+    const b = element('button', 'recommended-song');
     b.type = 'button';
     b.setAttribute('aria-label', 'Abrir canción ' + suggested.titulo);
+    const content = element('span', 'recommended-song-text');
+    content.append(element('strong', '', suggested.titulo), element('small', '', suggested.interpretes.map(a => a.nombre).join(' · ')));
+    b.append(content, element('span', 'recommended-chevron', '›'));
     b.addEventListener('click', () => showLinks(suggested));
     list.append(b);
   }
@@ -86,8 +111,8 @@ function renderDiscoveries(song) {
 }
 
 function showLinks(song) {
-  $('#dialog-title').textContent = `🧾 Título: ${song.titulo || 'Sin información encontrada'}`;
-  $('#dialog-artists').textContent = `🎙️ Intérprete: ${song.interpretes.map(a => a.nombre).filter(Boolean).join(' · ') || 'Sin información encontrada'}`;
+  $('#dialog-title').textContent = song.titulo || 'Sin información encontrada';
+  $('#dialog-artists').textContent = song.interpretes.map(a => a.nombre).filter(Boolean).join(' · ') || 'Sin información encontrada';
   const detailCategories = $('#dialog-categories');
   detailCategories.replaceChildren();
   for (const c of song.categorias || []) {
@@ -105,7 +130,7 @@ function showLinks(song) {
   detailCategories.hidden = !detailCategories.childElementCount;
   $('#dialog-links').replaceChildren();
   const groups = groupLinks(song.enlaces);
-  for (const [type, heading] of [['audio', '🎹 Audio:'], ['video', '⏯️ Video:'], ['letra', '🔡 Letra:'], ['acordes', '🎸 Acordes:']]) {
+  for (const [type, heading] of [['audio', '🎹 Audio'], ['video', '⏯️ Video'], ['letra', '📄 Letra'], ['acordes', '🎸 Acordes']]) {
     const section = element('section', 'detail-section');
     const h = element('h3', 'detail-heading', heading); h.id = `detail-${type}`; section.setAttribute('aria-labelledby', h.id); section.append(h);
     for (const link of groups[type]) {
