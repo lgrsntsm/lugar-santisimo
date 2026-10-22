@@ -161,7 +161,7 @@ function render() {
     const index = songs.indexOf(song);
     const card = element('article', 'song-card');
     card.addEventListener('click', event => { if (!event.target.closest('button, a')) showLinks(song); });
-    const body = element('div', 'song-body'); const title = element('h3'); const openTitle = element('button', 'song-title', song.titulo); openTitle.type = 'button'; openTitle.addEventListener('click', () => showLinks(song)); title.append(openTitle, element('span', 'song-separator', ' | '), element('span', 'song-inline-artist', song.interpretes.map(a => a.nombre).join(' · '))); const cardTags = element('div', 'song-tag');
+    const body = element('div', 'song-body'); const title = element('h3'); const openTitle = element('button', 'song-title', song.titulo); openTitle.type = 'button'; openTitle.addEventListener('click', () => showLinks(song)); title.append(openTitle); const heading = element('div', 'song-heading'); heading.append(title, element('p', 'song-artist-below', song.interpretes.map(a => a.nombre).join(' · '))); const cardTags = element('div', 'song-tag');
     for (const c of song.categorias || []) {
       const tag = element('button', 'song-category-chip', c.nombre);
       tag.type = 'button';
@@ -173,7 +173,7 @@ function render() {
       });
       cardTags.append(tag);
     }
-    body.append(title);
+    body.append(heading);
     const bottom = element('div', 'song-bottom');
     const listen = element('button', 'read-button'); listen.type = 'button';
     const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
