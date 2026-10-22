@@ -1,3 +1,5 @@
+> **CAMBIO DE ARQUITECTURA — 21 de octubre de 2026:** Por pedido explícito del usuario, **se deja de usar Google Sheets**. Desde ahora la ÚNICA fuente activa y editable es `docs/catalogo.json` en GitHub. Se publica directamente desde GitHub Pages, sin exportaciones, autorizaciones o verificaciones de planilla. El `README.md` actualizado describe el flujo vigente, y `scripts/validar-catalogo.mjs` valida los datos; GitHub Actions lo ejecuta en cada modificación del catálogo. **El resto de este documento es un registro histórico**: todas las instrucciones previas de leer, escribir o sincronizar Sheets quedan anuladas. No modificar ni restaurar Sheets. Las fuentes oficiales del artista van siempre primero, antes de buscar sitios de terceros. No confundir el viejo inventario de 84 canciones con el catálogo vigente, que debe calcularse leyendo el JSON.
+
 # Traspaso de Lugar Santísimo
 
 Estado comprobado el 20 de octubre de 2026. Leer este archivo y `handoff/marcos-witt-pendientes.json` al continuar en otro chat. No contiene credenciales. Guardar este traspaso NO aprueba publicar las canciones pendientes.
