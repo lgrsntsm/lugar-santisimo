@@ -322,3 +322,44 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .recommended-songs{display:flex;flex-direction:column;gap:6px}
 .recommended-song{display:block;width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:7px;background:transparent;color:var(--ink);font-size:13px;line-height:1.4;text-align:left;cursor:pointer}
 .recommended-song:hover,.recommended-song:focus-visible{border-color:var(--accent);color:var(--accent)}
+
+/* Detalle de canción: adaptación del diseño aprobado, conservando los temas claro y oscuro. */
+#song-dialog{width:min(680px,calc(100% - 26px));max-height:min(90dvh,900px);padding:30px clamp(16px,4vw,32px);border-radius:16px;overflow-y:auto;overscroll-behavior:contain}
+#song-dialog::before{content:'ENCONTRÁ ESTA CANCIÓN';display:block;color:var(--accent);font-weight:700;font-size:10px;letter-spacing:1.3px;margin:0 42px 15px 0}
+#song-dialog .close-dialog{top:13px;right:14px;font-size:25px;width:38px;height:38px;display:grid;place-items:center;padding:0;border-radius:50%;background:rgba(126,139,128,.1)}
+#song-dialog .close-dialog:hover{background:rgba(126,139,128,.22)}
+#song-dialog #dialog-title{font-size:clamp(22px,4vw,29px);font-weight:750;line-height:1.25;color:var(--ink);margin:0 44px 7px 0;letter-spacing:-.4px}
+#song-dialog #dialog-artists{font-size:13px;margin:0 0 15px;line-height:1.5;color:var(--muted)}
+#song-dialog .detail-categories{margin:0 0 23px}
+#song-dialog .detail-section{margin-top:25px}
+#song-dialog .detail-heading{font-size:16px;line-height:1.3;font-weight:700;margin:0 0 11px;color:var(--ink)}
+#song-dialog .platform-link{min-height:54px;border-radius:9px;padding:12px 14px;margin:7px 0}
+#song-dialog .platform-link strong{font-size:13px;font-weight:500;line-height:1.4}
+#song-dialog .interest-section,#song-dialog .recommendations-section{border-top:1px solid var(--line);padding-top:22px;margin-top:28px}
+#song-dialog .interest-section .detail-heading,#song-dialog .recommendations-section .detail-heading{margin:0}
+#song-dialog .discovery-note{margin:5px 0 13px;color:var(--muted);font-size:12px;line-height:1.45}
+#song-dialog .interest-album{display:flex;flex-direction:row;align-items:center;gap:12px;padding:12px 13px;border-radius:9px;margin:7px 0;min-height:61px}
+#song-dialog .interest-album-icon{width:31px;height:31px;flex:0 0 31px;display:grid;place-items:center;border-radius:8px;background:#d64b4b;color:#fff;font-size:13px}
+#song-dialog .interest-album-content{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+#song-dialog .interest-album-title{font-size:13px;line-height:1.3;overflow-wrap:anywhere}
+#song-dialog .interest-external{font-size:19px;color:var(--muted)}
+#song-dialog .recommendations-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+#song-dialog .see-all-songs{border:1px solid #7daa89;color:#4a795b;background:transparent;padding:8px 12px;border-radius:20px;font-size:12px;font-weight:600;flex:0 0 auto}
+#song-dialog .see-all-songs:hover{background:rgba(104,153,113,.1)}
+#song-dialog .recommended-songs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+#song-dialog .recommended-song{display:flex;align-items:center;justify-content:space-between;gap:7px;min-height:74px;margin:0;padding:11px;text-align:left}
+#song-dialog .recommended-song-text{min-width:0;display:flex;flex-direction:column;gap:6px}
+#song-dialog .recommended-song strong{font-size:12px;line-height:1.35;font-weight:650;overflow-wrap:anywhere}
+#song-dialog .recommended-song small{font-size:10px;color:var(--muted);line-height:1.35;overflow-wrap:anywhere}
+#song-dialog .recommended-chevron{color:var(--muted);font-size:21px;flex:0 0 auto}
+#song-dialog .report-song{margin-top:24px}
+:root[data-theme="dark"] #song-dialog .see-all-songs{color:#a6d9b5;border-color:#50785d}
+:root[data-theme="dark"] #song-dialog .interest-album-icon{background:#bf363f}
+@media(max-width:550px){
+ #song-dialog{width:calc(100% - 18px);max-height:94dvh;padding:22px 16px;border-radius:13px}
+ #song-dialog #dialog-title{font-size:22px}
+ #song-dialog .recommended-songs{grid-template-columns:1fr;gap:7px}
+ #song-dialog .recommended-song{min-height:53px;padding:10px 12px}
+ #song-dialog .recommendations-heading{align-items:center}
+ #song-dialog .see-all-songs{padding:7px 10px;font-size:11px}
+}
