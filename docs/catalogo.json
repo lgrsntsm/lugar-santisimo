@@ -1760,6 +1760,13 @@
           "plataforma": "Música.com · Letra de Una vertiente de alabanza",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000378",
+          "url": "https://music.apple.com/es/song/1746361808",
+          "plataforma": "Apple Music · Tengo Un Perfume",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
@@ -1843,6 +1850,13 @@
           "plataforma": "Cifra Club · Acordes (versión Fresca Unción)",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000380",
+          "url": "https://music.apple.com/us/song/1833540797",
+          "plataforma": "Apple Music · Todo Adoración",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
@@ -2082,6 +2096,13 @@
           "plataforma": "LaCuerda · Letra con acordes",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000379",
+          "url": "https://music.apple.com/us/song/1746362311",
+          "plataforma": "Apple Music · Tengo Un Perfume",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
@@ -4496,6 +4517,789 @@
           "plataforma": "Cifra Club · Letra",
           "tipo": "letra",
           "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000112",
+      "titulo": "Alabado sea tu nombre",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000349",
+          "url": "https://music.amazon.com/tracks/B0FCV7F9JB",
+          "plataforma": "Amazon Music · Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000113",
+      "titulo": "Sentado sobre tu trono",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000350",
+          "url": "https://music.amazon.com/tracks/B0FCTPGNYL",
+          "plataforma": "Amazon Music · Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000114",
+      "titulo": "Te amamos",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000351",
+          "url": "https://music.amazon.com/tracks/B0FCV62GGP",
+          "plataforma": "Amazon Music · Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000115",
+      "titulo": "Señor, tú eres hermoso",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000352",
+          "url": "https://music.amazon.com/tracks/B0FCTSWZ25",
+          "plataforma": "Amazon Music · Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000116",
+      "titulo": "Este amor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000353",
+          "url": "https://music.amazon.com/tracks/B0FCTW7LS1",
+          "plataforma": "Amazon Music · Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000117",
+      "titulo": "Todo el honor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000354",
+          "url": "https://music.apple.com/us/song/1819996428",
+          "plataforma": "Apple Music · Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000118",
+      "titulo": "Es un canto de victoria",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000355",
+          "url": "https://music.amazon.com/tracks/B0FCVCR5PR",
+          "plataforma": "Amazon Music · Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000119",
+      "titulo": "Estamos de fiesta",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000356",
+          "url": "https://music.amazon.com/tracks/B0FCVCRD5W",
+          "plataforma": "Amazon Music · Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000120",
+      "titulo": "Que tu amor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000357",
+          "url": "https://music.amazon.com/tracks/B0FCTLZL2C",
+          "plataforma": "Amazon Music · Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000121",
+      "titulo": "Tu amor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000358",
+          "url": "https://music.amazon.com/tracks/B0FCTX9HRM",
+          "plataforma": "Amazon Music · Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000122",
+      "titulo": "Al Rey Soberano",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000359",
+          "url": "https://open.spotify.com/intl-es/track/4oaevtdJZYuCr7fE1doIZP",
+          "plataforma": "Spotify · Al Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000123",
+      "titulo": "Tú estás conmigo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000360",
+          "url": "https://music.amazon.com/tracks/B0FCV3M9ZL",
+          "plataforma": "Amazon Music · Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000124",
+      "titulo": "Yo cantaré",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000361",
+          "url": "https://music.amazon.com/tracks/B0FCTMRXRC",
+          "plataforma": "Amazon Music · Rey Soberano",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000125",
+      "titulo": "Este pueblo que has formado",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000362",
+          "url": "https://music.apple.com/us/song/1833540802",
+          "plataforma": "Apple Music · Todo Adoración",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000126",
+      "titulo": "Amado Jesucristo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000363",
+          "url": "https://music.amazon.com/tracks/B0DTJJZ9F7",
+          "plataforma": "Amazon Music · 20 Años",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000127",
+      "titulo": "Humilde vengo a ti",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000364",
+          "url": "https://open.spotify.com/intl-es/track/7xhXgBIWy67sbwRVGfoMe0",
+          "plataforma": "Spotify · Todo Adoración",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000128",
+      "titulo": "Yo te doy gracias",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000365",
+          "url": "https://music.amazon.com/tracks/B0DTJK1LJP",
+          "plataforma": "Amazon Music · 20 Años",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000129",
+      "titulo": "Confío en ti",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000366",
+          "url": "https://music.apple.com/us/song/1833540918",
+          "plataforma": "Apple Music · Todo Adoración",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000130",
+      "titulo": "Atráeme",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000367",
+          "url": "https://music.apple.com/us/song/1833540919",
+          "plataforma": "Apple Music · Todo Adoración",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000131",
+      "titulo": "Tú me das",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000368",
+          "url": "https://music.apple.com/us/song/1833540922",
+          "plataforma": "Apple Music · Todo Adoración",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000132",
+      "titulo": "Santificado sea tu nombre",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000369",
+          "url": "https://open.spotify.com/intl-es/track/6ZsmEG4vWT7D6Z19FDy2oH",
+          "plataforma": "Spotify · Anhelamos conocerte",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000133",
+      "titulo": "Tu altar",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000370",
+          "url": "https://music.apple.com/us/song/1750537151",
+          "plataforma": "Apple Music · Anhelamos conocerte",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000134",
+      "titulo": "Jesús tú eres mi todo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000371",
+          "url": "https://music.apple.com/us/song/1750537531",
+          "plataforma": "Apple Music · Anhelamos conocerte",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000135",
+      "titulo": "Mirarte sólo a ti",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000372",
+          "url": "https://music.apple.com/us/song/1750537871",
+          "plataforma": "Apple Music · Anhelamos conocerte",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000136",
+      "titulo": "Cuando estoy en tu presencia",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000373",
+          "url": "https://music.apple.com/us/song/1750537448",
+          "plataforma": "Apple Music · Anhelamos conocerte",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000137",
+      "titulo": "En la cruz",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000374",
+          "url": "https://music.apple.com/mx/song/1791630393",
+          "plataforma": "Apple Music · 20 Años",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000138",
+      "titulo": "Con todo mi ser",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000375",
+          "url": "https://music.amazon.com/tracks/B0DTJK2MQC",
+          "plataforma": "Amazon Music · 20 Años",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000139",
+      "titulo": "A ese Dios eterno",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000376",
+          "url": "https://music.amazon.com/tracks/B0DTJKD1VP",
+          "plataforma": "Amazon Music · 20 Años",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
+    },
+    {
+      "id": "CAN-000140",
+      "titulo": "Alza tu voz y canta",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000007",
+          "nombre": "Perfume de Alabanza",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000377",
+          "url": "https://music.amazon.com/tracks/B0DTJJG2WP",
+          "plataforma": "Amazon Music · 20 Años",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     }
