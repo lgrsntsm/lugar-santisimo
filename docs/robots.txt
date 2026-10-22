@@ -1,0 +1,25 @@
+# Lugar Santísimo — preferencias de rastreo.
+# Los buscadores generales pueden indexar la biblioteca.
+User-agent: *
+Allow: /
+
+# Solicitud de no recopilar masivamente el catálogo para modelos/datasets.
+# Esta directiva es voluntaria; NO impide solicitudes de bots que la ignoren.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
