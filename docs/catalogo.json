@@ -204,6 +204,20 @@
           "plataforma": "Cifra Club · Letra escrita",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000279",
+          "url": "https://himnosycanciones.com/acordes/temprano-yo-te-buscare/",
+          "plataforma": "Himnos y Canciones · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000280",
+          "url": "https://himnosycanciones.com/acordes/temprano-yo-te-buscare/",
+          "plataforma": "Himnos y Canciones · Acordes y cifrado",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
@@ -664,6 +678,20 @@
           "plataforma": "Cifra Club · Letra escrita",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000281",
+          "url": "https://acordesweb.com/cancion/marcos-witt/en-los-montes-en-los-valles",
+          "plataforma": "AcordesWeb · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000282",
+          "url": "https://acordesweb.com/cancion/marcos-witt/en-los-montes-en-los-valles",
+          "plataforma": "AcordesWeb · Acordes y cifrado",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
@@ -966,6 +994,20 @@
           "plataforma": "Cifra Club · Letra escrita",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000283",
+          "url": "https://acordesweb.com/cancion/marcos-witt/quiero-levantar-mis-manos",
+          "plataforma": "AcordesWeb · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000284",
+          "url": "https://acordesweb.com/cancion/marcos-witt/quiero-levantar-mis-manos",
+          "plataforma": "AcordesWeb · Acordes y cifrado",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
@@ -1006,6 +1048,20 @@
           "url": "https://www.cifraclub.com.br/marcos-witt/levantate/letra/",
           "plataforma": "Cifra Club · Letra escrita",
           "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000285",
+          "url": "https://acordesweb.com/cancion/marcos-witt/levantate",
+          "plataforma": "AcordesWeb · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000286",
+          "url": "https://acordesweb.com/cancion/marcos-witt/levantate",
+          "plataforma": "AcordesWeb · Acordes y cifrado",
+          "tipo": "acordes",
           "oficial": false
         }
       ]
@@ -1143,6 +1199,20 @@
           "url": "https://www.cifraclub.com/marcos-witt/sana-nuestra-tierra/letra/",
           "plataforma": "Cifra Club · Letra escrita",
           "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000287",
+          "url": "https://acordesweb.com/cancion/marcos-witt/sana-nuestra-tierra",
+          "plataforma": "AcordesWeb · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000288",
+          "url": "https://acordesweb.com/cancion/marcos-witt/sana-nuestra-tierra",
+          "plataforma": "AcordesWeb · Acordes y cifrado",
+          "tipo": "acordes",
           "oficial": false
         }
       ]
@@ -1285,6 +1355,20 @@
           "url": "https://www.cifraclub.com/marcos-witt/1976593/letra/",
           "plataforma": "Cifra Club · Letra escrita",
           "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000289",
+          "url": "https://acordesweb.com/cancion/marcos-witt/has-cambiado-mi-lamento-en-baile",
+          "plataforma": "AcordesWeb · Variante «en baile» · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000290",
+          "url": "https://acordesweb.com/cancion/marcos-witt/has-cambiado-mi-lamento-en-baile",
+          "plataforma": "AcordesWeb · Variante «en baile» · Acordes y cifrado",
+          "tipo": "acordes",
           "oficial": false
         }
       ]
@@ -2257,6 +2341,20 @@
           "plataforma": "Cifra Club · Acordes",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000291",
+          "url": "https://acordesweb.com/cancion/jesus-adrian-romero/esperame",
+          "plataforma": "AcordesWeb · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000292",
+          "url": "https://acordesweb.com/cancion/jesus-adrian-romero/esperame",
+          "plataforma": "AcordesWeb · Acordes y cifrado",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
@@ -2419,6 +2517,20 @@
           "url": "https://www.cifraclub.com/jesus-adrian-romero/mi-herencia/letra/",
           "plataforma": "Cifra Club · Letra",
           "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000293",
+          "url": "https://acordesweb.com/cancion/jesus-adrian-romero/mi-herencia",
+          "plataforma": "AcordesWeb · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000294",
+          "url": "https://acordesweb.com/cancion/jesus-adrian-romero/mi-herencia",
+          "plataforma": "AcordesWeb · Acordes y cifrado",
+          "tipo": "acordes",
           "oficial": false
         }
       ]
@@ -2595,6 +2707,20 @@
           "id": "ENL-000203",
           "url": "https://www.cifraclub.com/jesus-adrian-romero/este-es-el-dia/",
           "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000295",
+          "url": "https://acordesweb.com/cancion/jesus-adrian-romero/este-es-el-dia",
+          "plataforma": "AcordesWeb · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000296",
+          "url": "https://acordesweb.com/cancion/jesus-adrian-romero/este-es-el-dia",
+          "plataforma": "AcordesWeb · Acordes y cifrado",
           "tipo": "acordes",
           "oficial": false
         }
@@ -3251,6 +3377,20 @@
           "plataforma": "Cifra Club · Acordes",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000297",
+          "url": "https://acordesweb.com/cancion/alex-campos/sueno-de-morir",
+          "plataforma": "AcordesWeb · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000298",
+          "url": "https://acordesweb.com/cancion/alex-campos/sueno-de-morir",
+          "plataforma": "AcordesWeb · Acordes y cifrado",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
@@ -3290,6 +3430,20 @@
           "id": "ENL-000242",
           "url": "https://www.cifraclub.com/alex-campos/el-taller-del-maestro/",
           "plataforma": "Cifra Club · Otra versión de acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000299",
+          "url": "https://acordesweb.com/cancion/alex-campos/al-taller-del-maestro",
+          "plataforma": "AcordesWeb · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000300",
+          "url": "https://acordesweb.com/cancion/alex-campos/al-taller-del-maestro",
+          "plataforma": "AcordesWeb · Acordes y cifrado",
           "tipo": "acordes",
           "oficial": false
         }
@@ -3416,6 +3570,20 @@
           "plataforma": "Secuencias.com · Letra (Agradecido)",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000301",
+          "url": "https://acordesweb.com/cancion/miel-san-marcos/increible",
+          "plataforma": "AcordesWeb · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000302",
+          "url": "https://acordesweb.com/cancion/miel-san-marcos/increible",
+          "plataforma": "AcordesWeb · Acordes y cifrado",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
@@ -3448,6 +3616,20 @@
           "id": "ENL-000251",
           "url": "https://www.cifraclub.com/marco-barrientos/venga-tu-reino/",
           "plataforma": "Cifra Club · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000303",
+          "url": "https://acordesweb.com/cancion/marco-barrientos/venga-tu-reino",
+          "plataforma": "AcordesWeb · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000304",
+          "url": "https://acordesweb.com/cancion/marco-barrientos/venga-tu-reino",
+          "plataforma": "AcordesWeb · Acordes y cifrado",
           "tipo": "acordes",
           "oficial": false
         }
@@ -3523,6 +3705,20 @@
           "id": "ENL-000256",
           "url": "https://www.cifraclub.com/lilly-goodman/al-final/tttkmj.html",
           "plataforma": "Cifra Club · Otra versión de acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000305",
+          "url": "https://acordesweb.com/cancion/lilly-goodman/al-final",
+          "plataforma": "AcordesWeb · Letra con acordes",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000306",
+          "url": "https://acordesweb.com/cancion/lilly-goodman/al-final",
+          "plataforma": "AcordesWeb · Acordes y cifrado",
           "tipo": "acordes",
           "oficial": false
         }
