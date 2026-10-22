@@ -305,3 +305,10 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 
 /* Separar el aviso de reporte de los últimos enlaces de acordes. */
 .report-song{margin-top:20px}
+
+/* Intérprete debajo del título; etiquetas y play siguen a la derecha. */
+.song-card .song-heading{grid-column:1;grid-row:1;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+.song-card .song-heading h3{display:block;grid-column:auto;grid-row:auto;margin:0;min-width:0}
+.song-card .song-artist-below{color:var(--muted);font-size:13px;font-weight:400;line-height:1.35;margin:0;overflow-wrap:anywhere;max-width:100%}
+:root[data-theme="dark"] .song-card .song-artist-below{color:#b7b7b7}
+@media(max-width:600px){.song-card .song-artist-below{font-size:12px}}
