@@ -7,7 +7,7 @@
   <meta name="description" content="Encontrá canciones de adoración, descubrí intérpretes y accedé a sus enlaces oficiales. Lugar Santísimo.">
   <title>Lugar Santísimo · Canciones para encontrarnos con Dios</title>
   <link rel="icon" href="./favicon.ico?v=20261021" sizes="any" type="image/x-icon"><link rel="icon" href="./logo.png?v=20261021" type="image/png">
-  <link rel="stylesheet" href="./library.css?v=logo20261021"><script type="module" src="./app.mjs?v=playchip2"></script>
+  <link rel="stylesheet" href="./library.css?v=pages50-1"><script type="module" src="./app.mjs?v=pages50-1"></script>
 </head>
 <body>
   <a class="skip" href="#catalogo">Ir al catálogo</a>
@@ -22,6 +22,7 @@
       <div class="search-row"><label class="search"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Buscar por canción, intérprete o categoría</span><input id="search" type="search" placeholder="Buscar canciones, intérpretes o etiquetas" autocomplete="off"></label><label class="sort-label"><span class="sr-only">Ordenar por</span><select id="sort"><option value="original">Aleatorio</option><option value="title">Título: A–Z</option><option value="artist">Intérprete: A–Z</option></select></label></div>
       <div class="filters-row"><div id="categories" class="chips" role="group" aria-label="Filtrar por categoría"><button type="button" data-category="" aria-pressed="true">Todas</button></div><span id="results-count" class="results-count" role="status" aria-live="polite">Cargando catálogo…</span></div>
       <div id="songs" class="song-grid" aria-busy="true"></div>
+      <nav id="pagination" class="pagination" aria-label="Páginas del catálogo" hidden></nav>
       <div id="empty" class="empty" hidden><span aria-hidden="true">✧</span><h3>No encontramos canciones</h3><p>Probá con otra palabra o quitá los filtros.</p><button id="reset" type="button">Ver todas las canciones</button></div>
       <div id="load-error" class="empty" hidden><h3>No pudimos cargar el catálogo</h3><p>Revisá tu conexión y volvé a intentarlo.</p><button type="button" id="retry">Volver a intentar</button></div>
       
