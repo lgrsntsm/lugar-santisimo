@@ -167,7 +167,14 @@ function showLinks(song) {
       }
       section.append(item);
     }
-    if (!groups[type].length) section.append(element('p', 'detail-empty', 'Sin información encontrada.'));
+    if (!groups[type].length) {
+      const hasVideo = groups.video.length > 0 || (song.enlaces || []).some(link =>
+        link.tipo === 'video' && /^https:\/\/(www\.)?(youtube\.com|youtu\.be)\//i.test(link.url || ''));
+      const message = type === 'audio' && hasVideo
+        ? 'Esta canción se puede escuchar desde su enlace en Video.'
+        : 'Sin información encontrada.';
+      section.append(element('p', 'detail-empty', message));
+    }
     $('#dialog-links').append(section);
   }
   renderDiscoveries(song);
@@ -313,7 +320,7 @@ $('#song-dialog').addEventListener('click', event => { if (event.target === $('#
 async function load() {
   $('#load-error').hidden = true; $('#empty').hidden = true; $('#songs').setAttribute('aria-busy', 'true');
   try {
-    const response = await fetch('./catalogo.json', { cache: 'no-cache' }); if (!response.ok) throw new Error('Catálogo no disponible');
+    const response = await fetch('./catalogo.json?v=detail-fix-20261022', { cache: 'no-store' }); if (!response.ok) throw new Error('Catálogo no disponible');
     const catalog = await response.json(); if (catalog.schema_version !== 1 || !Array.isArray(catalog.canciones)) throw new Error('Catálogo incompatible');
     songs = shuffle(catalog.canciones);
     songsByArtist = new Map();
