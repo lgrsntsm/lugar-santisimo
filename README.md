@@ -14,6 +14,20 @@ Repositorio: https://github.com/lgrsntsm/lugar-santisimo
 - **Historial y recuperación:** commits e historial de GitHub. No reescribir la historia.
 - **Sin almacenamiento multimedia:** solo nombres, intérpretes, categorías y enlaces externos a Audio, Video, Letra y Acordes.
 
+## Regla editorial prioritaria: profundidad antes que volumen
+
+**Regla expresa del usuario (22/10/2026): no realizar barridos superficiales ni publicar fichas incompletas solo para aumentar el número de canciones.** La utilidad y la fidelidad de la información prevalecen sobre la cantidad. Toda incorporación futura debe seguir este procedimiento:
+
+1. **Identidad y fuentes primarias**: verificar la web auténtica del intérprete y sus canales, sellos y perfiles musicales oficiales. Documentar la procedencia y evitar atribuir falsamente covers, versiones o grabaciones de terceros.
+2. **Discografía exhaustiva antes de declarar terminado al intérprete**: recopilar álbumes, EP, sencillos, discos históricos, colaboraciones, reediciones y repertorio que esté disponible; contrastar listas de pistas y evitar repetidos. Investigar profundamente cada pista en fuentes oficiales y enlazar sus distintas versiones identificadas.
+3. **Barrido de las cuatro secciones por canción**: Audio (Spotify, YouTube Music, Apple Music, Amazon Music y otras), Video (videos oficiales y archivos auténticos), Letra y Acordes (fuentes primarias, después sitios especializados). Revisar **múltiples sitios por sección**, no detenerse al hallar el primer resultado. Nunca inventar enlaces ni copiar obras.
+4. **Control de calidad previo a publicar**: validar título, intérprete, identidad de grabación, URL individual, disponibilidad, legitimidad del sello verde, duplicados y alcance de la búsqueda. **No publicar nuevas tandas que únicamente contienen una pista de audio por canción sin intentar completar el resto de las fuentes**. Una ausencia documentada tras una búsqueda real es distinta de no haber buscado.
+5. **Tratar un artista como trabajo en profundidad**: reservar tiempo para cubrir su repertorio y no saltar enseguida a otros artistas; si hay hallazgos incompletos, conservarlos en notas de investigación, no presentarlos como fichas finalizadas en el catálogo público.
+6. **No declarar «discografía completa»** hasta comprobar razonablemente la lista de obras y registrar qué grabaciones/enlaces siguen sin localizar; fuentes y fechas contradictorias se investigan y no se disimulan.
+7. No añadir campos nuevos a la web: las fichas continúan únicamente con Audio, Video, Letra y Acordes, intérprete y etiquetas existentes.
+
+**Auditoría de la situación heredada (22/10/2026, 202 canciones):** 102 canciones tienen un solo enlace; 103 cubren una sola sección; 114 no tienen letras; 115 no tienen acordes; 138 no tienen videos. Estas cifras son diagnóstico, **no prueba automática de que existan los recursos ausentes**. Las fichas heredadas pueden conservarse mientras se depuran, pero **no se deben usar como modelo de calidad para nuevas incorporaciones**. Priorizar completar y verificar el catálogo existente antes de seguir agregando artistas. No rellenar por cantidad, no poner sellos falsos, no cambiar URLs sin verificación.
+
 ## Cómo incorporar canciones
 
 1. **Buscar primero el sitio oficial del intérprete**, y comprobar que pertenezca al artista. Desde allí identificar perfiles oficiales de streaming, canales de YouTube y sello/distribuidora.
