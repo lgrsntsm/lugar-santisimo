@@ -92,7 +92,6 @@ El catálogo es público. `robots.txt` expresa preferencias de rastreo, pero no 
 Para artistas cristianos antiguos, ampliar la exploración a hemerotecas religiosas, bibliotecas eclesiásticas y universitarias, catálogos de archivos de grabaciones, sellos regionales, archivos de radios cristianas, coleccionistas documentados, fotografías de LP/casetes, revistas históricas y catálogos de editoriales de himnarios. **Ejemplos recién localizados que todavía deben investigarse por artista, no asumirse como fuentes de canciones específicas:**
 - Fundación Gladys Palmera, archivo de discos y documentos musicales latinoamericanos: https://fundaciongladyspalmera.org/coleccion/
 - Discografías por sellos históricos de gospel: https://www.bsnpubs.com/christian/index.html
-- Biblioteca Universidad Adventista del Plata, investigación de discos cristianos históricos en Argentina: https://biblioteca.uap.edu.ar/2017/04/dos-revoluciones-en-la-musica-del-cap/
 - Discografía del sello Producciones Cristianas Asociadas en Qobuz: https://www.qobuz.com/us-en/label/producciones-cristianas-asociadas/download-streaming-albums/1928825/page/2
 - Catálogo original del músico Alejandro Alonso, con detalle de un LP de 1982: https://alejandroalonso.com/tienda/musica/cantico-de-libertad/
 - Christian Music Archive, discografías históricas (incluye intérpretes hispanos): https://www.christianmusicarchive.com/
@@ -107,3 +106,11 @@ Para artistas cristianos antiguos, ampliar la exploración a hemerotecas religio
 - Se reparten automáticamente **hasta tres álbumes por canción**, rotando de a tres sobre la lista del intérprete en el catálogo. Un álbum puede repetirse en otras canciones para que los usuarios descubran el material, pero no en una misma ficha.
 - **Más del artista** recomienda tres canciones al azar del mismo intérprete, distintas de la actual, y abre su ficha interna sin abandonar Lugar Santísimo. En artistas con menos de cuatro canciones mostrará menos de tres.
 - Las secciones aparecen solo cuando existen recursos o sugerencias. No reemplazan Audio, Video, Letra y Acordes.
+
+### Nueva fuente de letras y acordes: Aleguitarra
+
+- **https://www.aleguitarra.com/** — índice de alabanzas, himnos y canciones cristianas con letra y cifrados. Fuente complementaria de terceros: revisar cada obra, variante e intérprete y registrar los enlaces individuales en Letra y Acordes cuando corresponda; nunca marcarla automáticamente como oficial.
+- Primer ejemplo comprobado: https://www.aleguitarra.com/2016/10/este-pueblo-que-has-formado-al-48.html («Este pueblo que has formado»). También fue contrastada con https://himnosycanciones.com/acordes/este-pueblo-que-has-formado/.
+- Las páginas que solo aportan tablaturas/cifrados no deben enlazarse como letra a menos que también contengan el texto de la canción.
+
+**Restricción editorial:** No usar fuentes adventistas ni mormonas. La música del catálogo corresponde al ámbito cristiano evangélico/pentecostal. Páginas católicas pueden servir como fuente secundaria si la obra es pertinente y se verifica su identidad.
