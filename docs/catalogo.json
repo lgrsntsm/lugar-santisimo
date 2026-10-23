@@ -4916,6 +4916,34 @@
           "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 07:57 (fragmento del álbum completo)",
           "tipo": "video",
           "oficial": false
+        },
+        {
+          "id": "ENL-000486",
+          "url": "https://www.youtube.com/watch?v=Fz3Nj0q1QOA",
+          "plataforma": "YouTube · Este pueblo que has formado · canal Perfume De Alabanza (2011)",
+          "tipo": "video",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000487",
+          "url": "https://www.youtube.com/watch?v=jUdTl-hQ7GA",
+          "plataforma": "YouTube Music · Perfume de Alabanza 3 · Top Studio / RouteNote",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000488",
+          "url": "https://www.youtube.com/watch?v=xryXMo0TdE8",
+          "plataforma": "YouTube Music · 20 Años · Heaven Network",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000489",
+          "url": "https://chordify.net/es/chords/03-este-pueblo-que-has-formado-perfume-de-alabanza-musica-perfume-de-alabanza",
+          "plataforma": "Chordify · Este pueblo que has formado",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
