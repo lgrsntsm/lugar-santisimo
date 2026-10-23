@@ -155,17 +155,17 @@ function showLinks(song) {
       const original = String(link.plataforma || '').trim();
       const hostname = (() => { try { return new URL(link.url).hostname.toLowerCase(); } catch { return ''; } })();
       const platforms = [
-        [/^(music\\.youtube\\.com)$/, 'YouTube Music'],
-        [/(^|\\.)youtube\\.com$|^youtu\\.be$/, 'YouTube'],
-        [/(^|\\.)spotify\\.com$/, 'Spotify'],
-        [/(^|\\.)apple\\.com$/, 'Apple Music'],
-        [/(^|\\.)amazon\\.(com|com\\.mx|in|co\\.uk|es|com\\.br)$/, 'Amazon Music'],
-        [/(^|\\.)deezer\\.com$/, 'Deezer'],
-        [/(^|\\.)soundcloud\\.com$/, 'SoundCloud'],
-        [/(^|\\.)tidal\\.com$/, 'Tidal']
+        [/^(music\.youtube\.com)$/, 'YouTube Music'],
+        [/(^|\.)youtube\.com$|^youtu\.be$/, 'YouTube'],
+        [/(^|\.)spotify\.com$/, 'Spotify'],
+        [/(^|\.)apple\.com$/, 'Apple Music'],
+        [/(^|\.)amazon\.(com|com\.mx|in|co\.uk|es|com\.br)$/, 'Amazon Music'],
+        [/(^|\.)deezer\.com$/, 'Deezer'],
+        [/(^|\.)soundcloud\.com$/, 'SoundCloud'],
+        [/(^|\.)tidal\.com$/, 'Tidal']
       ];
       const match = platforms.find(([pattern]) => pattern.test(hostname));
-      const source = match ? match[1] : (original.split(/\\s*[·—–|-]\\s*/)[0] || 'Enlace');
+      const source = match ? match[1] : (original.split(/\s*[·—–|-]\s*/)[0] || 'Enlace');
       const artists = song.interpretes.map(a => a.nombre).filter(Boolean).join(' · ');
       const text = [source, song.titulo, artists].filter(Boolean).join(' - ');
       const label = element('span', 'platform-label');
