@@ -5006,6 +5006,13 @@
           "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 21:04 (fragmento del álbum completo)",
           "tipo": "video",
           "oficial": false
+        },
+        {
+          "id": "ENL-000500",
+          "url": "https://chordify.net/chords/06-amado-jesucristo-perfume-de-alabanza-musica-perfume-de-alabanza",
+          "plataforma": "Chordify · Amado Jesucristo",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
@@ -5108,6 +5115,20 @@
           "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 17:03 (fragmento del álbum completo)",
           "tipo": "video",
           "oficial": false
+        },
+        {
+          "id": "ENL-000496",
+          "url": "https://www.cifraclub.com/perfume-de-alabanza/confio-en-ti/",
+          "plataforma": "Cifra Club · Confío en ti",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000497",
+          "url": "https://www.cifraclub.com/perfume-de-alabanza/confio-en-ti/",
+          "plataforma": "Cifra Club · Confío en ti",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
@@ -5141,6 +5162,13 @@
           "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=2079s",
           "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 34:39 (fragmento del álbum completo)",
           "tipo": "video",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000501",
+          "url": "https://chordify.net/es/chords/atraeme-pista-y-letra-perfume-de-alabanza-contenido-worship",
+          "plataforma": "Chordify · Atráeme (transcripción)",
+          "tipo": "acordes",
           "oficial": false
         }
       ]
@@ -5196,6 +5224,20 @@
           "plataforma": "Spotify · Anhelamos conocerte",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000498",
+          "url": "https://www.cifraclub.com/perfume-de-alabanza/santificado-sea-tu-nombre/",
+          "plataforma": "Cifra Club · Santificado sea tu nombre",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000499",
+          "url": "https://www.cifraclub.com/perfume-de-alabanza/santificado-sea-tu-nombre/",
+          "plataforma": "Cifra Club · Santificado sea tu nombre",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
@@ -5371,6 +5413,20 @@
           "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=215s",
           "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 03:35 (fragmento del álbum completo)",
           "tipo": "video",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000494",
+          "url": "https://www.cifraclub.com/perfume-de-alabanza/con-todo-mi-ser/",
+          "plataforma": "Cifra Club · Con todo mi ser",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000495",
+          "url": "https://www.cifraclub.com/perfume-de-alabanza/con-todo-mi-ser/",
+          "plataforma": "Cifra Club · Con todo mi ser",
+          "tipo": "letra",
           "oficial": false
         }
       ]
