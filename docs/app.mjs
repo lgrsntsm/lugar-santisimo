@@ -150,14 +150,24 @@ function showLinks(song) {
     for (const link of groups[type]) {
       const item = element('div', 'platform-item');
       const a = element('a', 'platform-link'); a.href = link.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      // Formato uniforme y corto. Los detalles de discos y distribuidoras
+      // se mantienen en el JSON, pero no aparecen en la etiqueta pública.
       const original = String(link.plataforma || '').trim();
-      const parts = original.split(/\s*[·—]\s*/);
-      const source = parts[0] || 'Abrir enlace';
-      const detail = parts.slice(1).join(' · ');
-      const title = song.titulo || 'Canción';
-      const hasTitle = detail.toLocaleLowerCase('es').includes(title.toLocaleLowerCase('es'));
-      const extra = detail && !hasTitle && !/^(letra|acordes?|audio|video|enlace oficial)$/i.test(detail) ? ' · ' + detail : '';
-      const text = source + ' · ' + title + extra;
+      const hostname = (() => { try { return new URL(link.url).hostname.toLowerCase(); } catch { return ''; } })();
+      const platforms = [
+        [/^(music\\.youtube\\.com)$/, 'YouTube Music'],
+        [/(^|\\.)youtube\\.com$|^youtu\\.be$/, 'YouTube'],
+        [/(^|\\.)spotify\\.com$/, 'Spotify'],
+        [/(^|\\.)apple\\.com$/, 'Apple Music'],
+        [/(^|\\.)amazon\\.(com|com\\.mx|in|co\\.uk|es|com\\.br)$/, 'Amazon Music'],
+        [/(^|\\.)deezer\\.com$/, 'Deezer'],
+        [/(^|\\.)soundcloud\\.com$/, 'SoundCloud'],
+        [/(^|\\.)tidal\\.com$/, 'Tidal']
+      ];
+      const match = platforms.find(([pattern]) => pattern.test(hostname));
+      const source = match ? match[1] : (original.split(/\\s*[·—–|-]\\s*/)[0] || 'Enlace');
+      const artists = song.interpretes.map(a => a.nombre).filter(Boolean).join(' · ');
+      const text = [source, song.titulo, artists].filter(Boolean).join(' - ');
       const label = element('span', 'platform-label');
       label.append(element('strong', '', text));
       a.append(label, element('span', '', '↗'));
