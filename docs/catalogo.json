@@ -7788,6 +7788,13 @@
           "plataforma": "Cifra Club · Letra",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000557",
+          "url": "https://www.youtube.com/watch?v=ps_ZTBE7D-o",
+          "plataforma": "YouTube · canal oficial Miel San Marcos · Proezas",
+          "tipo": "video",
+          "oficial": true
         }
       ]
     },
@@ -7822,6 +7829,13 @@
           "plataforma": "Cifra Club · Letra",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000559",
+          "url": "https://www.youtube.com/watch?v=hOZwYdGVqBs",
+          "plataforma": "YouTube · canal oficial Miel San Marcos · Proezas",
+          "tipo": "video",
+          "oficial": true
         }
       ]
     },
@@ -7842,7 +7856,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000558",
+          "url": "https://www.youtube.com/watch?v=YVc7sBRUXlw",
+          "plataforma": "YouTube · canal oficial Miel San Marcos · Proezas",
+          "tipo": "video",
+          "oficial": true
+        }
+      ]
     },
     {
       "id": "CAN-000220",
@@ -8016,7 +8038,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000560",
+          "url": "https://www.youtube.com/watch?v=WZC9RAk7dOI",
+          "plataforma": "YouTube · canal oficial Miel San Marcos · Proezas",
+          "tipo": "video",
+          "oficial": true
+        }
+      ]
     },
     {
       "id": "CAN-000226",
