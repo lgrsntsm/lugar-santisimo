@@ -1687,13 +1687,6 @@
       ],
       "enlaces": [
         {
-          "id": "ENL-000116",
-          "url": "https://music.amazon.com/tracks/B0D4615NMT",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        },
-        {
           "id": "ENL-000130",
           "url": "https://www.youtube.com/watch?v=nd5RePtbH9g",
           "plataforma": "YouTube · Perfume de Alabanza (en vivo)",
@@ -1719,15 +1712,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000117",
-          "url": "https://music.amazon.com/tracks/B0D45XY3B7",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000040",
@@ -1747,13 +1732,6 @@
         }
       ],
       "enlaces": [
-        {
-          "id": "ENL-000118",
-          "url": "https://music.amazon.com/tracks/B0D45ZLKXT",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        },
         {
           "id": "ENL-000195",
           "url": "https://www.musica.com/letras.asp?letra=2092768",
@@ -1788,13 +1766,6 @@
         }
       ],
       "enlaces": [
-        {
-          "id": "ENL-000119",
-          "url": "https://music.amazon.com/tracks/B0D45Z6SWH",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        },
         {
           "id": "ENL-000131",
           "url": "https://www.youtube.com/watch?v=5Mt6l_nNNN4",
@@ -1886,13 +1857,6 @@
       ],
       "enlaces": [
         {
-          "id": "ENL-000120",
-          "url": "https://music.amazon.com/tracks/B0D461JSZP",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        },
-        {
           "id": "ENL-000135",
           "url": "https://open.spotify.com/intl-id/track/0HpQutrwKvDQsBdUCMrlTC",
           "plataforma": "Spotify · Alabanzas (1995)",
@@ -1925,15 +1889,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000121",
-          "url": "https://music.amazon.com/tracks/B0D45YRPQ2",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000044",
@@ -1953,13 +1909,6 @@
         }
       ],
       "enlaces": [
-        {
-          "id": "ENL-000122",
-          "url": "https://music.amazon.com/tracks/B0D45ZW51K",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        },
         {
           "id": "ENL-000196",
           "url": "https://www.musica.com/letras.asp?letra=2092771",
@@ -1986,15 +1935,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000123",
-          "url": "https://music.amazon.com/tracks/B0D45Z8LMV",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000046",
@@ -2014,13 +1955,6 @@
         }
       ],
       "enlaces": [
-        {
-          "id": "ENL-000124",
-          "url": "https://music.amazon.com/tracks/B0D461TJXC",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        },
         {
           "id": "ENL-000197",
           "url": "https://www.musica.com/letras.asp?letra=2092308",
@@ -2048,13 +1982,6 @@
         }
       ],
       "enlaces": [
-        {
-          "id": "ENL-000125",
-          "url": "https://music.amazon.com/tracks/B0D4617M92",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        },
         {
           "id": "ENL-000132",
           "url": "https://www.youtube.com/watch?v=zbgTseV_31M",
@@ -2139,13 +2066,6 @@
       ],
       "enlaces": [
         {
-          "id": "ENL-000126",
-          "url": "https://music.amazon.com/tracks/B0D45Y9NHC",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        },
-        {
           "id": "ENL-000217",
           "url": "https://www.musica.com/letras.asp?letra=2092307",
           "plataforma": "Música.com · Letra de Tengo para ti",
@@ -2172,13 +2092,6 @@
         }
       ],
       "enlaces": [
-        {
-          "id": "ENL-000127",
-          "url": "https://music.amazon.com/tracks/B0D45ZRL67",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        },
         {
           "id": "ENL-000198",
           "url": "https://www.cifraclub.com/perfume-de-alabanza/pertenezco-a-ti/",
@@ -2212,15 +2125,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000128",
-          "url": "https://music.amazon.com/tracks/B0D45WZTD3",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000051",
@@ -2240,13 +2145,6 @@
         }
       ],
       "enlaces": [
-        {
-          "id": "ENL-000129",
-          "url": "https://music.amazon.com/tracks/B0D45Z3QF4",
-          "plataforma": "Amazon Music · Tengo Un Perfume (1995)",
-          "tipo": "audio",
-          "oficial": false
-        },
         {
           "id": "ENL-000278",
           "url": "https://www.youtube.com/watch?v=i8mOho3-Rfk",
@@ -4541,15 +4439,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000349",
-          "url": "https://music.amazon.com/tracks/B0FCV7F9JB",
-          "plataforma": "Amazon Music · Rey Soberano",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000113",
@@ -4568,15 +4458,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000350",
-          "url": "https://music.amazon.com/tracks/B0FCTPGNYL",
-          "plataforma": "Amazon Music · Rey Soberano",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000114",
@@ -4595,15 +4477,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000351",
-          "url": "https://music.amazon.com/tracks/B0FCV62GGP",
-          "plataforma": "Amazon Music · Rey Soberano",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000115",
@@ -4622,15 +4496,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000352",
-          "url": "https://music.amazon.com/tracks/B0FCTSWZ25",
-          "plataforma": "Amazon Music · Rey Soberano",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000116",
@@ -4649,15 +4515,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000353",
-          "url": "https://music.amazon.com/tracks/B0FCTW7LS1",
-          "plataforma": "Amazon Music · Rey Soberano",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000117",
@@ -4703,15 +4561,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000355",
-          "url": "https://music.amazon.com/tracks/B0FCVCR5PR",
-          "plataforma": "Amazon Music · Rey Soberano",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000119",
@@ -4730,15 +4580,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000356",
-          "url": "https://music.amazon.com/tracks/B0FCVCRD5W",
-          "plataforma": "Amazon Music · Rey Soberano",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000120",
@@ -4757,15 +4599,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000357",
-          "url": "https://music.amazon.com/tracks/B0FCTLZL2C",
-          "plataforma": "Amazon Music · Rey Soberano",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000121",
@@ -4784,15 +4618,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000358",
-          "url": "https://music.amazon.com/tracks/B0FCTX9HRM",
-          "plataforma": "Amazon Music · Rey Soberano",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000122",
@@ -4838,15 +4664,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000360",
-          "url": "https://music.amazon.com/tracks/B0FCV3M9ZL",
-          "plataforma": "Amazon Music · Rey Soberano",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000124",
@@ -4865,15 +4683,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000361",
-          "url": "https://music.amazon.com/tracks/B0FCTMRXRC",
-          "plataforma": "Amazon Music · Rey Soberano",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000125",
@@ -4984,13 +4794,6 @@
       ],
       "enlaces": [
         {
-          "id": "ENL-000363",
-          "url": "https://music.amazon.com/tracks/B0DTJJZ9F7",
-          "plataforma": "Amazon Music · 20 Años",
-          "tipo": "audio",
-          "oficial": true
-        },
-        {
           "id": "ENL-000464",
           "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=1264s",
           "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 21:04 (fragmento del álbum completo)",
@@ -5058,13 +4861,6 @@
         }
       ],
       "enlaces": [
-        {
-          "id": "ENL-000365",
-          "url": "https://music.amazon.com/tracks/B0DTJK1LJP",
-          "plataforma": "Amazon Music · 20 Años",
-          "tipo": "audio",
-          "oficial": true
-        },
         {
           "id": "ENL-000462",
           "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=683s",
@@ -5392,13 +5188,6 @@
       ],
       "enlaces": [
         {
-          "id": "ENL-000375",
-          "url": "https://music.amazon.com/tracks/B0DTJK2MQC",
-          "plataforma": "Amazon Music · 20 Años",
-          "tipo": "audio",
-          "oficial": true
-        },
-        {
           "id": "ENL-000460",
           "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=215s",
           "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 03:35 (fragmento del álbum completo)",
@@ -5438,15 +5227,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000376",
-          "url": "https://music.amazon.com/tracks/B0DTJKD1VP",
-          "plataforma": "Amazon Music · 20 Años",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000140",
@@ -5465,15 +5246,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000377",
-          "url": "https://music.amazon.com/tracks/B0DTJJG2WP",
-          "plataforma": "Amazon Music · 20 Años",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000141",
@@ -5526,15 +5299,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000382",
-          "url": "https://music.amazon.in/tracks/B0D683N47Z",
-          "plataforma": "Amazon Music · Anhelamos conocerte",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000143",
@@ -6019,15 +5784,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000411",
-          "url": "https://music.amazon.in/tracks/B0D683M7VR",
-          "plataforma": "Amazon Music · Anhelamos conocerte (reedición digital)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000161",
@@ -6046,15 +5803,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000412",
-          "url": "https://music.amazon.in/tracks/B0D67F7QJW",
-          "plataforma": "Amazon Music · Anhelamos conocerte (reedición digital)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000162",
@@ -6073,15 +5822,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000413",
-          "url": "https://music.amazon.in/tracks/B0D67J2N4Z",
-          "plataforma": "Amazon Music · Anhelamos conocerte (reedición digital)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000163",
@@ -6100,15 +5841,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000414",
-          "url": "https://music.amazon.in/tracks/B0D68374F5",
-          "plataforma": "Amazon Music · Anhelamos conocerte (reedición digital)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000164",
@@ -6127,15 +5860,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000415",
-          "url": "https://music.amazon.in/tracks/B0D67KB37L",
-          "plataforma": "Amazon Music · Anhelamos conocerte (reedición digital)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000165",
@@ -6154,15 +5879,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000416",
-          "url": "https://music.amazon.in/tracks/B0D67ZC71L",
-          "plataforma": "Amazon Music · Anhelamos conocerte (reedición digital)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000166",
@@ -6922,13 +6639,6 @@
           "plataforma": "Apple Music · Glorificad a Jehová (1989)",
           "tipo": "audio",
           "oficial": true
-        },
-        {
-          "id": "ENL-000590",
-          "url": "https://music.amazon.com/es-co/tracks/B08XQZBG42",
-          "plataforma": "Amazon Music · Glorificad a Jehová · pista oficial",
-          "tipo": "audio",
-          "oficial": true
         }
       ]
     },
@@ -6959,13 +6669,6 @@
           "id": "ENL-000445",
           "url": "https://music.apple.com/us/song/1556105945",
           "plataforma": "Apple Music · Glorificad a Jehová (1989)",
-          "tipo": "audio",
-          "oficial": true
-        },
-        {
-          "id": "ENL-000591",
-          "url": "https://music.amazon.es/tracks/B0HDRV5FVY",
-          "plataforma": "Amazon Music · Glorificad a Jehová · pista oficial",
           "tipo": "audio",
           "oficial": true
         }
