@@ -5965,6 +5965,13 @@
           "plataforma": "YouTube · Ríos de Vida: 40 Años · desde 00:52:27 (fragmento del álbum completo)",
           "tipo": "video",
           "oficial": false
+        },
+        {
+          "id": "ENL-000592",
+          "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=3152s",
+          "plataforma": "YouTube · Ríos de Vida 40 Años · pista 12 · canal oficial",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
