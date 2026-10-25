@@ -7902,6 +7902,10 @@
           "id": "INT-000001",
           "nombre": "Miel San Marcos",
           "rol": "principal"
+        },
+        {
+          "nombre": "Ovidio Barrios",
+          "rol": "invitado"
         }
       ],
       "categorias": [
@@ -7921,6 +7925,10 @@
           "id": "INT-000001",
           "nombre": "Miel San Marcos",
           "rol": "principal"
+        },
+        {
+          "nombre": "Tony Pérez",
+          "rol": "invitado"
         }
       ],
       "categorias": [
@@ -7955,6 +7963,10 @@
           "id": "INT-000001",
           "nombre": "Miel San Marcos",
           "rol": "principal"
+        },
+        {
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "invitado"
         }
       ],
       "categorias": [
@@ -7974,6 +7986,10 @@
           "id": "INT-000001",
           "nombre": "Miel San Marcos",
           "rol": "principal"
+        },
+        {
+          "nombre": "Fernel Monroy",
+          "rol": "invitado"
         }
       ],
       "categorias": [
@@ -8035,6 +8051,10 @@
           "id": "INT-000001",
           "nombre": "Miel San Marcos",
           "rol": "principal"
+        },
+        {
+          "nombre": "Coalo Zamorano",
+          "rol": "invitado"
         }
       ],
       "categorias": [
@@ -8228,6 +8248,14 @@
           "id": "INT-000001",
           "nombre": "Miel San Marcos",
           "rol": "principal"
+        },
+        {
+          "nombre": "Juan Carlos Alvarado",
+          "rol": "invitado"
+        },
+        {
+          "nombre": "Coalo Zamorano",
+          "rol": "invitado"
         }
       ],
       "categorias": [
