@@ -7849,6 +7849,13 @@
           "plataforma": "YouTube · canal oficial Miel San Marcos · Proezas",
           "tipo": "video",
           "oficial": true
+        },
+        {
+          "id": "ENL-000586",
+          "url": "https://www.cifraclub.com/miel-san-marcos/no-callare/",
+          "plataforma": "Cifra Club · Cifrado de Proezas",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
@@ -7975,7 +7982,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000587",
+          "url": "https://www.cifraclub.com/miel-san-marcos/remolineando/",
+          "plataforma": "Cifra Club · Cifrado de Proezas",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000225",
@@ -8001,6 +8016,13 @@
           "plataforma": "YouTube · canal oficial Miel San Marcos · Proezas",
           "tipo": "video",
           "oficial": true
+        },
+        {
+          "id": "ENL-000588",
+          "url": "https://www.cifraclub.com/miel-san-marcos/grande-y-fuerte/",
+          "plataforma": "Cifra Club · Cifrado de Proezas",
+          "tipo": "acordes",
+          "oficial": false
         }
       ]
     },
