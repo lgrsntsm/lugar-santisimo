@@ -8274,6 +8274,376 @@
           "oficial": false
         }
       ]
+    },
+    {
+      "id": "CAN-000234",
+      "titulo": "Intro (En Vivo)",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": []
+    },
+    {
+      "id": "CAN-000235",
+      "titulo": "Desciende",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000561",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000236",
+      "titulo": "Como en el cielo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000562",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000237",
+      "titulo": "Alegría",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000563",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000238",
+      "titulo": "Rey vencedor",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000564",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000239",
+      "titulo": "Fiesta",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000565",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000240",
+      "titulo": "Viene ya",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000566",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000241",
+      "titulo": "Dios está aquí",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000567",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000242",
+      "titulo": "Mi sanador",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000568",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000243",
+      "titulo": "Espontáneo (Mi sanador)",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000569",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000244",
+      "titulo": "Todo poderoso",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000570",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000245",
+      "titulo": "Espontáneo (Todo poderoso)",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000571",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000246",
+      "titulo": "Exaltado estás",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000572",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000247",
+      "titulo": "Espontáneo (Exaltado estás)",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000573",
+          "url": "https://www.cifraclub.com/miel-san-marcos/discografia/como-en-el-cielo-2015/",
+          "plataforma": "Cifra Club · Discografía y recursos de la canción",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
     }
   ],
   "albumes_interes": [
@@ -8316,6 +8686,14 @@
       "formato": "audio",
       "url": "https://open.spotify.com/intl-es/album/3tGDxfvq1cBSlBFr302jMU",
       "plataforma": "Spotify · Álbum oficial · UNCION PRODUCCIONES"
+    },
+    {
+      "id": "ALB-000006",
+      "interprete_id": "INT-000001",
+      "titulo": "Como En El Cielo (En Vivo) (2015) · 18 pistas",
+      "formato": "audio",
+      "url": "https://music.apple.com/us/album/como-en-el-cielo-en-vivo/973590836",
+      "plataforma": "Apple Music · Álbum oficial · Uncion Producciones"
     }
   ]
 }
