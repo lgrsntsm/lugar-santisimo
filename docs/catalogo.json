@@ -7345,6 +7345,68 @@
           "oficial": true
         }
       ]
+    },
+    {
+      "id": "CAN-000208",
+      "titulo": "Amado de mi alma",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000028",
+          "nombre": "Alex Márquez",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000502",
+          "url": "https://open.spotify.com/album/2XRgadaMBcGXpzt6BqRqTt",
+          "plataforma": "Spotify · Sencillo oficial (2023)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000503",
+          "url": "https://music.apple.com/us/album/amado-de-mi-alma-ep/1690237803",
+          "plataforma": "Apple Music · Lanzamiento oficial (2023)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000504",
+          "url": "https://www.youtube.com/watch?v=JOqX6Y9ByC4",
+          "plataforma": "YouTube · Video oficial de Alex Márquez",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000505",
+          "url": "https://www.cifraclub.com/alex-marquez/amado-de-mi-alma/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000506",
+          "url": "https://www.cifras.com.br/cifra/alex-marquez/amado-de-mi-alma",
+          "plataforma": "Cifras · Acordes",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000507",
+          "url": "https://www.secuencias.com/songs/Alex-Marquez/Amado-De-Mi-Alma/Amado-De-Mi-Alma/overview/",
+          "plataforma": "Secuencias.com · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
     }
   ],
   "albumes_interes": [
