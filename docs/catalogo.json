@@ -7747,6 +7747,13 @@
           "plataforma": "Cifra Club · Letra",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000556",
+          "url": "https://www.youtube.com/watch?v=AfaZzyoypNI",
+          "plataforma": "YouTube · Miel San Marcos · video oficial de Proezas",
+          "tipo": "video",
+          "oficial": true
         }
       ]
     },
