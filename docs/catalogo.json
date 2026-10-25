@@ -8359,6 +8359,13 @@
           "plataforma": "Cifra Club · Letra",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000584",
+          "url": "https://www.youtube.com/watch?v=5SxEDpgoXr4",
+          "plataforma": "YouTube · Miel San Marcos · publicación oficial",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
@@ -8379,7 +8386,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000578",
+          "url": "https://www.cifraclub.com/miel-san-marcos/alegria/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000238",
@@ -8507,6 +8522,13 @@
           "plataforma": "Cifra Club · Acordes individuales",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000579",
+          "url": "https://www.cifraclub.com/miel-san-marcos/dios-esta-aqui/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
@@ -8534,6 +8556,20 @@
           "plataforma": "Cifra Club · Acordes individuales",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000580",
+          "url": "https://www.cifraclub.com/miel-san-marcos/eres-mi-sanador/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000583",
+          "url": "https://www.youtube.com/watch?v=pPSphmJx7GM",
+          "plataforma": "YouTube · Miel San Marcos · publicación oficial",
+          "tipo": "video",
+          "oficial": true
         }
       ]
     },
@@ -8573,7 +8609,15 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": []
+      "enlaces": [
+        {
+          "id": "ENL-000581",
+          "url": "https://www.cifraclub.com/miel-san-marcos/todo-poderoso-part-julio-melgar/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
     },
     {
       "id": "CAN-000245",
@@ -8617,6 +8661,13 @@
           "url": "https://www.cifraclub.com/miel-san-marcos/exaltado-estas/",
           "plataforma": "Cifra Club · Acordes individuales",
           "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000582",
+          "url": "https://www.cifraclub.com/miel-san-marcos/exaltado-estas/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
           "oficial": false
         }
       ]
