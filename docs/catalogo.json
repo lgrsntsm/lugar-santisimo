@@ -6915,6 +6915,13 @@
           "plataforma": "Apple Music · Glorificad a Jehová (1989)",
           "tipo": "audio",
           "oficial": true
+        },
+        {
+          "id": "ENL-000590",
+          "url": "https://music.amazon.com/es-co/tracks/B08XQZBG42",
+          "plataforma": "Amazon Music · Glorificad a Jehová · pista oficial",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
@@ -6945,6 +6952,13 @@
           "id": "ENL-000445",
           "url": "https://music.apple.com/us/song/1556105945",
           "plataforma": "Apple Music · Glorificad a Jehová (1989)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000591",
+          "url": "https://music.amazon.es/tracks/B0HDRV5FVY",
+          "plataforma": "Amazon Music · Glorificad a Jehová · pista oficial",
           "tipo": "audio",
           "oficial": true
         }
@@ -8769,17 +8783,17 @@
       "id": "ALB-000003",
       "interprete_id": "INT-000026",
       "titulo": "Glorificad a Jehová (1989) · álbum completo",
-      "formato": "video",
-      "url": "https://www.youtube.com/watch?v=ZOawoBhd-g8",
-      "plataforma": "YouTube · Álbum completo · Archivo de terceros"
+      "formato": "audio",
+      "url": "https://www.iheart.com/artist/palabra-en-accion-juan-carlos-36073388/albums/glorificad-a-jehova-423769201/",
+      "plataforma": "iHeart · Edición comercial · 14 pistas"
     },
     {
       "id": "ALB-000004",
       "interprete_id": "INT-000026",
       "titulo": "Más que Vencedor (1990) · álbum completo",
-      "formato": "video",
-      "url": "https://www.youtube.com/watch?v=BH0csoDkr3s",
-      "plataforma": "YouTube · Álbum completo · Archivo de terceros"
+      "formato": "audio",
+      "url": "https://open.spotify.com/album/4akUR2cLa9bz7UfRelv8D8",
+      "plataforma": "Spotify · Edición comercial · 16 pistas"
     },
     {
       "id": "ALB-000005",
