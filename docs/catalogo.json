@@ -8715,6 +8715,37 @@
         }
       ],
       "enlaces": []
+    },
+    {
+      "id": "CAN-000248",
+      "titulo": "Tu Nombre (versión radial)",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        },
+        {
+          "nombre": "Coalo Zamorano",
+          "rol": "invitado"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000589",
+          "url": "https://music.apple.com/us/song/578692364",
+          "plataforma": "Apple Music · Proezas (En Vivo) · pista 21 · versión radial",
+          "tipo": "audio",
+          "oficial": true
+        }
+      ]
     }
   ],
   "albumes_interes": [
