@@ -7715,6 +7715,528 @@
           "oficial": false
         }
       ]
+    },
+    {
+      "id": "CAN-000216",
+      "titulo": "Proezas",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000532",
+          "url": "https://www.cifraclub.com/miel-san-marcos/proezas/",
+          "plataforma": "Cifra Club · Acordes y letra",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000533",
+          "url": "https://www.cifraclub.com/miel-san-marcos/proezas/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000217",
+      "titulo": "Unidos",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000534",
+          "url": "https://www.cifraclub.com/miel-san-marcos/unidos/",
+          "plataforma": "Cifra Club · Acordes y letra",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000535",
+          "url": "https://www.cifraclub.com/miel-san-marcos/unidos/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000218",
+      "titulo": "Agradecido",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000536",
+          "url": "https://www.cifraclub.com/miel-san-marcos/agradecido/",
+          "plataforma": "Cifra Club · Acordes y letra",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000537",
+          "url": "https://www.cifraclub.com/miel-san-marcos/agradecido/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000219",
+      "titulo": "No Callaré",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": []
+    },
+    {
+      "id": "CAN-000220",
+      "titulo": "Llegó El Tiempo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000538",
+          "url": "https://www.cifraclub.com/miel-san-marcos/llego-el-tiempo/",
+          "plataforma": "Cifra Club · Acordes y letra",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000539",
+          "url": "https://www.cifraclub.com/miel-san-marcos/llego-el-tiempo/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000221",
+      "titulo": "Óleo de Alegría",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000540",
+          "url": "https://www.cifraclub.com/miel-san-marcos/alegria/",
+          "plataforma": "Cifra Club · Acordes y letra",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000541",
+          "url": "https://www.cifraclub.com/miel-san-marcos/alegria/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000222",
+      "titulo": "El Señor Es Mi Rey",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000542",
+          "url": "https://www.cifraclub.com/miel-san-marcos/el-senor-es-mi-rey/",
+          "plataforma": "Cifra Club · Acordes y letra",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000543",
+          "url": "https://www.cifraclub.com/miel-san-marcos/el-senor-es-mi-rey/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000223",
+      "titulo": "Cristo No Está Muerto",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000544",
+          "url": "https://www.cifraclub.com/miel-san-marcos/dios-no-esta-muerto/",
+          "plataforma": "Cifra Club · Acordes y letra",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000545",
+          "url": "https://www.cifraclub.com/miel-san-marcos/dios-no-esta-muerto/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000224",
+      "titulo": "Remolineando",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": []
+    },
+    {
+      "id": "CAN-000225",
+      "titulo": "Grande y Fuerte",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": []
+    },
+    {
+      "id": "CAN-000226",
+      "titulo": "Tu Nombre",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000546",
+          "url": "https://www.cifraclub.com/miel-san-marcos/tu-nombre/",
+          "plataforma": "Cifra Club · Acordes y letra",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000547",
+          "url": "https://www.cifraclub.com/miel-san-marcos/tu-nombre/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000227",
+      "titulo": "Tú Eres Todo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": []
+    },
+    {
+      "id": "CAN-000228",
+      "titulo": "La Sangre de Jesús",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": []
+    },
+    {
+      "id": "CAN-000229",
+      "titulo": "Maravillado Estoy De Ti",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000548",
+          "url": "https://www.cifraclub.com/miel-san-marcos/maravillado-estoy-de-ti/",
+          "plataforma": "Cifra Club · Acordes y letra",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000549",
+          "url": "https://www.cifraclub.com/miel-san-marcos/maravillado-estoy-de-ti/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000230",
+      "titulo": "A Ti Atribuimos La Gloria",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": []
+    },
+    {
+      "id": "CAN-000231",
+      "titulo": "Al Que Murió",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000550",
+          "url": "https://www.cifraclub.com/miel-san-marcos/al-que-murio/",
+          "plataforma": "Cifra Club · Acordes y letra",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000551",
+          "url": "https://www.cifraclub.com/miel-san-marcos/al-que-murio/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000232",
+      "titulo": "Jehová De Los Ejércitos",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000552",
+          "url": "https://www.cifraclub.com/miel-san-marcos/jehova-de-los-ejercitos/",
+          "plataforma": "Cifra Club · Acordes y letra",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000553",
+          "url": "https://www.cifraclub.com/miel-san-marcos/jehova-de-los-ejercitos/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000233",
+      "titulo": "Clamamos",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000001",
+          "nombre": "Miel San Marcos",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000554",
+          "url": "https://www.cifraclub.com/miel-san-marcos/clamamos/",
+          "plataforma": "Cifra Club · Acordes y letra",
+          "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000555",
+          "url": "https://www.cifraclub.com/miel-san-marcos/clamamos/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
+        }
+      ]
     }
   ],
   "albumes_interes": [
@@ -7749,6 +8271,14 @@
       "formato": "video",
       "url": "https://www.youtube.com/watch?v=BH0csoDkr3s",
       "plataforma": "YouTube · Álbum completo · Archivo de terceros"
+    },
+    {
+      "id": "ALB-000005",
+      "interprete_id": "INT-000001",
+      "titulo": "Proezas (En Vivo) (2012) · 21 pistas",
+      "formato": "audio",
+      "url": "https://open.spotify.com/intl-es/album/3tGDxfvq1cBSlBFr302jMU",
+      "plataforma": "Spotify · Álbum oficial · UNCION PRODUCCIONES"
     }
   ]
 }
