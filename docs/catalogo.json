@@ -3493,6 +3493,10 @@
           "id": "INT-000001",
           "nombre": "Miel San Marcos",
           "rol": "principal"
+        },
+        {
+          "nombre": "Christine D'Clario",
+          "rol": "invitado"
         }
       ],
       "categorias": [
@@ -8614,6 +8618,10 @@
           "id": "INT-000001",
           "nombre": "Miel San Marcos",
           "rol": "principal"
+        },
+        {
+          "nombre": "Julio Melgar",
+          "rol": "invitado"
         }
       ],
       "categorias": [
@@ -8660,6 +8668,10 @@
           "id": "INT-000001",
           "nombre": "Miel San Marcos",
           "rol": "principal"
+        },
+        {
+          "nombre": "Marco Barrientos",
+          "rol": "invitado"
         }
       ],
       "categorias": [
