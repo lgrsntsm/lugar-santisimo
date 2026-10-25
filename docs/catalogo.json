@@ -48,13 +48,6 @@
           "oficial": true
         },
         {
-          "id": "ENL-000008",
-          "url": "https://music.apple.com/us/song/417148138",
-          "plataforma": "Apple Music · En Adoración",
-          "tipo": "audio",
-          "oficial": true
-        },
-        {
           "id": "ENL-000013",
           "url": "https://www.cifraclub.com/marcos-witt/renuevame/letra/",
           "plataforma": "Letra · Cifra Club (texto)",
@@ -1738,13 +1731,6 @@
           "plataforma": "Música.com · Letra de Una vertiente de alabanza",
           "tipo": "letra",
           "oficial": false
-        },
-        {
-          "id": "ENL-000378",
-          "url": "https://music.apple.com/es/song/1746361808",
-          "plataforma": "Apple Music · Tengo Un Perfume",
-          "tipo": "audio",
-          "oficial": true
         }
       ]
     },
@@ -1821,13 +1807,6 @@
           "plataforma": "Cifra Club · Acordes (versión Fresca Unción)",
           "tipo": "acordes",
           "oficial": false
-        },
-        {
-          "id": "ENL-000380",
-          "url": "https://music.apple.com/us/song/1833540797",
-          "plataforma": "Apple Music · Todo Adoración",
-          "tipo": "audio",
-          "oficial": true
         },
         {
           "id": "ENL-000485",
@@ -2037,13 +2016,6 @@
           "plataforma": "LaCuerda · Letra con acordes",
           "tipo": "letra",
           "oficial": false
-        },
-        {
-          "id": "ENL-000379",
-          "url": "https://music.apple.com/us/song/1746362311",
-          "plataforma": "Apple Music · Tengo Un Perfume",
-          "tipo": "audio",
-          "oficial": true
         }
       ]
     },
@@ -4534,15 +4506,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000354",
-          "url": "https://music.apple.com/us/song/1819996428",
-          "plataforma": "Apple Music · Rey Soberano",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000118",
@@ -4703,13 +4667,6 @@
         }
       ],
       "enlaces": [
-        {
-          "id": "ENL-000362",
-          "url": "https://music.apple.com/us/song/1833540802",
-          "plataforma": "Apple Music · Todo Adoración",
-          "tipo": "audio",
-          "oficial": true
-        },
         {
           "id": "ENL-000461",
           "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=477s",
@@ -4889,13 +4846,6 @@
       ],
       "enlaces": [
         {
-          "id": "ENL-000366",
-          "url": "https://music.apple.com/us/song/1833540918",
-          "plataforma": "Apple Music · Todo Adoración",
-          "tipo": "audio",
-          "oficial": true
-        },
-        {
           "id": "ENL-000463",
           "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=1023s",
           "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 17:03 (fragmento del álbum completo)",
@@ -4937,13 +4887,6 @@
       ],
       "enlaces": [
         {
-          "id": "ENL-000367",
-          "url": "https://music.apple.com/us/song/1833540919",
-          "plataforma": "Apple Music · Todo Adoración",
-          "tipo": "audio",
-          "oficial": true
-        },
-        {
           "id": "ENL-000467",
           "url": "https://www.youtube.com/watch?v=d3CZ7x4_QKM&t=2079s",
           "plataforma": "YouTube · Perfume de Alabanza 3 (1998) · desde 34:39 (fragmento del álbum completo)",
@@ -4976,15 +4919,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000368",
-          "url": "https://music.apple.com/us/song/1833540922",
-          "plataforma": "Apple Music · Todo Adoración",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000132",
@@ -5044,15 +4979,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000370",
-          "url": "https://music.apple.com/us/song/1750537151",
-          "plataforma": "Apple Music · Anhelamos conocerte",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000134",
@@ -5071,15 +4998,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000371",
-          "url": "https://music.apple.com/us/song/1750537531",
-          "plataforma": "Apple Music · Anhelamos conocerte",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000135",
@@ -5098,15 +5017,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000372",
-          "url": "https://music.apple.com/us/song/1750537871",
-          "plataforma": "Apple Music · Anhelamos conocerte",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000136",
@@ -5125,15 +5036,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000373",
-          "url": "https://music.apple.com/us/song/1750537448",
-          "plataforma": "Apple Music · Anhelamos conocerte",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000137",
@@ -5153,13 +5056,6 @@
         }
       ],
       "enlaces": [
-        {
-          "id": "ENL-000374",
-          "url": "https://music.apple.com/mx/song/1791630393",
-          "plataforma": "Apple Music · 20 Años",
-          "tipo": "audio",
-          "oficial": true
-        },
         {
           "id": "ENL-000473",
           "url": "https://www.youtube.com/watch?v=KK2m4JnPnvc&t=1051s",
@@ -5898,15 +5794,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000417",
-          "url": "https://music.apple.com/us/song/1531495750",
-          "plataforma": "Apple Music · 12 Éxitos Cristianos",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000167",
@@ -5925,15 +5813,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000418",
-          "url": "https://music.apple.com/us/song/1532123388",
-          "plataforma": "Apple Music · El Rey Ya Viene",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000168",
@@ -5952,15 +5832,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000419",
-          "url": "https://music.apple.com/us/song/1532123389",
-          "plataforma": "Apple Music · El Rey Ya Viene",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000169",
@@ -5979,15 +5851,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000420",
-          "url": "https://music.apple.com/us/song/1532123391",
-          "plataforma": "Apple Music · El Rey Ya Viene",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000170",
@@ -6006,15 +5870,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000421",
-          "url": "https://music.apple.com/us/song/1532123394",
-          "plataforma": "Apple Music · El Rey Ya Viene",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000171",
@@ -6033,15 +5889,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000422",
-          "url": "https://music.apple.com/us/song/1523860075",
-          "plataforma": "Apple Music · Soy La Triste Oveja",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000172",
@@ -6060,15 +5908,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000423",
-          "url": "https://music.apple.com/us/song/1879638902",
-          "plataforma": "Apple Music · La Venida de Jesús (1972)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000173",
@@ -6087,15 +5927,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000424",
-          "url": "https://music.apple.com/us/song/1558840905",
-          "plataforma": "Apple Music · Oh Alma Mía (1974)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000174",
@@ -6114,15 +5946,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000425",
-          "url": "https://music.apple.com/us/song/1558840904",
-          "plataforma": "Apple Music · Oh Alma Mía (1974)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000175",
@@ -6141,15 +5965,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000426",
-          "url": "https://music.apple.com/us/song/1558840908",
-          "plataforma": "Apple Music · Oh Alma Mía (1974)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000176",
@@ -6168,15 +5984,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000427",
-          "url": "https://music.apple.com/us/song/1533227384",
-          "plataforma": "Apple Music · Oh Alma Mía (1974)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000177",
@@ -6195,15 +6003,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000428",
-          "url": "https://music.apple.com/us/song/1558840911",
-          "plataforma": "Apple Music · Oh Alma Mía (1974)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000178",
@@ -6222,15 +6022,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000429",
-          "url": "https://music.apple.com/us/song/1532917568",
-          "plataforma": "Apple Music · Mi Señor y Dios (1979)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000179",
@@ -6249,15 +6041,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000430",
-          "url": "https://music.apple.com/us/song/1532917575",
-          "plataforma": "Apple Music · Mi Señor y Dios (1979)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000180",
@@ -6276,15 +6060,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000431",
-          "url": "https://music.apple.com/us/song/1532917574",
-          "plataforma": "Apple Music · Mi Señor y Dios (1979)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000181",
@@ -6303,15 +6079,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000432",
-          "url": "https://music.apple.com/us/song/1532917571",
-          "plataforma": "Apple Music · Mi Señor y Dios (1979)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000182",
@@ -6330,15 +6098,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000433",
-          "url": "https://music.apple.com/us/song/1212419812",
-          "plataforma": "Apple Music · Pueblo de Dios (1999)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000183",
@@ -6357,15 +6117,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000434",
-          "url": "https://music.apple.com/us/song/1212419813",
-          "plataforma": "Apple Music · Pueblo de Dios (1999)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000184",
@@ -6384,15 +6136,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000435",
-          "url": "https://music.apple.com/us/song/1212419815",
-          "plataforma": "Apple Music · Pueblo de Dios (1999)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000185",
@@ -6411,15 +6155,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000436",
-          "url": "https://music.apple.com/us/song/1212419819",
-          "plataforma": "Apple Music · Pueblo de Dios (1999)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000186",
@@ -6438,15 +6174,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000437",
-          "url": "https://music.apple.com/us/song/768997892",
-          "plataforma": "Apple Music · Sinceridad",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000187",
@@ -6465,15 +6193,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000438",
-          "url": "https://music.apple.com/us/song/1706253402",
-          "plataforma": "Apple Music · Tu Grandeza · Remasterización 2023",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000188",
@@ -6492,15 +6212,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000439",
-          "url": "https://music.apple.com/us/song/1706253618",
-          "plataforma": "Apple Music · Tu Grandeza · Remasterización 2023",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000189",
@@ -6519,15 +6231,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000440",
-          "url": "https://music.apple.com/us/song/1490057198",
-          "plataforma": "Apple Music · El León De Juda (1990)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000190",
@@ -6546,15 +6250,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000441",
-          "url": "https://music.apple.com/us/song/1513108847",
-          "plataforma": "Apple Music · Impresión Norteña (2020)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000191",
@@ -6573,15 +6269,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000442",
-          "url": "https://music.apple.com/us/song/1470336018",
-          "plataforma": "Apple Music · El Alfarero (1989)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000192",
@@ -6600,15 +6288,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000443",
-          "url": "https://music.apple.com/us/song/1455560165",
-          "plataforma": "Apple Music · El Joven Galileo (1986)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000193",
@@ -6632,15 +6312,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000444",
-          "url": "https://music.apple.com/us/song/1556105940",
-          "plataforma": "Apple Music · Glorificad a Jehová (1989)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000194",
@@ -6664,15 +6336,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000445",
-          "url": "https://music.apple.com/us/song/1556105945",
-          "plataforma": "Apple Music · Glorificad a Jehová (1989)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000195",
@@ -6696,15 +6360,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000446",
-          "url": "https://music.apple.com/us/song/6800151245",
-          "plataforma": "Apple Music · Glorificad a Jehová (1989)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000196",
@@ -6728,15 +6384,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000447",
-          "url": "https://music.apple.com/us/song/1556106127",
-          "plataforma": "Apple Music · Glorificad a Jehová (1989)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000197",
@@ -6760,15 +6408,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000448",
-          "url": "https://music.apple.com/us/song/6800131647",
-          "plataforma": "Apple Music · Jehová Es Mi Guerrero (1988)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000198",
@@ -6792,15 +6432,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000449",
-          "url": "https://music.apple.com/us/song/1556098923",
-          "plataforma": "Apple Music · Jehová Es Mi Guerrero (1988)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000199",
@@ -6824,15 +6456,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000450",
-          "url": "https://music.apple.com/us/song/1556107711",
-          "plataforma": "Apple Music · Más Que Vencedor (1991)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000200",
@@ -6856,15 +6480,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000451",
-          "url": "https://music.apple.com/us/song/1556107926",
-          "plataforma": "Apple Music · Más Que Vencedor (1991)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000201",
@@ -6888,15 +6504,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000452",
-          "url": "https://music.apple.com/us/song/1556107931",
-          "plataforma": "Apple Music · Más Que Vencedor (1991)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000202",
@@ -6915,15 +6523,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000453",
-          "url": "https://music.apple.com/us/song/310328771",
-          "plataforma": "Apple Music · La Gran Tribulacion - Es Tiempo Ya (1976)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000203",
@@ -6942,15 +6542,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000454",
-          "url": "https://music.apple.com/us/song/310328795",
-          "plataforma": "Apple Music · La Gran Tribulacion - Es Tiempo Ya (1976)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000204",
@@ -6969,15 +6561,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000455",
-          "url": "https://music.apple.com/us/song/310328204",
-          "plataforma": "Apple Music · Himnos y Coros Para Recordar",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000205",
@@ -6996,15 +6580,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000456",
-          "url": "https://music.apple.com/us/song/310328808",
-          "plataforma": "Apple Music · La Gran Tribulacion - Es Tiempo Ya (1976)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000206",
@@ -7023,15 +6599,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000457",
-          "url": "https://music.apple.com/us/song/628058365",
-          "plataforma": "Apple Music · La Gran Tribulación / A Mi Lado Está el Señor",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000207",
@@ -7050,15 +6618,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000458",
-          "url": "https://music.apple.com/us/song/310328882",
-          "plataforma": "Apple Music · La Gran Tribulacion - Es Tiempo Ya (1977)",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000208",
@@ -7082,13 +6642,6 @@
           "id": "ENL-000502",
           "url": "https://open.spotify.com/album/2XRgadaMBcGXpzt6BqRqTt",
           "plataforma": "Spotify · Sencillo oficial (2023)",
-          "tipo": "audio",
-          "oficial": true
-        },
-        {
-          "id": "ENL-000503",
-          "url": "https://music.apple.com/us/album/amado-de-mi-alma-ep/1690237803",
-          "plataforma": "Apple Music · Lanzamiento oficial (2023)",
           "tipo": "audio",
           "oficial": true
         },
@@ -8195,13 +7748,6 @@
           "plataforma": "Cifra Club · Letra",
           "tipo": "letra",
           "oficial": false
-        },
-        {
-          "id": "ENL-000585",
-          "url": "https://music.apple.com/us/album/fiesta-en-vivo/973590836?i=973591622",
-          "plataforma": "Apple Music · Fiesta (En Vivo) · pista oficial del álbum",
-          "tipo": "audio",
-          "oficial": true
         }
       ]
     },
@@ -8461,15 +8007,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000589",
-          "url": "https://music.apple.com/us/song/578692364",
-          "plataforma": "Apple Music · Proezas (En Vivo) · pista 21 · versión radial",
-          "tipo": "audio",
-          "oficial": true
-        }
-      ]
+      "enlaces": []
     }
   ],
   "albumes_interes": [
@@ -8517,9 +8055,9 @@
       "id": "ALB-000006",
       "interprete_id": "INT-000001",
       "titulo": "Como En El Cielo (En Vivo) (2015) · 18 pistas",
-      "formato": "audio",
-      "url": "https://music.apple.com/us/album/como-en-el-cielo-en-vivo/973590836",
-      "plataforma": "Apple Music · Álbum oficial · Uncion Producciones"
+      "formato": "video",
+      "url": "https://www.youtube.com/results?search_query=Miel+San+Marcos+Como+En+El+Cielo+2015+album",
+      "plataforma": "YouTube · Búsqueda pública del álbum (enlace directo pendiente de verificar)"
     }
   ]
 }
