@@ -3550,20 +3550,6 @@
           "plataforma": "E-Chords · Acordes de teclado",
           "tipo": "acordes",
           "oficial": false
-        },
-        {
-          "id": "ENL-000272",
-          "url": "https://www.e-chords.com/chords/miel-san-marcos/no-hay-lugar-mas-grande",
-          "plataforma": "E-Chords · Acordes (No hay lugar más grande)",
-          "tipo": "acordes",
-          "oficial": false
-        },
-        {
-          "id": "ENL-000273",
-          "url": "https://www.e-chords.com/chords/miel-san-marcos/no-hay-lugar-mas-grande",
-          "plataforma": "E-Chords · Letra con acordes",
-          "tipo": "letra",
-          "oficial": false
         }
       ]
     },
@@ -7917,22 +7903,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000540",
-          "url": "https://www.cifraclub.com/miel-san-marcos/alegria/",
-          "plataforma": "Cifra Club · Acordes y letra",
-          "tipo": "acordes",
-          "oficial": false
-        },
-        {
-          "id": "ENL-000541",
-          "url": "https://www.cifraclub.com/miel-san-marcos/alegria/letra/",
-          "plataforma": "Cifra Club · Letra",
-          "tipo": "letra",
-          "oficial": false
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000222",
@@ -7985,22 +7956,7 @@
           "nombre": "Adoración"
         }
       ],
-      "enlaces": [
-        {
-          "id": "ENL-000544",
-          "url": "https://www.cifraclub.com/miel-san-marcos/dios-no-esta-muerto/",
-          "plataforma": "Cifra Club · Acordes y letra",
-          "tipo": "acordes",
-          "oficial": false
-        },
-        {
-          "id": "ENL-000545",
-          "url": "https://www.cifraclub.com/miel-san-marcos/dios-no-esta-muerto/letra/",
-          "plataforma": "Cifra Club · Letra",
-          "tipo": "letra",
-          "oficial": false
-        }
-      ]
+      "enlaces": []
     },
     {
       "id": "CAN-000224",
@@ -8461,6 +8417,13 @@
           "plataforma": "Cifra Club · Letra",
           "tipo": "letra",
           "oficial": false
+        },
+        {
+          "id": "ENL-000585",
+          "url": "https://music.apple.com/us/album/fiesta-en-vivo/973590836?i=973591622",
+          "plataforma": "Apple Music · Fiesta (En Vivo) · pista oficial del álbum",
+          "tipo": "audio",
+          "oficial": true
         }
       ]
     },
