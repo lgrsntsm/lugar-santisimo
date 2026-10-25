@@ -8318,6 +8318,13 @@
           "plataforma": "Cifra Club · Acordes individuales",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000573",
+          "url": "https://www.cifraclub.com/miel-san-marcos/desciende/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
@@ -8344,6 +8351,13 @@
           "url": "https://www.cifraclub.com/miel-san-marcos/como-en-el-cielo/",
           "plataforma": "Cifra Club · Acordes individuales",
           "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000574",
+          "url": "https://www.cifraclub.com/miel-san-marcos/como-en-el-cielo/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
           "oficial": false
         }
       ]
@@ -8391,6 +8405,13 @@
           "plataforma": "Cifra Club · Acordes individuales",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000575",
+          "url": "https://www.cifraclub.com/miel-san-marcos/rey-vencedor/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
@@ -8418,6 +8439,13 @@
           "plataforma": "Cifra Club · Acordes individuales",
           "tipo": "acordes",
           "oficial": false
+        },
+        {
+          "id": "ENL-000576",
+          "url": "https://www.cifraclub.com/miel-san-marcos/fiesta/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
+          "oficial": false
         }
       ]
     },
@@ -8444,6 +8472,13 @@
           "url": "https://www.cifraclub.com/miel-san-marcos/viene-ya/",
           "plataforma": "Cifra Club · Acordes individuales",
           "tipo": "acordes",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000577",
+          "url": "https://www.cifraclub.com/miel-san-marcos/viene-ya/letra/",
+          "plataforma": "Cifra Club · Letra",
+          "tipo": "letra",
           "oficial": false
         }
       ]
