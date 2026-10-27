@@ -8008,6 +8008,279 @@
         }
       ],
       "enlaces": []
+    },
+    {
+      "id": "CAN-000249",
+      "titulo": "Toma Tu Lugar",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000031",
+          "nombre": "Marcos Brunet",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000032",
+          "nombre": "Toma Tu Lugar",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000593",
+          "url": "https://open.spotify.com/intl-es/track/0g1jLTPLx8tuAgNW6FvAIu",
+          "plataforma": "Spotify · Toma Tu Lugar (2011)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000594",
+          "url": "https://www.youtube.com/watch?v=yixYB1Nz4SA",
+          "plataforma": "YouTube · TOMATULUGAR · grabación distribuida",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000595",
+          "url": "https://www.cifraclub.com/marcos-brunet/toma-tu-lugar/letra/",
+          "plataforma": "Cifra Club · Toma Tu Lugar (letra)",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000596",
+          "url": "https://www.cifraclub.com/marcos-brunet/toma-tu-lugar/wsgjhw.html",
+          "plataforma": "Cifra Club · Toma Tu Lugar (acordes)",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000250",
+      "titulo": "Al Que Está Sentado En el Trono",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000031",
+          "nombre": "Marcos Brunet",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000032",
+          "nombre": "Toma Tu Lugar",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000597",
+          "url": "https://open.spotify.com/intl-es/track/1m3MO3hDUUjyohGt9O7pyR",
+          "plataforma": "Spotify · Toma Tu Lugar (versión 2015)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000598",
+          "url": "https://www.youtube.com/watch?v=MclX3YvhBMM",
+          "plataforma": "YouTube · Marcos y Fer Brunet · Uniendo Cielo y Tierra",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000599",
+          "url": "https://www.cifraclub.com/marcos-brunet/al-que-esta-sentado-en-el-trono/",
+          "plataforma": "Cifra Club · Al Que Está Sentado en el Trono",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000251",
+      "titulo": "Atrae Mi Corazón",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000031",
+          "nombre": "Marcos Brunet",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000032",
+          "nombre": "Toma Tu Lugar",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000600",
+          "url": "https://www.youtube.com/watch?v=G631wnxItOo",
+          "plataforma": "YouTube · Marcos y Fer Brunet · versión 2026",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000601",
+          "url": "https://www.cifraclub.com/marcos-brunet/atrae-mi-corazon/",
+          "plataforma": "Cifra Club · Atrae Mi Corazón (letra y acordes)",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000602",
+          "url": "https://www.cifraclub.com/marcos-brunet/atrae-mi-corazon/",
+          "plataforma": "Cifra Club · Atrae Mi Corazón (cifrado)",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000252",
+      "titulo": "Beso Tus Pies",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000031",
+          "nombre": "Marcos Brunet",
+          "rol": "principal"
+        },
+        {
+          "id": "INT-000032",
+          "nombre": "Toma Tu Lugar",
+          "rol": "colaborador"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000603",
+          "url": "https://open.spotify.com/intl-pt/track/4bEUNyytrIT5dYbeVBsZ5z",
+          "plataforma": "Spotify · Uniendo Cielo y Tierra (2011)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000604",
+          "url": "https://www.cifraclub.com/marcos-brunet/beso-tus-pies/",
+          "plataforma": "Cifra Club · Beso Tus Pies (letra y acordes)",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000605",
+          "url": "https://www.cifraclub.com/marcos-brunet/beso-tus-pies/",
+          "plataforma": "Cifra Club · Beso Tus Pies (cifrado)",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000253",
+      "titulo": "Deseable",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000031",
+          "nombre": "Marcos Brunet",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000606",
+          "url": "https://www.youtube.com/watch?v=NQsx0cCD6WQ",
+          "plataforma": "YouTube · Marcos y Fer Brunet · Diálogo Íntimo 2",
+          "tipo": "video",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000607",
+          "url": "https://www.cifraclub.com/marcos-brunet/deseable/",
+          "plataforma": "Cifra Club · Deseable (letra y acordes)",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000608",
+          "url": "https://www.cifraclub.com/marcos-brunet/deseable/",
+          "plataforma": "Cifra Club · Deseable (cifrado)",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000254",
+      "titulo": "Quédate Tranquilo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000031",
+          "nombre": "Marcos Brunet",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000609",
+          "url": "https://open.spotify.com/track/16vPyRtNGOnvGbPFGCRAXb",
+          "plataforma": "Spotify · Diálogo Íntimo (2012)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000610",
+          "url": "https://www.cifraclub.com/marcos-brunet/quedate-tranquilo/",
+          "plataforma": "Cifra Club · Quédate Tranquilo (letra y acordes)",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000611",
+          "url": "https://www.cifraclub.com/marcos-brunet/quedate-tranquilo/",
+          "plataforma": "Cifra Club · Quédate Tranquilo (cifrado)",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
     }
   ],
   "albumes_interes": [
