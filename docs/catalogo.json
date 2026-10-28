@@ -8281,6 +8281,129 @@
           "oficial": false
         }
       ]
+    },
+    {
+      "id": "CAN-000255",
+      "titulo": "Ven a Descansar en Mí",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000031",
+          "nombre": "Marcos Brunet",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000612",
+          "url": "https://open.spotify.com/intl-tr/track/1Jx8EmiC9RxYb7tguFtbwQ",
+          "plataforma": "Spotify · Diálogo Íntimo 2 (2015)",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000613",
+          "url": "https://www.secuencias.com/songs/Marcos-Brunet/Di%C3%A1logo-%C3%ADntimo-2/Ven-a-Descansar-En-Mi/overview/",
+          "plataforma": "Secuencias · Ven a Descansar en Mí",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000614",
+          "url": "https://www.cifraclub.com/marcos-brunet/ven-a-descansar-en-mi/",
+          "plataforma": "Cifra Club · Ven a Descansar en Mí",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000256",
+      "titulo": "Dame a Cristo",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000031",
+          "nombre": "Marcos Brunet",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000615",
+          "url": "https://open.spotify.com/intl-pt/track/7jyBXKnwIw8Uvz9PRnDcgq",
+          "plataforma": "Spotify · Intimidad (2024) · Abbie Gamboa",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000616",
+          "url": "https://www.cifraclub.com/marcos-brunet/dame-a-cristo/",
+          "plataforma": "Cifra Club · Dame a Cristo (letra)",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000617",
+          "url": "https://www.cifraclub.com/marcos-brunet/dame-a-cristo/",
+          "plataforma": "Cifra Club · Dame a Cristo (acordes)",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "id": "CAN-000257",
+      "titulo": "Mi Shalom",
+      "idioma": "es",
+      "interpretes": [
+        {
+          "id": "INT-000031",
+          "nombre": "Marcos Brunet",
+          "rol": "principal"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "CAT-000001",
+          "nombre": "Adoración"
+        }
+      ],
+      "enlaces": [
+        {
+          "id": "ENL-000618",
+          "url": "https://open.spotify.com/track/2nIEPeposE2nq8gB3sITky",
+          "plataforma": "Spotify · Mi Shalom (2020) · Graciela Galmes",
+          "tipo": "audio",
+          "oficial": true
+        },
+        {
+          "id": "ENL-000619",
+          "url": "https://www.cifraclub.com/marcos-brunet/mi-shalom/",
+          "plataforma": "Cifra Club · Mi Shalom (letra)",
+          "tipo": "letra",
+          "oficial": false
+        },
+        {
+          "id": "ENL-000620",
+          "url": "https://www.cifraclub.com/marcos-brunet/mi-shalom/",
+          "plataforma": "Cifra Club · Mi Shalom (acordes)",
+          "tipo": "acordes",
+          "oficial": false
+        }
+      ]
     }
   ],
   "albumes_interes": [
